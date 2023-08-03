@@ -8,6 +8,6 @@ def calculate_TPSA(compound: str) -> float:
     compound: Compound in SMILES format
 
     Returns:
-    float: The TPSA
+    float: The TPSA in angstroms^2
     """
     return Descriptors.TPSA(MolFromSmiles(compound))

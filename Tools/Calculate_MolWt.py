@@ -8,6 +8,6 @@ def calculate_MolWt(compound: str) -> float:
     compound: Compound in SMILES format
 
     Returns:
-    float: The exact molecular weight (0 to ∞)
+    float: The exact molecular weight in daltons
     """
     return Descriptors.ExactMolWt(MolFromSmiles(compound))

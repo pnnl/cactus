@@ -1,0 +1,34 @@
+
+from langchain.tools import BaseTool
+
+
+class zinc_id_to_SMILES(BaseTool):
+    name="zinc_id_to_SMILES"
+    description="Convert the input zinc id into its corresponding SMILES notation"
+    
+    
+    def _run(
+    self,input_id: str)-> str:
+        """
+        Convert zinc id into SMILES notation.
+
+        Parameters:
+        input_id (str): The ZINC15 id of the chemical compound.
+
+        Returns:
+        str: The SMILES notation in the output format.
+        """   
+        #checking if the input is a string variable or not
+        import smilite
+        if(isinstance(input_id,str)):
+    #checking for the first compund with the given molecular formula
+            smile_str = smilite.get_zinc_smile(input_id, backend='zinc15')
+            #print (result)
+            return smile_str
+        else:
+    #if the input is not a string error will be raised
+            raise ValueError("Invalid input")
+    
+    async def _arun(self, input_name: str) -> str:
+        """Use the convert_to_SMILES tool asynchronously."""
+        raise NotImplementedError()

@@ -1,15 +1,11 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 14 12:56:38 2023
 
-@author: sank064
-"""
 from langchain.tools import BaseTool
 from rdkit import Chem
 from adme_pred import ADME
 
 class calculate_bbb_permeant(BaseTool):
+    name="calculate_bbb_permeant"
+    description="calculates the Blood Brain Barrier Permeability of the compound"   
     def _run(compound_smiles: str) -> str:
         """
         Uses the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master
@@ -29,8 +25,8 @@ class calculate_bbb_permeant(BaseTool):
         else:
             return "No"
         
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_smiles: str) -> str:
+        """Use the calculate_bbb_permeant tool asynchronously."""
         raise NotImplementedError()
 
 #example use

@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 14 12:19:51 2023
-
-@author: sank064
-"""
-
-
 import os
 import sys
 from rdkit.Chem import MolFromSmiles, RDConfig
@@ -15,6 +6,9 @@ import sascorer
 from langchain.tools import BaseTool
 
 class calculate_SA(BaseTool):
+    name="calculate_TPSA"
+    description="Compute the topological surface area (TPSA) of the given molecule." 
+    
     def _run(compound: str) -> float:
         """
         Compute Synthetic Accessibility (SA) of the given molecule. Ertl & Schuffenhauer 2009.
@@ -26,6 +20,7 @@ class calculate_SA(BaseTool):
         float: The SA between 1 (easy) and 10 (hard)
         """
         return sascorer.calculateScore(MolFromSmiles(compound))
-    async def _arun(self, input_name: str) -> str:
+    
+    async def _arun(self, compound: str) -> float:
         """Use the convert_to_SMILES tool asynchronously."""
         raise NotImplementedError()

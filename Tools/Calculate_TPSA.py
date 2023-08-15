@@ -1,14 +1,11 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 14 12:20:09 2023
 
-@author: sank064
-"""
 from rdkit.Chem import MolFromSmiles, Descriptors
 from langchain.tools import BaseTool
 
 class calculate_TPSA(BaseTool):
+    name="calculate_TPSA"
+    description="Compute the topological surface area (TPSA) of the given molecule." 
+
     def _run(compound: str) -> float:
         """
         Compute the topological surface area (TPSA) of the given molecule.
@@ -20,6 +17,6 @@ class calculate_TPSA(BaseTool):
         float: The TPSA in angstroms^2
         """
         return Descriptors.TPSA(MolFromSmiles(compound))
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound: str) -> float:
+        """Use the calculate_TPSA tool asynchronously."""
         raise NotImplementedError()

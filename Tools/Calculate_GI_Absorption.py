@@ -1,16 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 14 13:01:55 2023
 
-@author: sank064
-"""
 from langchain.tools import BaseTool
 from rdkit import Chem
 from adme_pred import ADME
 
 class calculate_gi_absorption(BaseTool):
+    name="calculate_gi_absorption"
+    description="returns whether the gastrointestinal absorption is high or low"
+    
     def _run(compound_smiles: str) -> str:
+        
         """
         Uses the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master
         From the adme-pred-py github:
@@ -28,8 +26,8 @@ class calculate_gi_absorption(BaseTool):
         else:
             return "Low"
 
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_smiles: str) -> str:
+        """Use the calculate_gi_absorption tool asynchronously."""
         raise NotImplementedError()        
         
 #example use

@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Aug 11 15:29:05 2023
-
-@author: sank064
-"""
 from rdkit.Chem import MolFromSmiles, AllChem, MACCSkeys, RDKFingerprint
 from scipy.spatial import distance
 from langchain.tools import BaseTool
@@ -37,14 +30,15 @@ class partially_sanitize(BaseTool):
         SanitizeMol(mol,SanitizeFlags.SANITIZE_FINDRADICALS|SanitizeFlags.SANITIZE_KEKULIZE|SanitizeFlags.SANITIZE_SETAROMATICITY|SanitizeFlags.SANITIZE_SETCONJUGATION|SanitizeFlags.SANITIZE_SETHYBRIDIZATION|SanitizeFlags.SANITIZE_SYMMRINGS,catchErrors=True)
         return mol
     
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, smi: str) -> str:
+        """Use the partially_sanitize tool asynchronously."""
         raise NotImplementedError()
 
 ## This should be the default:
 
 class calculate_similarity(BaseTool):
-    
+    name="calculate_similarity"
+    description="Calculate (Jaccard-Tanimoto) similarity value between exactly 2 molecules (Morgan)." 
 
     def _run(compound_1: str, compound_2: str) -> float:
         """
@@ -69,11 +63,13 @@ class calculate_similarity(BaseTool):
         return 1 - distance.jaccard(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
 
     ## Other Variations:
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
     
 class calculate_similarity(BaseTool):
+    name="calculate_similarity"
+    description="Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Morgan)." 
         
         
     def _run(compound_1: str, compound_2: str) -> float:
@@ -93,12 +89,13 @@ class calculate_similarity(BaseTool):
         except: return "Compound 2 is invalid."
 
         return 1 - distance.dice(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
 
 class calculate_similarity(BaseTool):
-
+    name="calculate_similarity"
+    description="Calculate (Cosine) similarity value between exactly 2 molecules (Morgan)." 
     def _run(compound_1: str, compound_2: str) -> float:
         """
         Calculate (Cosine) similarity value between exactly 2 molecules (Morgan).
@@ -116,14 +113,16 @@ class calculate_similarity(BaseTool):
         except: return "Compound 2 is invalid."
 
         return 1 - distance.cosine(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
         
         
         
 class calculate_similarity(BaseTool):
-
+    name="calculate_similarity"
+    description="Calculate (Cosine) similarity value between exactly 2 molecules (MACCS)." 
+    
     def _run(compound_1: str, compound_2: str) -> float:
         """
         Calculate (Cosine) similarity value between exactly 2 molecules (MACCS).
@@ -141,12 +140,14 @@ class calculate_similarity(BaseTool):
         except: return "Compound 2 is invalid."
 
         return 1 - distance.cosine(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
         
 
 class calculate_similarity(BaseTool):
+    name="calculate_similarity"
+    description="Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (MACCS)." 
     
     def _run(compound_1: str, compound_2: str) -> float:
         """
@@ -165,8 +166,8 @@ class calculate_similarity(BaseTool):
         except: return "Compound 2 is invalid."
 
         return 1 - distance.dice(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
         
 
@@ -174,6 +175,9 @@ class calculate_similarity(BaseTool):
         
         
 class calculate_similarity(BaseTool):
+    name="calculate_similarity"
+    description=" Calculate (Jaccard) similarity value between exactly 2 molecules (Daylight)." 
+
     def _run(compound_1: str, compound_2: str) -> float:
         """
         Calculate (Jaccard) similarity value between exactly 2 molecules (MACCS).
@@ -192,14 +196,18 @@ class calculate_similarity(BaseTool):
 
         return 1 - distance.jaccard(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
 
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
         
         
 
         
 class calculate_similarity(BaseTool):    
+    name="calculate_similarity"
+    description=" Calculate (Jaccard) similarity value between exactly 2 molecules (Daylight)." 
+
+
     def _run(compound_1: str, compound_2: str) -> float:
         """
         Calculate (Jaccard) similarity value between exactly 2 molecules (Daylight).
@@ -219,12 +227,15 @@ class calculate_similarity(BaseTool):
         return 1 - distance.jaccard(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
 
     
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
 
 
 class calculate_similarity(BaseTool):
+    name="calculate_similarity"
+    description="Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Daylight)" 
+
     def _run(compound_1: str, compound_2: str) -> float:
         """
         Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Daylight).
@@ -243,13 +254,16 @@ class calculate_similarity(BaseTool):
 
         return 1 - distance.dice(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
 
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
     
     
     
 class calculate_similarity(BaseTool):    
+    name="calculate_similarity"
+    description="Calculate (Cosine) similarity value between exactly 2 molecules (Daylight)." 
+
     def _run(compound_1: str, compound_2: str) -> float:
         """
         Calculate (Cosine) similarity value between exactly 2 molecules (Daylight).
@@ -267,3 +281,7 @@ class calculate_similarity(BaseTool):
         except: return "Compound 2 is invalid."
 
         return 1 - distance.cosine(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
+    async def _arun(self, compound_1: str, compound_2: str) -> float:
+        """Use the calculate_similarity tool asynchronously."""
+        raise NotImplementedError()
+

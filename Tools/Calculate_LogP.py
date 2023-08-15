@@ -1,15 +1,12 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 14 13:02:13 2023
 
-@author: sank064
-"""
 from langchain.tools import BaseTool
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 class calculate_logp(BaseTool):
+    name="calculate_logp"
+    description="Returns a Boolean of whether the molecule triggers the PAINS filter"
+    
     def _run(compound_smiles: str) -> float:
         """
         RdKit descriptor module to calculate LogP from the atom based Crippen approach
@@ -19,8 +16,8 @@ class calculate_logp(BaseTool):
         mol = Chem.MolFromSmiles(compound_smiles)
         return Descriptors.MolLogP(mol)
 
-    async def _arun(self, input_name: str) -> str:
-        """Use the convert_to_SMILES tool asynchronously."""
+    async def _arun(self, compound_smiles: str) -> float:
+        """Use the calculate_logp tool asynchronously."""
         raise NotImplementedError() 
     #example use
 sample = calculate_logp("CC(Cc1ccc(cc1)C(C(=O)O)C)C")

@@ -1,16 +1,17 @@
-import langchain
-from Typing import Optional
+"""Agent File for Constructing Cactus"""
+from typing import Optional
 
-# import rmrkl
 # from .prompts import ...
 # from .tools import ...
 
 from .huggingface_model_loaders import HuggingFacePipelineFactory, pipeline_resolver
 
+__all__ = ["Cactus"]
+
 
 def _load_model(
     model_name: Optional[str] = None,
-    cache_dir: str = None,
+    cache_dir: Optional[str] = None,
     max_length: int = 2000,
     use_8bit: bool = True,
 ):
@@ -42,7 +43,9 @@ def _load_model(
     return model_loader.load_model()
 
 
-class Cactus:
+class Cactus:  # pylint: disable=too-few-public-methods
+    """LLM Agent for Answering Cheminformatics Questions"""
+
     def __init__(
         self,
         tools=None,
@@ -64,3 +67,6 @@ class Cactus:
 
         if tools is None:
             pass
+
+    def run(self, prompt):
+        pass

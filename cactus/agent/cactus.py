@@ -1,9 +1,12 @@
 import langchain
-#import rmrkl
-from .prompts import ...
-from .tools import ... #TODO: Rename dir to tools
+from Typing import Optional
+
+# import rmrkl
+# from .prompts import ...
+# from .tools import ...
 
 from .huggingface_model_loaders import HuggingFacePipelineFactory, pipeline_resolver
+
 
 def _load_model(
     model_name: Optional[str] = None,
@@ -31,24 +34,33 @@ def _load_model(
 
     """
     model_loader: HuggingFacePipelineFactory = pipeline_resolver.make(
-        model_name, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit
+        model_name,
+        cache_dir=cache_dir,
+        max_length=max_length,
+        use_8bit=use_8bit,
     )
     return model_loader.load_model()
 
-class CACTUS:
+
+class Cactus:
     def __init__(
-            self,
-            tools=None,
-            model_name='alpaca13b',
-            cache_dir=None,
-            max_length=2000,
-            use_8bit=True,
+        self,
+        tools=None,
+        model_name="alpaca13b",
+        cache_dir=None,
+        max_length=2000,
+        use_8bit=True,
     ):
         try:
-            llm = _load_model(model_name, cache_dir, max_length, use_8bit)
+            llm = _load_model(
+                model_name,
+                cache_dir,
+                max_length,
+                use_8bit,
+            )
 
-        except:
-            assert #TODO Finish Assert
+        except AssertionError:
+            print(f"Module name: {model_name}, not found!")
 
         if tools is None:
             pass

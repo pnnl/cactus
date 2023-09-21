@@ -296,10 +296,10 @@ class Platypus30bLoader(HuggingFacePipelineFactory):
         super().__init__(model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit)
 
 
-class OpenOrcaPlatypus13B(HuggingFacePipelineFactory):
+class OpenOrcaPlatypus13BLoader(HuggingFacePipelineFactory):
     """
     A derived class that represents a text generation pipeline for the
-    'lilloukas/Platypus-30B' model.
+    'Open-Orca/OpenOrca-Platypus2-13B' model.
 
     This class inherits from the HuggingFacePipelineFactory, which is a factory
     class for creating text generation pipelines using Hugging Face's
@@ -315,16 +315,16 @@ class OpenOrcaPlatypus13B(HuggingFacePipelineFactory):
 
     Attributes:
         model_id (str): The identifier of the pre-trained model used for text
-            generation ('lilloukas/Platypus-30B').
+            generation ('Open-Orca/OpenOrca-Platypus2-13B').
         cache_dir (str or None): The directory to cache the pre-trained model
             files.
         max_length (int): The maximum length of the generated text.
         use_8bit (bool): Whether the model was loaded using 8-bit quantization.
 
     Example:
-        platypus_loader = Platypus30bLoader(cache_dir='/path/to/cache',
+        orca_platypus_loader = OpenOrcaPlatypus13BLoader(cache_dir='/path/to/cache',
                                             max_length=1000)
-        pipeline_instance = platypus_loader.load_model()
+        pipeline_instance = orca_platypus_loader.load_model()
     """
 
     def __init__(self, cache_dir=None, max_length=2000, use_8bit=True):

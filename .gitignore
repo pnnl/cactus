@@ -1,3 +1,8 @@
+# mypy artifacts
 .mypy_cache
+
+# emacs autosaves
 *~
+
+# Jupyter notebook stuff
 .ipynb_checkpoints

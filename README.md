@@ -2,8 +2,6 @@
 
 ## Running Cactus 🏃
 
----
-
 Getting started with Cactus is as simple as:
 
 ```python
@@ -15,12 +13,10 @@ Model.run("How similar are glucose and sucrose?")
 
 ## Installation 💻
 
----
-
 To install Cactus, we build from source:
 
 ```bash
-git clone https://gitlab.pnnl.gov/computational_data_science/lorry.git
+git clone https://gitlab.pnnl.gov/computational_data_science/cactus.git
 cd cactus
 python -m pip install -e .
 ```

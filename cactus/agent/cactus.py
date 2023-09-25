@@ -5,6 +5,7 @@ from typing import Optional
 # from .tools import ...
 
 from .huggingface_model_loaders import HuggingFacePipelineFactory, pipeline_resolver
+from .openai_model_loader import load_openai_model
 
 __all__ = ["Cactus"]
 
@@ -34,6 +35,9 @@ def _load_model(
         Model: The loaded HuggingFace LLM.
 
     """
+    if model_name in ["gpt-3.5-turbo", "gpt-4"]:
+        return load_openai_model(model_name, temperature=0.7)
+
     model_loader: HuggingFacePipelineFactory = pipeline_resolver.make(
         model_name,
         cache_dir=cache_dir,

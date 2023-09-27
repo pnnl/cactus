@@ -1,0 +1,41 @@
+import os
+from langchain import agents
+from langchain.base_language import BaseLanguageModel
+from cactus.tools import *
+
+def make_tools(
+    llm : BaseLanguageModel
+    #api_keys: dict={}
+    verbose=True
+):
+    all_tools=agents.load_tools([
+        "python_repl",
+        "ddg-search",
+        "wikipedia",
+        "Calculator",
+        
+    ])
+    
+    all_tools+=[
+        inchikey_to_SMILES(),
+        name_to_SMILES(),
+        cas_to_SMILES(),
+        chemblid_to_SMILES(),
+        cid_to_SMILES(),
+        molecular_formula_to_SMILES(),
+        zinc_id_to_SMILES(),
+        calculate_MolWt(),
+        calculate_QED(),
+        brenk_filter(),
+        calculate_TPSA(),
+        calculate_bbb_permeant(),
+        calculate_druglikeness(),
+        calculate_gi_absorption(),
+        calculate_logp(),
+        pains_filter(),
+        calculate_SA()
+        
+    ]
+    
+    return all_tools
+    

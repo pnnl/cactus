@@ -1,12 +1,13 @@
-
 from langchain.tools import BaseTool
 from rdkit import Chem
 from adme_pred import ADME
 
+
 class calculate_bbb_permeant(BaseTool):
-    name="calculate_bbb_permeant"
-    description="calculates the Blood Brain Barrier Permeability of the compound"   
-    def _run(compound_smiles: str) -> str:
+    name = "calculate_bbb_permeant"
+    description = "calculates the Blood Brain Barrier Permeability of the compound"
+
+    def _run(self, compound_smiles: str) -> str:
         """
         Uses the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master
             From the adme-pred-py github:
@@ -24,11 +25,12 @@ class calculate_bbb_permeant(BaseTool):
             return "Yes"
         else:
             return "No"
-        
+
     async def _arun(self, compound_smiles: str) -> str:
         """Use the calculate_bbb_permeant tool asynchronously."""
         raise NotImplementedError()
 
-#example use
-sample = calculate_bbb_permeant("CC(Cc1ccc(cc1)C(C(=O)O)C)C")
-print(sample)
+
+# example use
+# sample = calculate_bbb_permeant("CC(Cc1ccc(cc1)C(C(=O)O)C)C")
+# print(sample)

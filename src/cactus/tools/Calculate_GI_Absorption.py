@@ -1,14 +1,13 @@
-
 from langchain.tools import BaseTool
 from rdkit import Chem
 from adme_pred import ADME
 
+
 class calculate_gi_absorption(BaseTool):
-    name="calculate_gi_absorption"
-    description="returns whether the gastrointestinal absorption is high or low"
-    
-    def _run(compound_smiles: str) -> str:
-        
+    name = "calculate_gi_absorption"
+    description = "returns whether the gastrointestinal absorption is high or low"
+
+    def _run(self, compound_smiles: str) -> str:
         """
         Uses the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master
         From the adme-pred-py github:
@@ -28,8 +27,9 @@ class calculate_gi_absorption(BaseTool):
 
     async def _arun(self, compound_smiles: str) -> str:
         """Use the calculate_gi_absorption tool asynchronously."""
-        raise NotImplementedError()        
-        
-#example use
-sample = calculate_gi_absorption("CC(Cc1ccc(cc1)C(C(=O)O)C)C")
-print(sample)
+        raise NotImplementedError()
+
+
+# example use
+# sample = calculate_gi_absorption("CC(Cc1ccc(cc1)C(C(=O)O)C)C")
+# print(sample)

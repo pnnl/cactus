@@ -2,10 +2,12 @@
 from typing import Optional
 
 # from .prompts import ...
-# from .tools import ...
-
+from .tools import make_tools
 from .huggingface_model_loaders import HuggingFacePipelineFactory, pipeline_resolver
 from .openai_model_loader import load_openai_model
+
+from langchain.agents import AgentExecutor
+from langchain.agents.mrkl.base import ZeroShotAgent
 
 __all__ = ["Cactus"]
 
@@ -70,6 +72,23 @@ class Cactus:  # pylint: disable=too-few-public-methods
             print(f"Module name: {model_name}, not found!")
 
         if tools is None:
+<<<<<<< HEAD
+<<<<<<< HEAD
+            tools_llm = _load_model(model_name, cache_dir, max_length, use_8bit)
+            tools = make_tools(llm, verbose=True)
+            self.agent_executor = AgentExecutor.from_agent_and_tools(
+                tools=tools,
+                agent=ZeroShotAgent.from_llm_and_tools(
+                    llm,
+                    tools,
+                ),
+                verbose=True,
+            )
+
+    def run(self, prompt):
+        outputs = self.agent_executor({"input": prompt})
+        return outputs["output"]
+=======
             tools_llm=_load_model(
                 model_name,
                 cache_dir,
@@ -91,5 +110,29 @@ class Cactus:  # pylint: disable=too-few-public-methods
 
     def run(self, prompt):
         outputs = self.agent_executor({"input": prompt})
+=======
+            tools_llm=_load_model(
+                model_name,
+                cache_dir,
+                max_length, 
+                use_8bit )
+            tools=make_tools(
+                llm,
+                verbose=verbose
+            )    
+            self.agent_executor = AgentExecutor.from_agent_and_tools(
+            tools=tools,
+            agent=ZeroShotAgent.from_llm_and_tools(
+                llm,
+                tools,
+            ),
+            verbose=True
+            )
+
+
+    def run(self, prompt):
+        outputs = self.agent_executor({"input": prompt})
+>>>>>>> main
         return outputs['output']
         pass
+>>>>>>> 507babc (agent changes)

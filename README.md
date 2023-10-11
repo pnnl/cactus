@@ -7,7 +7,7 @@ Getting started with Cactus is as simple as:
 ```python
 from cactus.agents import Cactus
 
-Model = Cactus(model="alpaca13b")
+Model = Cactus(model_name="alpaca13b")
 Model.run("How similar are glucose and sucrose?")
 ```
 

@@ -17,10 +17,8 @@ from cactus.tools import (
 )
 
 
-def make_tools(
-    # api_keys: dict={}
-    verbose=True,
-):
+def make_tools():
+    """Method for aggregating and generating a list of tools for the LLM Agent"""
     all_tools = agents.load_tools(
         [
             "python_repl",
@@ -39,13 +37,13 @@ def make_tools(
         zinc_id_to_SMILES(),
         calculate_MolWt(),
         calculate_QED(),
-        #        brenk_filter(),
+        # brenk_filter(),
         calculate_TPSA(),
-        #        calculate_bbb_permeant(),
-        #        calculate_druglikeness(),
-        #       calculate_gi_absorption(),
+        # calculate_bbb_permeant(),
+        # calculate_druglikeness(),
+        # calculate_gi_absorption(),
         calculate_logp(),
-        #        pains_filter(),
+        # pains_filter(),
         calculate_SA(),
     ]
 

@@ -23,8 +23,8 @@ class chemblid_to_SMILES(BaseTool):
             record_via_client = molecule.get(input_id)
             smiles_from_json = record_via_client["molecule_structures"]["canonical_smiles"]
             return smiles_from_json
-        else:
-            raise ValueError("Invalid input")
+
+        raise ValueError("Invalid input")
 
     async def _arun(self, input_name: str) -> str:
         """Use the convert_to_SMILES tool asynchronously."""

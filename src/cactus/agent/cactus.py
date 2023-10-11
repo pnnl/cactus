@@ -72,7 +72,7 @@ class Cactus:  # pylint: disable=too-few-public-methods
             print(f"Module name: {model_name}, not found!")
 
         if tools is None:
-            tools = make_tools(verbose=True)
+            tools = make_tools()
             self.agent_executor = AgentExecutor.from_agent_and_tools(
                 tools=tools,
                 agent=ZeroShotAgent.from_llm_and_tools(

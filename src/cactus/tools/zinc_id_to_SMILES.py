@@ -1,4 +1,5 @@
 from langchain.tools import BaseTool
+import smilite
 
 
 class zinc_id_to_SMILES(BaseTool):
@@ -16,7 +17,6 @@ class zinc_id_to_SMILES(BaseTool):
         str: The SMILES notation in the output format.
         """
         # checking if the input is a string variable or not
-        import smilite
 
         if isinstance(input_id, str):
             # checking for the first compund with the given molecular formula

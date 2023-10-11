@@ -20,11 +20,10 @@ class name_to_SMILES(BaseTool):
         if isinstance(input_name, str):
             # checking for the first compund with the given input name
             result = pcp.get_compounds(str(input_name), "name")[0]
-            # print (result)
-            return result.isomeric_smiles
-        else:
-            # if the input is not a string error will be raised
-            raise ValueError("Invalid input")
+            return result.canonical_smiles
+
+        # if the input is not a string error will be raised
+        raise ValueError("Invalid input")
 
     async def _arun(self, input_name: str) -> str:
         """Use the convert_to_SMILES tool asynchronously."""

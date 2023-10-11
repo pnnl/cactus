@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Aug 11 15:23:13 2023
-
-@author: sank064
-"""
-
 from langchain.tools import BaseTool
 import pubchempy as pcp
 
@@ -28,11 +20,10 @@ class cid_to_SMILES(BaseTool):
         # checking if the input is a integer variable or not
         if isinstance(input_id, int):
             result = pcp.Compound.from_cid(int(input_id))
-            # print (result)
-            return result.isomeric_smiles
-        else:
-            # if the input is not a string error will be raised
-            raise ValueError("Invalid input")
+            return result.canonical_smiles
+
+        # if the input is not a string error will be raised
+        raise ValueError("Invalid input")
 
     async def _arun(self, input_name: str) -> str:
         """Use the convert_to_SMILES tool asynchronously."""

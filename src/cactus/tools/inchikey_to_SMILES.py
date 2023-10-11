@@ -18,10 +18,9 @@ class inchikey_to_SMILES(BaseTool):
         """
         if isinstance(input_inchikey, str):
             result = pcp.get_compounds(str(input_inchikey), "inchikey")[0]
-            # print (result)
-            return result.isomeric_smiles
-        else:
-            raise ValueError("Invalid input")
+            return result.canonical_smiles
+
+        raise ValueError("Invalid input")
 
     async def _arun(self, input_name: str) -> str:
         """Use the convert_to_SMILES tool asynchronously."""

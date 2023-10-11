@@ -4,7 +4,10 @@ from langchain.tools import BaseTool
 
 class calculate_MolWt(BaseTool):
     name = "calculate_MolWt"
-    description = "Compute the exact molecular weight of the given molecule."
+    description = """
+    Compute the exact molecular weight of the given molecule. Input should be a SMILES string,
+    convert if necessary.
+    """
 
     def _run(self, compound: str) -> float:
         """

@@ -1,46 +1,30 @@
 from rdkit.Chem import MolFromSmiles, AllChem, MACCSkeys, RDKFingerprint
 from scipy.spatial import distance
 from langchain.tools import BaseTool
-<<<<<<< HEAD
 
-=======
->>>>>>> 95cc70a (refactoring to src/cactus)
 ## Helper function to fix some SMILES inconsistencies instead of always spitting it out:
 
 from rdkit.Chem import SanitizeMol, SanitizeFlags
 
-<<<<<<< HEAD
 
 class partially_sanitize(BaseTool):
     name = "partially_sanitize"
     description = "To check for explicit valence error by doing a partial sanitization"
 
     def _run(self, smi: str) -> str:
-=======
-class partially_sanitize(BaseTool):
-    name="partially_sanitize"
-    description="To check for explicit valence error by doing a partial sanitization"
-    
-    def _run(smi: str) -> str:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         From the RDKit Documentation: https://www.rdkit.org/docs/Cookbook.html#explicit-valence-error-partial-sanitization
 
         Mostly just makes sure the charge of any hypervalent atoms is explicit for RDKit. (In my experience, very common in Nitrogen, Oxygen, and Sulfur)
         I usually need this when working with Fingerprints (they are very strict)
 
-<<<<<<< HEAD
         I'm noticing some weird behavior with ignoring SMILES' implicit hydrogens but I need to test more.
-=======
-        I'm noticing some weird behavior with ignoring SMILES' implicit hydrogens but I need to test more. 
->>>>>>> 95cc70a (refactoring to src/cactus)
         For now, just using MolFromSmiles() and no OPENBABEL or manually remove implicit hypervalence is fine
         e.g. n implicit isonitriles, nitrates, or quaternary amines (CN#C -> C[N+]#[C-])
 
         I just think this is necessary for the final tool to ingest *any* smiles or slightly wrong ones (see: LLM)
         ESPECIALLY if we're also using RDKit or ML to generate new molecule strings
         """
-<<<<<<< HEAD
         if "\t" in smi:
             smi = smi.split("\t")[0]  # weird OPENBABEL syntax
         mol = MolFromSmiles(
@@ -60,20 +44,10 @@ class partially_sanitize(BaseTool):
         )
         return mol
 
-=======
-        if '\t' in smi: smi = smi.split('\t')[0] # weird OPENBABEL syntax
-        mol = MolFromSmiles(smi,sanitize=False) # if True, this is where RDKit throws error. False=skip valence calc
-        mol.UpdatePropertyCache(strict=False)  # recalculate the valences, be lenient
-        # then, redo the molecule with charges, aromaticity, etc explicitly stated
-        SanitizeMol(mol,SanitizeFlags.SANITIZE_FINDRADICALS|SanitizeFlags.SANITIZE_KEKULIZE|SanitizeFlags.SANITIZE_SETAROMATICITY|SanitizeFlags.SANITIZE_SETCONJUGATION|SanitizeFlags.SANITIZE_SETHYBRIDIZATION|SanitizeFlags.SANITIZE_SYMMRINGS,catchErrors=True)
-        return mol
-    
->>>>>>> 95cc70a (refactoring to src/cactus)
     async def _arun(self, smi: str) -> str:
         """Use the partially_sanitize tool asynchronously."""
         raise NotImplementedError()
 
-<<<<<<< HEAD
 
 # This should be the default:
 class calculate_similarity(BaseTool):
@@ -83,15 +57,6 @@ class calculate_similarity(BaseTool):
     )
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-## This should be the default:
-
-class calculate_similarity(BaseTool):
-    name="calculate_similarity"
-    description="Calculate (Jaccard-Tanimoto) similarity value between exactly 2 molecules (Morgan)." 
-
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Jaccard-Tanimoto) similarity value between exactly 2 molecules (Morgan).
 
@@ -106,7 +71,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Jaccard similarity between the two compound's ECFP6 (Morgan) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = AllChem.GetMorganFingerprintAsBitVect(
                 MolFromSmiles(compound_1), 3, nBits=1024
@@ -135,26 +99,6 @@ class calculate_similarity(BaseTool):
     description = "Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Morgan)."
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-        try: compound_1 = AllChem.GetMorganFingerprintAsBitVect(MolFromSmiles(compound_1),3,nBits=1024)
-        except: return "Compound 1 is invalid."
-        try: compound_2 = AllChem.GetMorganFingerprintAsBitVect(MolFromSmiles(compound_2),3,nBits=1024)
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.jaccard(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-
-    ## Other Variations:
-    async def _arun(self, compound_1: str, compound_2: str) -> float:
-        """Use the calculate_similarity tool asynchronously."""
-        raise NotImplementedError()
-    
-class calculate_similarity(BaseTool):
-    name="calculate_similarity"
-    description="Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Morgan)." 
-        
-        
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Morgan).
 
@@ -165,7 +109,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Dice similarity between the two compound's ECFP6 (Morgan) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = AllChem.GetMorganFingerprintAsBitVect(
                 MolFromSmiles(compound_1), 3, nBits=1024
@@ -183,31 +126,16 @@ class calculate_similarity(BaseTool):
             compound_1, compound_2
         )  # since scipy calculates distance, 1-d = similarity
 
-=======
-        try: compound_1 = AllChem.GetMorganFingerprintAsBitVect(MolFromSmiles(compound_1),3,nBits=1024)
-        except: return "Compound 1 is invalid."
-        try: compound_2 = AllChem.GetMorganFingerprintAsBitVect(MolFromSmiles(compound_2),3,nBits=1024)
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.dice(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
->>>>>>> 95cc70a (refactoring to src/cactus)
     async def _arun(self, compound_1: str, compound_2: str) -> float:
         """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
 
-<<<<<<< HEAD
 
 class calculate_similarity(BaseTool):
     name = "calculate_similarity"
     description = "Calculate (Cosine) similarity value between exactly 2 molecules (Morgan)."
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-class calculate_similarity(BaseTool):
-    name="calculate_similarity"
-    description="Calculate (Cosine) similarity value between exactly 2 molecules (Morgan)." 
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Cosine) similarity value between exactly 2 molecules (Morgan).
 
@@ -218,7 +146,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Cosine similarity between the two compound's ECFP6 (Morgan) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = AllChem.GetMorganFingerprintAsBitVect(
                 MolFromSmiles(compound_1), 3, nBits=1024
@@ -246,25 +173,6 @@ class calculate_similarity(BaseTool):
     description = "Calculate (Cosine) similarity value between exactly 2 molecules (MACCS)."
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-        try: compound_1 = AllChem.GetMorganFingerprintAsBitVect(MolFromSmiles(compound_1),3,nBits=1024)
-        except: return "Compound 1 is invalid."
-        try: compound_2 = AllChem.GetMorganFingerprintAsBitVect(MolFromSmiles(compound_2),3,nBits=1024)
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.cosine(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-    async def _arun(self, compound_1: str, compound_2: str) -> float:
-        """Use the calculate_similarity tool asynchronously."""
-        raise NotImplementedError()
-        
-        
-        
-class calculate_similarity(BaseTool):
-    name="calculate_similarity"
-    description="Calculate (Cosine) similarity value between exactly 2 molecules (MACCS)." 
-    
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Cosine) similarity value between exactly 2 molecules (MACCS).
 
@@ -275,7 +183,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Cosine similarity between the two compound's (MACCS) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_1))
         except:
@@ -299,24 +206,6 @@ class calculate_similarity(BaseTool):
     description = "Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (MACCS)."
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-        try: compound_1 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_1))
-        except: return "Compound 1 is invalid."
-        try: compound_2 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_2))
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.cosine(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-    async def _arun(self, compound_1: str, compound_2: str) -> float:
-        """Use the calculate_similarity tool asynchronously."""
-        raise NotImplementedError()
-        
-
-class calculate_similarity(BaseTool):
-    name="calculate_similarity"
-    description="Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (MACCS)." 
-    
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (MACCS).
 
@@ -327,7 +216,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Dice similarity between the two compound's (MACCS) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_1))
         except:
@@ -351,27 +239,6 @@ class calculate_similarity(BaseTool):
     description = " Calculate (Jaccard) similarity value between exactly 2 molecules (Daylight)."
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-        try: compound_1 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_1))
-        except: return "Compound 1 is invalid."
-        try: compound_2 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_2))
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.dice(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-    async def _arun(self, compound_1: str, compound_2: str) -> float:
-        """Use the calculate_similarity tool asynchronously."""
-        raise NotImplementedError()
-        
-
-        
-        
-        
-class calculate_similarity(BaseTool):
-    name="calculate_similarity"
-    description=" Calculate (Jaccard) similarity value between exactly 2 molecules (Daylight)." 
-
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Jaccard) similarity value between exactly 2 molecules (MACCS).
 
@@ -382,7 +249,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Jaccard similarity between the two compound's (MACCS) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_1))
         except:
@@ -395,19 +261,10 @@ class calculate_similarity(BaseTool):
         return 1 - distance.jaccard(
             compound_1, compound_2
         )  # since scipy calculates distance, 1-d = similarity
-=======
-        try: compound_1 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_1))
-        except: return "Compound 1 is invalid."
-        try: compound_2 = MACCSkeys.GenMACCSKeys(MolFromSmiles(compound_2))
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.jaccard(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
->>>>>>> 95cc70a (refactoring to src/cactus)
 
     async def _arun(self, compound_1: str, compound_2: str) -> float:
         """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
-<<<<<<< HEAD
 
 
 class calculate_similarity(BaseTool):
@@ -415,18 +272,6 @@ class calculate_similarity(BaseTool):
     description = " Calculate (Jaccard) similarity value between exactly 2 molecules (Daylight)."
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-        
-        
-
-        
-class calculate_similarity(BaseTool):    
-    name="calculate_similarity"
-    description=" Calculate (Jaccard) similarity value between exactly 2 molecules (Daylight)." 
-
-
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Jaccard) similarity value between exactly 2 molecules (Daylight).
 
@@ -437,7 +282,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Jaccard similarity between the two compound's (RDKit/Daylight) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = RDKFingerprint(MolFromSmiles(compound_1))
         except:
@@ -451,35 +295,18 @@ class calculate_similarity(BaseTool):
             compound_1, compound_2
         )  # since scipy calculates distance, 1-d = similarity
 
-=======
-        try: compound_1 = RDKFingerprint(MolFromSmiles(compound_1))
-        except: return "Compound 1 is invalid."
-        try: compound_2 = RDKFingerprint(MolFromSmiles(compound_2))
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.jaccard(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-
-    
->>>>>>> 95cc70a (refactoring to src/cactus)
     async def _arun(self, compound_1: str, compound_2: str) -> float:
         """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
 
 
 class calculate_similarity(BaseTool):
-<<<<<<< HEAD
     name = "calculate_similarity"
     description = (
         "Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Daylight)"
     )
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-    name="calculate_similarity"
-    description="Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Daylight)" 
-
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Sørensen-Dice) similarity value between exactly 2 molecules (Daylight).
 
@@ -490,7 +317,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Dice similarity between the two compound's (RDKit/Daylight) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = RDKFingerprint(MolFromSmiles(compound_1))
         except:
@@ -503,19 +329,10 @@ class calculate_similarity(BaseTool):
         return 1 - distance.dice(
             compound_1, compound_2
         )  # since scipy calculates distance, 1-d = similarity
-=======
-        try: compound_1 = RDKFingerprint(MolFromSmiles(compound_1))
-        except: return "Compound 1 is invalid."
-        try: compound_2 = RDKFingerprint(MolFromSmiles(compound_2))
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.dice(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
->>>>>>> 95cc70a (refactoring to src/cactus)
 
     async def _arun(self, compound_1: str, compound_2: str) -> float:
         """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
-<<<<<<< HEAD
 
 
 class calculate_similarity(BaseTool):
@@ -523,16 +340,6 @@ class calculate_similarity(BaseTool):
     description = "Calculate (Cosine) similarity value between exactly 2 molecules (Daylight)."
 
     def _run(self, compound_1: str, compound_2: str) -> float:
-=======
-    
-    
-    
-class calculate_similarity(BaseTool):    
-    name="calculate_similarity"
-    description="Calculate (Cosine) similarity value between exactly 2 molecules (Daylight)." 
-
-    def _run(compound_1: str, compound_2: str) -> float:
->>>>>>> 95cc70a (refactoring to src/cactus)
         """
         Calculate (Cosine) similarity value between exactly 2 molecules (Daylight).
 
@@ -543,7 +350,6 @@ class calculate_similarity(BaseTool):
         Returns:
         float: Cosine similarity between the two compound's (RDKit/Daylight) fingerprints.
         """
-<<<<<<< HEAD
         try:
             compound_1 = RDKFingerprint(MolFromSmiles(compound_1))
         except:
@@ -560,15 +366,3 @@ class calculate_similarity(BaseTool):
     async def _arun(self, compound_1: str, compound_2: str) -> float:
         """Use the calculate_similarity tool asynchronously."""
         raise NotImplementedError()
-=======
-        try: compound_1 = RDKFingerprint(MolFromSmiles(compound_1))
-        except: return "Compound 1 is invalid."
-        try: compound_2 = RDKFingerprint(MolFromSmiles(compound_2))
-        except: return "Compound 2 is invalid."
-
-        return 1 - distance.cosine(compound_1,compound_2) # since scipy calculates distance, 1-d = similarity
-    async def _arun(self, compound_1: str, compound_2: str) -> float:
-        """Use the calculate_similarity tool asynchronously."""
-        raise NotImplementedError()
-
->>>>>>> 95cc70a (refactoring to src/cactus)

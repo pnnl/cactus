@@ -7,7 +7,7 @@ class pains_filter(BaseTool):
     name = "pains_filter"
     description = "returns a boolean value of whether the molecule triggers the Pains Filter"
 
-    def pains_filter(self, compound_smiles: str) -> bool:
+    def _run(self, compound_smiles: str) -> bool:
         """
         Uses the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master
         From the adme-pred-py github:

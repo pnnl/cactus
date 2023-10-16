@@ -14,6 +14,11 @@ from cactus.tools import (
     calculate_TPSA,
     calculate_logp,
     calculate_SA,
+    calculate_bbb_permeant,
+    pains_filter,
+    calculate_gi_absorption,
+    brenk_filter,
+    calculate_druglikeness,
 )
 
 
@@ -37,13 +42,13 @@ def make_tools():
         zinc_id_to_SMILES(),
         calculate_MolWt(),
         calculate_QED(),
-        # brenk_filter(),
+        brenk_filter(),
         calculate_TPSA(),
-        # calculate_bbb_permeant(),
-        # calculate_druglikeness(),
-        # calculate_gi_absorption(),
+        calculate_bbb_permeant(),
+        calculate_druglikeness(),
+        calculate_gi_absorption(),
         calculate_logp(),
-        # pains_filter(),
+        pains_filter(),
         calculate_SA(),
     ]
 

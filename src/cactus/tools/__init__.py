@@ -10,10 +10,10 @@ from .inchikey_to_SMILES import inchikey_to_SMILES
 from .molecular_formula_to_SMILES import molecular_formula_to_SMILES
 from .name_to_SMILES import name_to_SMILES
 from .zinc_id_to_SMILES import zinc_id_to_SMILES
+from .Calculate_BBB_Permeant import calculate_bbb_permeant
+from .Pains_Filter import pains_filter
+from .Calculate_GI_Absorption import calculate_gi_absorption
+from .Brenk_Filter import brenk_filter
+from .Calculate_Druglikeness import calculate_druglikeness
 
-# from .Calculate_BBB_Permeant import calculate_bbb_permeant
-# from .Pains_Filter import pains_filter
-# from .Calculate_GI_Absorption import calculate_gi_absorption
-# from .Brenk_Filter import brenk_filter
-# from .Calculate_Druglikeness import calculate_druglikeness
 # from .Calculate_Similarity import calculate_similarity

@@ -23,9 +23,9 @@ class zinc_id_to_SMILES(BaseTool):
             smile_str = smilite.get_zinc_smile(input_id, backend="zinc15")
             # print (result)
             return smile_str
-        else:
-            # if the input is not a string error will be raised
-            raise ValueError("Invalid input")
+
+        # if the input is not a string error will be raised
+        raise ValueError("Invalid input")
 
     async def _arun(self, input_name: str) -> str:
         """Use the convert_to_SMILES tool asynchronously."""

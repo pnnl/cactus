@@ -1,4 +1,4 @@
-from rdkit.Chem import MolFromSmiles, Descriptors
+from rdkit.Chem import MolFromSmiles, rdMolDescriptors
 from langchain.tools import BaseTool
 
 
@@ -16,7 +16,7 @@ class calculate_TPSA(BaseTool):
         Returns:
         float: The TPSA in angstroms^2
         """
-        return Descriptors.TPSA(MolFromSmiles(compound))
+        return rdMolDescriptors.CalcTPSA(MolFromSmiles(compound))
 
     async def _arun(self, compound: str) -> float:
         """Use the calculate_TPSA tool asynchronously."""

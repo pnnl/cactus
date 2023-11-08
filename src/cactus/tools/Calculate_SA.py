@@ -8,12 +8,12 @@ from langchain.tools import BaseTool
 
 
 class calculate_SA(BaseTool):
-    name = "calculate_TPSA"
-    description = "Compute the topological surface area (TPSA) of the given molecule."
+    name = "calculate_SA"
+    description = "Compute the synthetic accessibility (SA) of the given SMILES string."
 
     def _run(self, compound: str) -> float:
         """
-        Compute Synthetic Accessibility (SA) of the given molecule. Ertl & Schuffenhauer 2009.
+        Compute Synthetic Accessibility (SA) of the given SMILES string. Ertl & Schuffenhauer 2009.
 
         Parameters:
         compound: Compound in SMILES format

@@ -1,10 +1,21 @@
 from langchain.tools import BaseTool
 import pubchempy as pcp
 
+DESC = """
+Use this tool when you need to convert a molecule's inchikey
+to it's corresponding SMILES string.
+
+An InChIKey currently consists of three parts separated by hyphens
+, of 14, 10 and one character(s), respectively,
+like XXXXXXXXXXXXXX-YYYYYYYYFV-P
+
+Only accept input that appears in this format.
+"""
+
 
 class inchikey_to_SMILES(BaseTool):
-    name = "convert_to_SMILES"
-    description = "Convert the input inchikey into its corresponding SMILES notation"
+    name = "inchikey_to_SMILES"
+    description = DESC
 
     def _run(self, input_inchikey: str) -> str:
         """

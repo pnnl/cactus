@@ -7,10 +7,9 @@ sys.path.append(os.path.join(RDConfig.RDContribDir, "SA_Score"))
 import sascorer
 from langchain.tools import BaseTool
 
-
-class calculate_SA(BaseTool):
-    name = "calculate_SA"
-    description = "Compute the synthetic accessibility (SA) of the given SMILES string."
+class CalculateSA(BaseTool):
+    name = "CalculateSA"
+    description = "Used to compute the synthetic accessibility (SA) of the given molecule."
 
     def _run(self, compound: str) -> float:
         """

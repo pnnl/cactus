@@ -1,0 +1,875 @@
+Question,result_column
+Calculate the Molecular Weight of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,"The molecular weight of CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC is 290.13789043599996
+'''"
+Calculate the Molecular Weight of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,"The molecular weight of CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O is 351.034747896
+'''"
+Calculate the Molecular Weight of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CC(=O)CCC(=O)O,"The molecular weight of CC(=O)CCC(=O)O is 116.047344116
+'''"
+Calculate the Molecular Weight of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,"The molecular weight of CCCCCCC(CC=CCCCCCCCC(=O)O)O is 298.25
+'''"
+Calculate the Molecular Weight of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CCC(C)(C)O,The molecular weight of CCC(C)(C)O is 88.088815004
+Calculate the Molecular Weight of the smiles: CC1CCC(C(C1)O)C(C)C,"The molecular weight of CC1CCC(C(C1)O)C(C)C is 156.15141526
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,"The molecular weight of C1=CC=C2C(=C1)C=CC(=O)O2 is 146.036779432
+'''"
+Calculate the Molecular Weight of the smiles: C(=O)(O)[O-].[Na+],"The molecular weight of C(=O)(O)[O-].[Na+] is 83.982338172
+'''"
+Calculate the Molecular Weight of the smiles: CCCC[Sn](CCCC)(Cl)Cl,"The molecular weight of CCCC[Sn](CCCC)(Cl)Cl is 303.980750636
+'''"
+Calculate the Molecular Weight of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,"The molecular weight of C(C(=O)O)C(CC(=O)O)(C(=O)O)O is 192.02700259600002
+'''"
+Calculate the Molecular Weight of the smiles: CCC(=O)[O-].[Na+],"The molecular weight of CCC(=O)[O-].[Na+] is 96.01872368000001
+'''"
+Calculate the Molecular Weight of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,"The molecular weight of CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O is 315.147058152
+'''"
+Calculate the Molecular Weight of the smiles: CCCC=O,"The molecular weight of CCCC=O is 72.057514876
+'''"
+Calculate the Molecular Weight of the smiles: CN(C)C(=S)SSC(=S)N(C)C,"The molecular weight of CN(C)C(=S)SSC(=S)N(C)C is 239.988332384
+'''"
+Calculate the Molecular Weight of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,"The molecular weight of CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O is 423.05587726399995
+'''"
+Calculate the Molecular Weight of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,"The molecular weight of C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N is 307.083806264
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1C(=O)O)N,"The molecular weight of C1=CC(=CC=C1C(=O)O)N is 137.047678464
+'''"
+Calculate the Molecular Weight of the smiles: C(C(C(C(C=O)O)O)O)O,"The molecular weight of C(C(C(C(C=O)O)O)O)O is 150.05282342
+'''"
+Calculate the Molecular Weight of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,"The molecular weight of CCCCCCCCC=CCCCCCCCC(=O)O is 282.255880328
+'''"
+Calculate the Molecular Weight of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CCCCCCCC(=O)OC,"The molecular weight of CCCCCCCC(=O)OC is 158.130679816
+'''"
+Calculate the Molecular Weight of the smiles: C(C(=O)CO)O,"The molecular weight of C(C(=O)CO)O is 90.031694052
+'''"
+Calculate the Molecular Weight of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,"The molecular weight of CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C is 302.18819469199997
+'''"
+Calculate the Molecular Weight of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: C1=CC=C(C=C1)N,"The molecular weight of C1=CC=C(C=C1)N is 93.057849224
+'''"
+Calculate the Molecular Weight of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,"The molecular weight of CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34 is 274.193280072
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CN(C)NC(=O)CCC(=O)O,"The molecular weight of CN(C)NC(=O)CCC(=O)O is 160.084792244
+'''"
+Calculate the Molecular Weight of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,"The molecular weight of CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O is 276.12090298000004
+'''"
+Calculate the Molecular Weight of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,"The molecular weight of CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C is 220.182715388
+'''"
+Calculate the Molecular Weight of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,"The molecular weight of CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO is 296.12598836
+'''"
+Calculate the Molecular Weight of the smiles: CCCCCCCCC=O,"The molecular weight of CCCCCCCCC=O is 142.135765196
+'''"
+Calculate the Molecular Weight of the smiles: C1CCNC(C1)C2=CN=CC=C2,"The molecular weight of C1CCNC(C1)C2=CN=CC=C2 is 162.115698448
+'''"
+Calculate the Molecular Weight of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,The molecular weight of CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C is 502.97316766800003
+Calculate the Molecular Weight of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,"The molecular weight of CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O is 266.130679816
+'''"
+Calculate the Molecular Weight of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,"The molecular weight of CNCC(C1=CC(=C(C=C1)O)O)O is 183.089543276
+'''"
+Calculate the Molecular Weight of the smiles: C1CC(NC1)C(=O)O,"The molecular weight of C1CC(NC1)C(=O)O is 115.063328528
+'''"
+Calculate the Molecular Weight of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,"The molecular weight of C(C(=CC(=O)O)C(=O)O)C(=O)O is 174.01643791200001
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)NC=N2,"The molecular weight of C1=CC=C2C(=C1)NC=N2 is 118.053098192
+'''"
+Calculate the Molecular Weight of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,"The molecular weight of CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)O)F)C) is 378.18425218399994
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,"The molecular weight of C1=CC(=CC=C1C(=O)O)C(=O)O is 166.026608672
+'''"
+Calculate the Molecular Weight of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,"The molecular weight of C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N is 337.04493572
+'''"
+Calculate the Molecular Weight of the smiles: C=CC(=O)O,"The molecular weight of C=CC(=O)O is 72.021129368
+'''"
+Calculate the Molecular Weight of the smiles: CC(C)C(C(=O)O)N,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: COC1=CC=CC=C1O,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: C1CNCCN1,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: C1CCNCC1,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CC(=O)OC,"The molecular weight of CC(=O)OC is 74.036779432
+'''"
+Calculate the Molecular Weight of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,"The molecular weight of CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C is 524.45933116
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,"The molecular weight of C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O is 306.10406544399996
+'''"
+Calculate the Molecular Weight of the smiles: CCCCS,The molecular weight of CCCCS is 90.05032132
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,"The molecular weight of C1=CC(=C(C=C1C(CN)O)O)O is 169.073893212
+'''"
+Calculate the Molecular Weight of the smiles: C(CO)N(CCO)CCO,"The molecular weight of C(CO)N(CCO)CCO is 149.10519334
+'''"
+Calculate the Molecular Weight of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,"The molecular weight of CC(=CCCC(=CCCC(=CCO)C)C)C is 222.198365452
+'''"
+Calculate the Molecular Weight of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CN(C)C=O,The molecular weight of CN(C)C=O is 73.052763844
+Calculate the Molecular Weight of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,"The molecular weight of CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C is 240.122240372
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,"The molecular weight of C1=CC(=C(C=C1Cl)Cl)OCC(=O)O is 219.969399412
+'''"
+Calculate the Molecular Weight of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,"The molecular weight of C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3 is 243.2
+'''"
+Calculate the Molecular Weight of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,"The molecular weight of CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC is 278.02002297
+'''"
+Calculate the Molecular Weight of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,"The molecular weight of COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O is 414.13146766399996
+'''"
+Calculate the Molecular Weight of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,"The molecular weight of CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl is 248.08287409599998
+'''"
+Calculate the Molecular Weight of the smiles: CSCCC=O,"The molecular weight of CSCCC=O is 104.029585876
+'''"
+Calculate the Molecular Weight of the smiles: CNC(=O)CSP(=O)(OC)OC,"The molecular weight of CNC(=O)CSP(=O)(OC)OC is 213.022465494
+'''"
+Calculate the Molecular Weight of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,The molecular weight of CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C)C is 34.0
+Calculate the Molecular Weight of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,"The molecular weight of CC1=CCCC(=C)C2CC(C2CC1)(C)C is 204.187800768
+'''"
+Calculate the Molecular Weight of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: C(=C(Cl)Cl)Cl,"The molecular weight of C(=C(Cl)Cl)Cl is 129.914383072
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CCCCCCC=C,"The molecular weight of CCCCCCC=C is 112.12520051199999
+'''"
+Calculate the Molecular Weight of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CCCCCCCCCCCCCCCC(=O)OC,"The molecular weight of CCCCCCCCCCCCCCCC(=O)OC is 270.255880328
+'''"
+Calculate the Molecular Weight of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,"The molecular weight of CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O is 307.145140004
+'''"
+Calculate the Molecular Weight of the smiles: CCCCC,"The molecular weight of CCCCC is 72.093900384
+'''"
+Calculate the Molecular Weight of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,"The molecular weight of CCN(CC)CCOC(=O)C1=CC=C(C=C1)N is 236.15247788
+'''"
+Calculate the Molecular Weight of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,"The molecular weight of C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3 is 285.136493468
+'''"
+Calculate the Molecular Weight of the smiles: CC(=O)N(C)C,"The molecular weight of CC(=O)N(C)C is 87.068413908
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Molecular Weight of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,"The molecular weight of CC(=CCCC(C)(C=C)OC(=O)C)C is 196.14632988
+'''"
+Calculate the Molecular Weight of the smiles: CCCCCCCCCC(=O)O,"The molecular weight of CCCCCCCCCC(=O)O is 172.14632988
+'''"
+Calculate the Molecular Weight of the smiles: C(I)(I)I,"The molecular weight of C(I)(I)I is 393.721244032
+'''"
+Calculate the Molecular Weight of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,"The molecular weight of CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O is 581.265669688
+'''"
+Calculate the Molecular Weight of the smiles: CC=O,The molecular weight of CC=O is 44.026214748
+Calculate the Molecular Weight of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,"The molecular weight of CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C is 358.178023932
+'''"
+Calculate the Molecular Weight of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,"The molecular weight of CC12C3CCC(C1(C(=O)OC2=O)C)O3 is 196.073558864
+'''"
+Calculate the Molecular Weight of the smiles: CCC=C,"The molecular weight of CCC=C is 56.062600255999996
+'''"
+Calculate the Molecular Weight of the smiles: C(=S)=S,"The molecular weight of C(=S)=S is 75.944142
+'''"
+Calculate the Molecular Weight of the smiles: C(CS)O,"The molecular weight of C(CS)O is 78.013935812
+'''"
+Calculate the Molecular Weight of the smiles: CC(CCC=C(C)C)CCO,"The molecular weight of CC(CCC=C(C)C)CCO is 156.15141526
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,"The molecular weight of C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N is 248.039733872
+'''"
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C=CC=C2O,"The molecular weight of C1=CC=C2C(=C1)C=CC=C2O is 144.057514876
+'''"
+Calculate the Molecular Weight of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,"The molecular weight of CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC is 303.147058152
+'''"
+Calculate the Molecular Weight of the smiles: C1CCC(CC1)N,"The molecular weight of C1CCC(CC1)N is 99.10479941599999
+'''"
+Calculate the QED of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,"The QED of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC is 0.847401444528972
+'''"
+Calculate the QED of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,"The QED of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O is 0.8613672076779287
+'''"
+Calculate the QED of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC(=O)CCC(=O)O,"The QED of the smiles: CC(=O)CCC(=O)O is 0.5816626924315285
+'''"
+Calculate the QED of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,"The QED of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O is 0.3272779695688504
+'''"
+Calculate the QED of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCC(C)(C)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC1CCC(C(C1)O)C(C)C,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C(=O)(O)[O-].[Na+],Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCCC[Sn](CCCC)(Cl)Cl,"The QED of the smiles: CCCC[Sn](CCCC)(Cl)Cl is 0.6335275735440196
+'''"
+Calculate the QED of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,"The QED of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O is 0.4274213512497735
+'''"
+Calculate the QED of the smiles: CCC(=O)[O-].[Na+],"The QED of the smiles: CCC(=O)[O-].[Na+] is 0.3134658838124572
+'''"
+Calculate the QED of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,"The QED of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O is 0.839282607029206
+'''"
+Calculate the QED of the smiles: CCCC=O,"The QED of CCCC=O is 0.4443450475833798
+'''"
+Calculate the QED of the smiles: CN(C)C(=S)SSC(=S)N(C)C,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,"The QED of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N is 0.26343729334807475
+'''"
+Calculate the QED of the smiles: C1=CC(=CC=C1C(=O)O)N,"The QED of the smiles: C1=CC(=CC=C1C(=O)O)N is 0.566589187245288
+'''"
+Calculate the QED of the smiles: C(C(C(C(C=O)O)O)O)O,"The QED of the smiles: C(C(C(C(C=O)O)O)O)O is 0.3258384035161684
+'''"
+Calculate the QED of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,"The QED of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O is 0.2905169417988814
+'''"
+Calculate the QED of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCCCCCCC(=O)OC,"The QED of the smiles: CCCCCCCC(=O)OC is 0.4383150695699537
+'''"
+Calculate the QED of the smiles: C(C(=O)CO)O,"The QED of the smiles: C(C(=O)CO)O is 0.4353852085134311
+'''"
+Calculate the QED of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1=CC=C(C=C1)N,"The QED of the smiles: C1=CC=C(C=C1)N is 0.48007546344555985
+'''"
+Calculate the QED of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CN(C)NC(=O)CCC(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,"The QED of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O is 0.49859625509607547
+'''"
+Calculate the QED of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,"The QED of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C is 0.6909972184662643
+'''"
+Calculate the QED of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,"The QED of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO is 0.5458309652959041
+'''"
+Calculate the QED of the smiles: CCCCCCCCC=O,"The QED of the smiles: CCCCCCCCC=O is 0.3943168373689603
+'''"
+Calculate the QED of the smiles: C1CCNC(C1)C2=CN=CC=C2,"The QED of the smiles: C1CCNC(C1)C2=CN=CC=C2 is 0.6818149785973887
+'''"
+Calculate the QED of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,"The QED of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C is 0.4215663731784319
+'''"
+Calculate the QED of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,"The QED of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O is 0.7966718656376948
+'''"
+Calculate the QED of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,"The QED of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O is 0.5101568892419974
+'''"
+Calculate the QED of the smiles: C1CC(NC1)C(=O)O,"The QED of the smiles: C1CC(NC1)C(=O)O is 0.4982089208893278
+'''"
+Calculate the QED of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,"The QED of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O is 0.4976684796992808
+'''"
+Calculate the QED of the smiles: C1=CC=C2C(=C1)NC=N2,"The QED of the smiles: C1=CC=C2C(=C1)NC=N2 is 0.5583728365871126
+'''"
+Calculate the QED of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,"The QED of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)O)F)C) is 0.6770422256433893
+'''"
+Calculate the QED of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,"The QED of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N is 0.28661243847385526
+'''"
+Calculate the QED of the smiles: C=CC(=O)O,"The QED of the smiles: C=CC(=O)O is 0.4508580596042506
+'''"
+Calculate the QED of the smiles: CC(C)C(C(=O)O)N,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: COC1=CC=CC=C1O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1CNCCN1,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1CCNCC1,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC(=O)OC,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCCCS,"The QED of CCCCS is 0.49025297206668045
+'''"
+Calculate the QED of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,"The QED of the smiles: C1=CC(=C(C=C1C(CN)O)O)O is 0.4724272074622585
+'''"
+Calculate the QED of the smiles: C(CO)N(CCO)CCO,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,"The QED of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C is 0.6330301643827799
+'''"
+Calculate the QED of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CN(C)C=O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,"The QED of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C is 0.7271671448939994
+'''"
+Calculate the QED of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,"The QED of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O is 0.7629173210900769
+'''"
+Calculate the QED of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CSCCC=O,"The QED of CSCCC=O is 0.3912828365702852
+'''"
+Calculate the QED of the smiles: CNC(=O)CSP(=O)(OC)OC,"The QED of CNC(=O)CSP(=O)(OC)OC is 0.6861794924550499
+'''"
+Calculate the QED of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,Error: You need to provide a mol argument.
+Calculate the QED of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,"The QED of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C is 0.5005620426274199
+'''"
+Calculate the QED of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,"The QED of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC is 0.13088726197403125
+'''"
+Calculate the QED of the smiles: C(=C(Cl)Cl)Cl,"The QED of the smiles: C(=C(Cl)Cl)Cl is 0.47377505861481944
+'''"
+Calculate the QED of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCCCCCC=C,"The QED of the smiles: CCCCCCC=C is 0.37835862251165964
+'''"
+Calculate the QED of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,"The QED of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C is 0.243238592025165
+'''"
+Calculate the QED of the smiles: CCCCCCCCCCCCCCCC(=O)OC,"The QED of the smiles: CCCCCCCCCCCCCCCC(=O)OC is 0.30139776583567224
+'''"
+Calculate the QED of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,"The QED of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O is 0.92141338710529
+'''"
+Calculate the QED of the smiles: CCCCC,The QED of CCCCC is 0.4687855098011332
+Calculate the QED of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,"The QED of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N is 0.6038456847188672
+'''"
+Calculate the QED of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,"The QED of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3 is 0.632788302073214
+'''"
+Calculate the QED of the smiles: CC(=O)N(C)C,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,"The QED of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O is 0.5459100356936089
+'''"
+Calculate the QED of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,"The QED of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C is 0.4981507139283784
+'''"
+Calculate the QED of the smiles: CCCCCCCCCC(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C(I)(I)I,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC=O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,"The QED of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C is 0.7848332802556961
+'''"
+Calculate the QED of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCC=C,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C(=S)=S,"The QED of the smiles: C(=S)=S is 0.3949540667862806
+'''"
+Calculate the QED of the smiles: C(CS)O,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CC(CCC=C(C)C)CCO,"The QED of the smiles: CC(CCC=C(C)C)CCO is 0.6067463726043822
+'''"
+Calculate the QED of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,"The QED of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N is 0.8436434384722771
+'''"
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C=CC=C2O,"The QED of the smiles: C1=CC=C2C(=C1)C=CC=C2O is 0.6020160700037418
+'''"
+Calculate the QED of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,"The QED of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC is 0.7979361284429697
+'''"
+Calculate the QED of the smiles: C1CCC(CC1)N,"The QED of the smiles: C1CCC(CC1)N is 0.4860844589993981
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,"The synthetic accessibility of CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC is 2.306021195399575
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,"The synthetic accessibility of CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O is 2.6621529597870204
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CC(=O)CCC(=O)O,"The synthetic accessibility of the smiles: CC(=O)CCC(=O)O is 1.8093060226226125
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,"The synthetic accessibility of CCCCCCC(CC=CCCCCCCCC(=O)O)O is 2.699469507518412
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CCC(C)(C)O,"The synthetic accessibility of CCC(C)(C)O is 2.145824039410421
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1CCC(C(C1)O)C(C)C,"The synthetic accessibility of CC1CCC(C(C1)O)C(C)C is 3.352673852141253
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,"The synthetic accessibility of C1=CC=C2C(=C1)C=CC(=O)O2 is 1.6719282209126138
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(=O)(O)[O-].[Na+],"The synthetic accessibility of C(=O)(O)[O-].[Na+] is 3.8547976130575936
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCC[Sn](CCCC)(Cl)Cl,"The synthetic accessibility of CCCC[Sn](CCCC)(Cl)Cl is 3.117358956986884
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,"The synthetic accessibility of C(C(=O)O)C(CC(=O)O)(C(=O)O)O is 2.451828211547289
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCC(=O)[O-].[Na+],"The synthetic accessibility of CCC(=O)[O-].[Na+] is 3.91271131751693
+'''"
+Calculate the Synthetic Accessibility of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,"The synthetic accessibility of CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O is 4.979568492526502
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCC=O,"The synthetic accessibility of CCCC=O is 2.734983411874161
+'''"
+Calculate the Synthetic Accessibility of the smiles: CN(C)C(=S)SSC(=S)N(C)C,"The synthetic accessibility of CN(C)C(=S)SSC(=S)N(C)C is 3.550581561407837
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,"The synthetic accessibility of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N is 3.0052431539973607
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1C(=O)O)N,"The synthetic accessibility of C1=CC(=CC=C1C(=O)O)N is 1.4381001359062822
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(C(C(C(C=O)O)O)O)O,"The synthetic accessibility of C(C(C(C(C=O)O)O)O)O is 3.7647622777449996
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,"The synthetic accessibility of CCCCCCCCC=CCCCCCCCC(=O)O is 2.0334518277801017
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,The Synthetic Accessibility of CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCC(=O)OC,"The synthetic accessibility of CCCCCCCC(=O)OC is 1.5482203362972307
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(C(=O)CO)O,"The synthetic accessibility of C(C(=O)CO)O is 2.8823890098246228
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,"The synthetic accessibility of CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C is 4.167391302739001
+'''"
+Calculate the Synthetic Accessibility of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C(C=C1)N,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,"The synthetic accessibility of CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34 is 4.055971381160166
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CN(C)NC(=O)CCC(=O)O,"The synthetic accessibility of CN(C)NC(=O)CCC(=O)O is 2.2623937428906356
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,"The synthetic accessibility of CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O is 2.4151864819860567
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,"The synthetic accessibility of CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C is 2.10362001380987
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,"The synthetic accessibility of CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO is 6.2692031908643004
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCC=O,"The synthetic accessibility of CCCCCCCCC=O is 1.9183792567854052
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1CCNC(C1)C2=CN=CC=C2,"The synthetic accessibility of C1CCNC(C1)C2=CN=CC=C2 is 2.659013863096428
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,"The synthetic accessibility of CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C is 3.6554864675664707
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,"The synthetic accessibility of CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O is 2.350291866309947
+'''"
+Calculate the Synthetic Accessibility of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: C1CC(NC1)C(=O)O,"The synthetic accessibility of C1CC(NC1)C(=O)O is 2.7356470655699425
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,"The synthetic accessibility of C(C(=CC(=O)O)C(=O)O)C(=O)O is 2.6133677152539914
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)NC=N2,"The synthetic accessibility of C1=CC=C2C(=C1)NC=N2 is 1.9121459559435046
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,"The synthetic accessibility of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C is 4.635267019270959
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,"The synthetic accessibility of C1=CC(=CC=C1C(=O)O)C(=O)O is 1.2966492537155307
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,"The synthetic accessibility of C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N is 3.329385026160667
+'''"
+Calculate the Synthetic Accessibility of the smiles: C=CC(=O)O,"The synthetic accessibility of C=CC(=O)O is 2.273849361309342
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(C)C(C(=O)O)N,"The synthetic accessibility of CC(C)C(C(=O)O)N is 2.527042170465048
+'''"
+Calculate the Synthetic Accessibility of the smiles: COC1=CC=CC=C1O,"The synthetic accessibility of COC1=CC=CC=C1O is 1.3187972379947865
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1CNCCN1,"The synthetic accessibility of C1CNCCN1 is 2.6979767021323156
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1CCNCC1,"The synthetic accessibility of C1CCNCC1 is 2.0559228559784692
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(=O)OC,"The synthetic accessibility of CC(=O)OC is 1.7363164941764762
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,"The synthetic accessibility of CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C is 3.0820010998846676
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,"The synthetic accessibility of C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O is 2.769642038505438
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCS,"The synthetic accessibility of CCCCS is 2.6293372580280074
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,"The synthetic accessibility of C1=CC(=C(C=C1C(CN)O)O)O is 2.675858574634889
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(CO)N(CCO)CCO,"The synthetic accessibility of C(CO)N(CCO)CCO is 2.3477001359062832
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,"The synthetic accessibility of CC(=CCCC(=CCCC(=CCO)C)C)C is 2.8124189583536996
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CN(C)C=O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,"The synthetic accessibility of CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C is 2.8740172811412545
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,"The synthetic accessibility of C1=CC(=C(C=C1Cl)Cl)OCC(=O)O is 1.5851667829758593
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,"The synthetic accessibility of C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3 is 2.1336615798380674
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,"The synthetic accessibility of CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC is 2.8529398885862562
+'''"
+Calculate the Synthetic Accessibility of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,"The synthetic accessibility of COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O is 3.7523244459817278
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,"The synthetic accessibility of CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl is 2.123367400171162
+'''"
+Calculate the Synthetic Accessibility of the smiles: CSCCC=O,"The synthetic accessibility of CSCCC=O is 3.004980548286161
+'''"
+Calculate the Synthetic Accessibility of the smiles: CNC(=O)CSP(=O)(OC)OC,"The synthetic accessibility of CNC(=O)CSP(=O)(OC)OC is 3.3082006184797974
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.GetMorganFingerprint(NoneType, int)
+did not match C++ signature:
+    GetMorganFingerprint(RDKit::ROMol mol, unsigned int radius, boost::python::api::object invariants=[], boost::python::api::object fromAtoms=[], bool useChirality=False, bool useBondTypes=True, bool useFeatures=False, bool useCounts=True, boost::python::api::object bitInfo=None, bool includeRedundantEnvironments=False)"
+Calculate the Synthetic Accessibility of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,"The synthetic accessibility of CC1=CCCC(=C)C2CC(C2CC1)(C)C is 4.171795825714101
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: C(=C(Cl)Cl)Cl,"The synthetic accessibility of C(=C(Cl)Cl)Cl is 3.64463117949116
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,"The synthetic accessibility of C1=CC=C(C=C1)CC(C(=O)O)N is 1.8818837931663595
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCCCC=C,"The synthetic accessibility of CCCCCCC=C is 1.875104833811422
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,"The synthetic accessibility of CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C is 2.524348968313056
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCCCCCCCC(=O)OC,"The synthetic accessibility of CCCCCCCCCCCCCCCC(=O)OC is 1.7415335589091328
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,"The synthetic accessibility of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O is 2.9528355507679738
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCC,"The synthetic accessibility of CCCCC is 1.699621281696647
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,"The synthetic accessibility of CCN(CC)CCOC(=O)C1=CC=C(C=C1)N is 1.8627120810222273
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,"The synthetic accessibility of C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3 is 2.3443039181989196
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N(C)C,"The synthetic accessibility of CC(=O)N(C)C is 1.9820133885228461
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,"The synthetic accessibility of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O is 2.406635201507086
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,"The synthetic accessibility of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C is 3.40831057968842
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCC(=O)O,"The synthetic accessibility of CCCCCCCCCC(=O)O is 1.533011491477767
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(I)(I)I,"The synthetic accessibility of C(I)(I)I is 4.305796123391056
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CC=O,"The synthetic accessibility of CC=O is 3.040964730942676
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,"The synthetic accessibility of CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C is 4.389631109331721
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,"The synthetic accessibility of CC12C3CCC(C1(C(=O)OC2=O)C)O3 is 5.2108239484332035
+'''"
+Calculate the Synthetic Accessibility of the smiles: CCC=C,"The synthetic accessibility of CCC=C is 2.7197692003141345
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(=S)=S,"The synthetic accessibility of C(=S)=S is 4.455003192481137
+'''"
+Calculate the Synthetic Accessibility of the smiles: C(CS)O,"The synthetic accessibility of C(CS)O is 3.023538431083365
+'''"
+Calculate the Synthetic Accessibility of the smiles: CC(CCC=C(C)C)CCO,"The synthetic accessibility of CC(CCC=C(C)C)CCO is 2.8993617626542534
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,"The synthetic accessibility of C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N is 3.0977728920552625
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C=CC=C2O,"The synthetic accessibility of C1=CC=C2C(=C1)C=CC=C2O is 1.4268469709126155
+'''"
+Calculate the Synthetic Accessibility of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,"The synthetic accessibility of CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC is 3.9948291203457407
+'''"
+Calculate the Synthetic Accessibility of the smiles: C1CCC(CC1)N,"The synthetic accessibility of C1CCC(CC1)N is 1.925887432677925
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,"The Topological Polar Surface Area of CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC is 85.25000000000001
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,"The Topological Polar Surface Area of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O is 99.6
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)CCC(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,"The Topological Polar Surface Area of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O is 57.53
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,"The Topological Polar Surface Area of CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl is 26.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCC(C)(C)O,"The Topological Polar Surface Area of CCC(C)(C)O is 20.23
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1CCC(C(C1)O)C(C)C,"The Topological Polar Surface Area of the smiles: CC1CCC(C(C1)O)C(C)C is 20.23
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,"The Topological Polar Surface Area of C1=CC=C2C(=C1)C=CC(=O)O2 is 30.21
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(=O)(O)[O-].[Na+],"The Topological Polar Surface Area of C(=O)(O)[O-].[Na+] is 60.36
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCC[Sn](CCCC)(Cl)Cl,"The Topological Polar Surface Area of CCCC[Sn](CCCC)(Cl)Cl is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,"The Topological Polar Surface Area of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O is 132.13
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCC(=O)[O-].[Na+],Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,"The Topological Polar Surface Area of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O is 59.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCC=O,"The Topological Polar Surface Area of CCCC=O is 17.07
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CN(C)C(=S)SSC(=S)N(C)C,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,"The Topological Polar Surface Area of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O is 125.90000000000002
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,"The Topological Polar Surface Area of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N is 158.82000000000002
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1C(=O)O)N,"The Topological Polar Surface Area of the smiles: C1=CC(=CC=C1C(=O)O)N is 63.31999999999999
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(C(C(C(C=O)O)O)O)O,"The Topological Polar Surface Area of the smiles: C(C(C(C(C=O)O)O)O)O is 97.99000000000001
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,"The Topological Polar Surface Area of CCCCCCCCC=CCCCCCCCC(=O)O is 37.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcTPSA(NoneType)
+did not match C++ signature:
+    CalcTPSA(RDKit::ROMol mol, bool force=False, bool includeSandP=False)"
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,"The Topological Polar Surface Area of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O is 162.98000000000002
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCC(=O)OC,"The Topological Polar Surface Area of CCCCCCCC(=O)OC is 26.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(C(=O)CO)O,"The Topological Polar Surface Area of the smiles: C(C(=O)CO)O is 57.53
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,"The Topological Polar Surface Area of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C is 43.370000000000005
+'''"
+Calculate the Topological Polar Surface Area of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,"The Topological Polar Surface Area of COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC is 117.78000000000002
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C(C=C1)N,"The Topological Polar Surface Area of C1=CC=C(C=C1)N is 26.02
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,"The Topological Polar Surface Area of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34 is 37.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,"The Topological Polar Surface Area of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl is 43.14
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CN(C)NC(=O)CCC(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,"The Topological Polar Surface Area of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O is 99.13000000000002
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,"The Topological Polar Surface Area of CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C is 20.23
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,"The Topological Polar Surface Area of CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O is 490.6599999999998
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCC=O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: C1CCNC(C1)C2=CN=CC=C2,"The Topological Polar Surface Area of C1CCNC(C1)C2=CN=CC=C2 is 24.92
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,"The Topological Polar Surface Area of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C is 59.32000000000001
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,"The Topological Polar Surface Area of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O is 40.46
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: C1CC(NC1)C(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,"The Topological Polar Surface Area of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O is 111.89999999999999
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)NC=N2,"The Topological Polar Surface Area of C1=CC=C2C(=C1)NC=N2 is 28.68
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,"The Topological Polar Surface Area of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)O)F)C) is 94.83000000000001
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,"The Topological Polar Surface Area of C1=CC(=CC=C1C(=O)O)C(=O)O is 74.6
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,"The Topological Polar Surface Area of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N is 175.83
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C=CC(=O)O,"The Topological Polar Surface Area of the smiles: C=CC(=O)O is 37.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC(C)C(C(=O)O)N,"The Topological Polar Surface Area of the smiles: CC(C)C(C(=O)O)N is 63.31999999999999
+'''"
+Calculate the Topological Polar Surface Area of the smiles: COC1=CC=CC=C1O,"The Topological Polar Surface Area of COC1=CC=CC=C1O is 29.46
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1CNCCN1,"The Topological Polar Surface Area of C1CNCCN1 is 24.06
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1CCNCC1,"The Topological Polar Surface Area of C1CCNCC1 is 12.03
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)OC,"The Topological Polar Surface Area of the smiles: CC(=O)OC is 26.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,"The Topological Polar Surface Area of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C is 26.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,"The Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O is 81.65
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCS,"The Topological Polar Surface Area of CCCCS is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,"The Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1C(CN)O)O)O is 86.71000000000001
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(CO)N(CCO)CCO,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,"The Topological Polar Surface Area of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C is 20.23
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CN(C)C=O,"The Topological Polar Surface Area of CN(C)C=O is 20.310000000000002
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,"The Topological Polar Surface Area of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C is 67.67
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,"The Topological Polar Surface Area of C1=CC(=C(C=C1Cl)Cl)OCC(=O)O is 46.53
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,"The Topological Polar Surface Area of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3 is 3.24
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,"The Topological Polar Surface Area of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC is 27.69
+'''"
+Calculate the Topological Polar Surface Area of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,"The Topological Polar Surface Area of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O is 92.68
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,"The Topological Polar Surface Area of CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl is 77.82
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CSCCC=O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CNC(=O)CSP(=O)(OC)OC,"The Topological Polar Surface Area of CNC(=O)CSP(=O)(OC)OC is 64.63000000000001
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,The Topological Polar Surface Area of CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,"The Topological Polar Surface Area of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,"The Topological Polar Surface Area of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,"The Topological Polar Surface Area of CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC is 238.66999999999996
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(=C(Cl)Cl)Cl,"The Topological Polar Surface Area of C(=C(Cl)Cl)Cl is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,"The Topological Polar Surface Area of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N is 63.31999999999999
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCC=C,"The Topological Polar Surface Area of the smiles: CCCCCCC=C is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,"The Topological Polar Surface Area of CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C is 72.94
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCCCCCCCC(=O)OC,"The Topological Polar Surface Area of CCCCCCCCCCCCCCCC(=O)OC is 26.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,"The Topological Polar Surface Area of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O is 50.94
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCC,"The Topological Polar Surface Area of CCCCC is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,"The Topological Polar Surface Area of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N is 55.56
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,"The Topological Polar Surface Area of C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3 is 38.77
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N(C)C,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,"The Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O is 100.88000000000001
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,"The Topological Polar Surface Area of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C is 26.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCC(=O)O,"The Topological Polar Surface Area of CCCCCCCCCC(=O)O is 37.3
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(I)(I)I,"The Topological Polar Surface Area of the smiles: C(I)(I)I is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,"The Topological Polar Surface Area of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O is 336.42999999999995
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC=O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,"The Topological Polar Surface Area of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C is 91.67000000000002
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,"The Topological Polar Surface Area of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3 is 52.60000000000001
+'''"
+Calculate the Topological Polar Surface Area of the smiles: CCC=C,"The Topological Polar Surface Area of CCC=C is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(=S)=S,"The Topological Polar Surface Area of the smiles: C(=S)=S is 0.0
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C(CS)O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CC(CCC=C(C)C)CCO,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,"The Topological Polar Surface Area of C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N is 58.04
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C=CC=C2O,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,"The Topological Polar Surface Area of CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC is 55.84
+'''"
+Calculate the Topological Polar Surface Area of the smiles: C1CCC(CC1)N,"The Topological Polar Surface Area of the smiles: C1CCC(CC1)N is 26.02
+'''"
+Calculate the LogP of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,"The LogP of CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC is 2.5724
+'''"
+Calculate the LogP of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,"The LogP of CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O is 1.9509199999999998
+'''"
+Calculate the LogP of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: CC(=O)CCC(=O)O,"The LogP of CC(=O)CCC(=O)O is 0.4402
+'''"
+Calculate the LogP of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,"The LogP of CCCCCCC(CC=CCCCCCCCC(=O)O)O is 5.079300000000004
+'''"
+Calculate the LogP of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CCC(C)(C)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC1CCC(C(C1)O)C(C)C,"The LogP of CC1CCC(C(C1)O)C(C)C is 2.4395000000000007
+'''"
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C(=O)(O)[O-].[Na+],"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: CCCC[Sn](CCCC)(Cl)Cl,"The LogP of CCCC[Sn](CCCC)(Cl)Cl is 4.506400000000004
+'''"
+Calculate the LogP of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,"The LogP of C(C(=O)O)C(CC(=O)O)(C(=O)O)O is -1.2485
+'''"
+Calculate the LogP of the smiles: CCC(=O)[O-].[Na+],"The LogP of CCC(=O)[O-].[Na+] is -3.8496999999999995
+'''"
+Calculate the LogP of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CCCC=O,"The LogP of CCCC=O is 0.9854
+'''"
+Calculate the LogP of the smiles: CN(C)C(=S)SSC(=S)N(C)C,"The LogP of CN(C)C(=S)SSC(=S)N(C)C is 2.0608
+'''"
+Calculate the LogP of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,"The LogP of C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N is -2.2060999999999984
+'''"
+Calculate the LogP of the smiles: C1=CC(=CC=C1C(=O)O)N,"The LogP of C1=CC(=CC=C1C(=O)O)N is 0.9670000000000001
+'''"
+Calculate the LogP of the smiles: C(C(C(C(C=O)O)O)O)O,"The LogP of C(C(C(C(C=O)O)O)O)O is -2.7396999999999996
+'''"
+Calculate the LogP of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,"The LogP of CCCCCCCCC=CCCCCCCCC(=O)O is 6.1085000000000065
+'''"
+Calculate the LogP of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)"
+Calculate the LogP of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CCCCCCCC(=O)OC,"The LogP of CCCCCCCC(=O)OC is 2.5199000000000007
+'''"
+Calculate the LogP of the smiles: C(C(=O)CO)O,"The LogP of C(C(=O)CO)O is -1.4599000000000002
+'''"
+Calculate the LogP of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C1=CC=C(C=C1)N,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CN(C)NC(=O)CCC(=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,"The LogP of CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O is 0.1870000000000001
+'''"
+Calculate the LogP of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,"The LogP of CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO is -0.8377000000000003
+'''"
+Calculate the LogP of the smiles: CCCCCCCCC=O,"The LogP of CCCCCCCCC=O is 2.935900000000001
+'''"
+Calculate the LogP of the smiles: C1CCNC(C1)C2=CN=CC=C2,"The LogP of C1CCNC(C1)C2=CN=CC=C2 is 1.8961999999999999
+'''"
+Calculate the LogP of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,"The LogP of CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O is 4.604600000000003
+'''"
+Calculate the LogP of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,"The LogP of CNCC(C1=CC(=C(C=C1)O)O)O is 0.35059999999999986
+'''"
+Calculate the LogP of the smiles: C1CC(NC1)C(=O)O,"The LogP of C1CC(NC1)C(=O)O is -0.17700000000000032
+'''"
+Calculate the LogP of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,"The LogP of C(C(=CC(=O)O)C(=O)O)C(=O)O is -0.4433000000000001
+'''"
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)NC=N2,"The LogP of C1=CC=C2C(=C1)NC=N2 is 1.5628999999999995
+'''"
+Calculate the LogP of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,"The LogP of C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N is -0.7679999999999998
+'''"
+Calculate the LogP of the smiles: C=CC(=O)O,"The LogP of C=CC(=O)O is 0.25699999999999995
+'''"
+Calculate the LogP of the smiles: CC(C)C(C(=O)O)N,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: COC1=CC=CC=C1O,"The LogP of COC1=CC=CC=C1O is 1.4008
+'''"
+Calculate the LogP of the smiles: C1CNCCN1,"The LogP of C1CNCCN1 is -0.8208
+'''"
+Calculate the LogP of the smiles: C1CCNCC1,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC(=O)OC,"The LogP of CC(=O)OC is 0.17930000000000001
+'''"
+Calculate the LogP of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CCCCS,"The LogP of CCCCS is 1.7163
+'''"
+Calculate the LogP of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,"The LogP of C1=CC(=C(C=C1C(CN)O)O)O is 0.08989999999999976
+'''"
+Calculate the LogP of the smiles: C(CO)N(CCO)CCO,"The LogP of C(CO)N(CCO)CCO is -1.7347
+'''"
+Calculate the LogP of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,"The LogP of CC(=CCCC(=CCCC(=CCO)C)C)C is 4.3979000000000035
+'''"
+Calculate the LogP of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CN(C)C=O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,"The LogP of C1=CC(=C(C=C1Cl)Cl)OCC(=O)O is 2.4567999999999994
+'''"
+Calculate the LogP of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,"The LogP of COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O is 2.4092000000000007
+'''"
+Calculate the LogP of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: CSCCC=O,"The LogP of CSCCC=O is 0.9383999999999999
+'''"
+Calculate the LogP of the smiles: CNC(=O)CSP(=O)(OC)OC,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)"
+Calculate the LogP of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,"The LogP of CC1=CCCC(=C)C2CC(C2CC1)(C)C is 4.7252000000000045
+'''"
+Calculate the LogP of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C(=C(Cl)Cl)Cl,"The LogP of C(=C(Cl)Cl)Cl is 2.5017000000000005
+'''"
+Calculate the LogP of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,"The LogP of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N is 0.641
+'''"
+Calculate the LogP of the smiles: CCCCCCC=C,"The LogP of CCCCCCC=C is 3.142800000000002
+'''"
+Calculate the LogP of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CCCCCCCCCCCCCCCC(=O)OC,"The LogP of CCCCCCCCCCCCCCCC(=O)OC is 5.640700000000005
+'''"
+Calculate the LogP of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,"The LogP of CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O is 3.341500000000002
+'''"
+Calculate the LogP of the smiles: CCCCC,"The LogP of CCCCC is 2.2
+'''"
+Calculate the LogP of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,"The LogP of C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3 is 2.997200000000001
+'''"
+Calculate the LogP of the smiles: CC(=O)N(C)C,"The LogP of CC(=O)N(C)C is 0.09450000000000003
+'''"
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,"The LogP of C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O is 2.9014000000000024
+'''"
+Calculate the LogP of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,"The LogP of CC(=CCCC(C)(C=C)OC(=O)C)C is 3.2406000000000024
+'''"
+Calculate the LogP of the smiles: CCCCCCCCCC(=O)O,"The LogP of CCCCCCCCCC(=O)O is 3.2117000000000013
+'''"
+Calculate the LogP of the smiles: C(I)(I)I,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC=O,"The LogP of CC=O is 0.2052
+'''"
+Calculate the LogP of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,"The molecular weight of CCO is 46.041864812
+'''"
+Calculate the LogP of the smiles: CCC=C,"The LogP of CCC=C is 1.5824
+'''"
+Calculate the LogP of the smiles: C(=S)=S,"The LogP of the smiles: C(=S)=S is 1.0181
+'''"
+Calculate the LogP of the smiles: C(CS)O,"The LogP of C(CS)O is -0.09149999999999997
+'''"
+Calculate the LogP of the smiles: CC(CCC=C(C)C)CCO,"The LogP of CC(CCC=C(C)C)CCO is 2.751300000000001
+'''"
+Calculate the LogP of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,"The LogP of C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N is 2.87488
+'''"
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C=CC=C2O,"The LogP of C1=CC=C2C(=C1)C=CC=C2O is 2.545400000000001
+'''"
+Calculate the LogP of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,"The LogP of CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC is 1.8676999999999997
+'''"
+Calculate the LogP of the smiles: C1CCC(CC1)N,"The LogP of C1CCC(CC1)N is 1.2778
+'''"

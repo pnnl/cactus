@@ -1,7 +1,6 @@
 """ Model loading scripts for loading Google Generative AI Models through LangChain"""
 
 import os
-import google.generativeai
 from langchain.chat_models import ChatGooglePalm
 from langchain.llms import GooglePalm
 

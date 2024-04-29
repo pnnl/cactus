@@ -5,10 +5,10 @@
 Getting started with Cactus is as simple as:
 
 ```python
-from cactus.agents import Cactus
+from cactus.agent import Cactus
 
-Model = Cactus(model_name="alpaca13b")
-Model.run("How similar are glucose and sucrose?")
+Model = Cactus(model_name="google/gemma7b", model_type="vllm")
+Model.run("What is the molecular weight of the smiles: OCC1OC(O)C(C(C1O)O)O")
 ```
 
 ## Installation 💻

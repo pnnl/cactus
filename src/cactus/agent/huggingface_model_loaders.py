@@ -1,5 +1,7 @@
 """Classes defining HuggingFace Model imports for CACTUS"""
 
+import os
+
 from class_resolver import Resolver
 from langchain.llms import HuggingFacePipeline
 from transformers import (
@@ -50,11 +52,12 @@ class HuggingFacePipelineFactory:
         pipeline_instance = factory.create_pipeline()
     """
 
-    def __init__(self, model_id, cache_dir=None, max_length=2000, use_8bit=True):
+    def __init__(self, model_id, cache_dir=None, max_length=2000, *, use_8bit=True, token=None):
         self.model_id = model_id
         self.cache_dir = cache_dir
         self.max_length = max_length
         self.use_8bit = use_8bit
+        self.token = token
 
     def load_model(self) -> HuggingFacePipeline:
         """
@@ -80,10 +83,19 @@ class HuggingFacePipelineFactory:
             HuggingFacePipeline: A text generation pipeline using HuggingFace
                  transformers.
         """
-        tokenizer = AutoTokenizer.from_pretrained(self.model_id, cache_dir=self.cache_dir)
+        tokenizer = AutoTokenizer.from_pretrained(
+            self.model_id,
+            cache_dir=self.cache_dir,
+            token=self.token,
+        )
 
         model = AutoModelForCausalLM.from_pretrained(
-            self.model_id, load_in_8bit=self.use_8bit, device_map="auto", cache_dir=self.cache_dir
+            self.model_id,
+            load_in_8bit=self.use_8bit,
+            device_map="auto",
+            cache_dir=self.cache_dir,
+            token=self.token,
+            attn_implementation="flash_attention_2",
         )
 
         model.tie_weights()
@@ -128,7 +140,7 @@ class Opt13bLoader(HuggingFacePipelineFactory):
         pipeline_instance = opt_loader.load_model()
     """
 
-    def __init__(self, cache_dir=None, max_length=2000, use_8bit=True):
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
         model_id = "facebook/opt-13b"  # Set the model_id
         super().__init__(model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit)
 
@@ -164,7 +176,7 @@ class Alpaca13bLoader(HuggingFacePipelineFactory):
         pipeline_instance = alpaca_loader.load_model()
     """
 
-    def __init__(self, cache_dir=None, max_length=2000, use_8bit=True):
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
         model_id = "chavinlo/alpaca-13b"
         super().__init__(model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit)
 
@@ -219,8 +231,8 @@ class GalpacaInstructLoader(HuggingFacePipelineFactory):
         pipeline_instance = galpaca_loader.load_model()
     """
 
-    def __init__(self, cache_dir=None, max_length=2000, use_8bit=True):
-        model_id = "GeorgiaTechResearchInstitute/" "galactica-6.7b-evol-instruct-70k"
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
+        model_id = "GeorgiaTechResearchInstitute/galactica-6.7b-evol-instruct-70k"
         super().__init__(model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit)
 
 
@@ -255,7 +267,7 @@ class WizardVicuna13bLoader(HuggingFacePipelineFactory):
         pipeline_instance = wiz_vic_loader.load_model()
     """
 
-    def __init__(self, cache_dir=None, max_length=2000, use_8bit=True):
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
         model_id = "ehartford/Wizard-Vicuna-13B-Uncensored"
         super().__init__(model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit)
 
@@ -291,7 +303,7 @@ class Platypus30bLoader(HuggingFacePipelineFactory):
         pipeline_instance = platypus_loader.load_model()
     """
 
-    def __init__(self, cache_dir=None, max_length=2000, use_8bit=True):
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
         model_id = "lilloukas/Platypus-30B"
         super().__init__(model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit)
 
@@ -327,9 +339,99 @@ class OpenOrcaPlatypus13BLoader(HuggingFacePipelineFactory):
         pipeline_instance = orca_platypus_loader.load_model()
     """
 
-    def __init__(self, cache_dir=None, max_length=2000, use_8bit=True):
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
         model_id = "Open-Orca/OpenOrca-Platypus2-13B"
         super().__init__(model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit)
+
+
+class Llama213BLoader(HuggingFacePipelineFactory):
+    """Load the Llama2 Model"""
+
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
+        model_id = "meta-llama/Llama-2-13b-hf"
+        token = os.getenv("HF_Token")
+        super().__init__(
+            model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit, token=token
+        )
+
+
+class Mixtral7BLoader(HuggingFacePipelineFactory):
+    """
+    A derived class that represents a text generation pipeline for the
+    'Open-Orca/OpenOrca-Platypus2-13B' model.
+
+    This class inherits from the HuggingFacePipelineFactory, which is a factory
+    class for creating text generation pipelines using Hugging Face's
+    transformers library.
+
+    Args:
+        cache_dir (str or None, optional): The directory to cache the
+            pre-trained model files. Default is None.
+        max_length (int, optional): The maximum length of the generated text.
+            Default is 2000.
+        use_8bit (bool, optional): Whether to load the model using 8-bit
+            quantization. Default is True.
+
+    Attributes:
+        model_id (str): The identifier of the pre-trained model used for text
+            generation ('Open-Orca/OpenOrca-Platypus2-13B').
+        cache_dir (str or None): The directory to cache the pre-trained model
+            files.
+        max_length (int): The maximum length of the generated text.
+        use_8bit (bool): Whether the model was loaded using 8-bit quantization.
+
+    Example:
+        orca_platypus_loader = OpenOrcaPlatypus13BLoader(cache_dir='/path/to/cache',
+                                            max_length=1000)
+        pipeline_instance = orca_platypus_loader.load_model()
+    """
+
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
+        model_id = "mistralai/Mixtral-8x7B-v0.1"
+        super().__init__(model_id, cache_dir=cache_dir, max_length=max_length, use_8bit=use_8bit)
+
+
+class Gemma7BLoader(HuggingFacePipelineFactory):
+    """
+    A derived class that represents a text generation pipeline for the
+    'Open-Orca/OpenOrca-Platypus2-13B' model.
+
+    This class inherits from the HuggingFacePipelineFactory, which is a factory
+    class for creating text generation pipelines using Hugging Face's
+    transformers library.
+
+    Args:
+        cache_dir (str or None, optional): The directory to cache the
+            pre-trained model files. Default is None.
+        max_length (int, optional): The maximum length of the generated text.
+            Default is 2000.
+        use_8bit (bool, optional): Whether to load the model using 8-bit
+            quantization. Default is True.
+
+    Attributes:
+        model_id (str): The identifier of the pre-trained model used for text
+            generation ('Open-Orca/OpenOrca-Platypus2-13B').
+        cache_dir (str or None): The directory to cache the pre-trained model
+            files.
+        max_length (int): The maximum length of the generated text.
+        use_8bit (bool): Whether the model was loaded using 8-bit quantization.
+
+    Example:
+        orca_platypus_loader = OpenOrcaPlatypus13BLoader(cache_dir='/path/to/cache',
+                                            max_length=1000)
+        pipeline_instance = orca_platypus_loader.load_model()
+    """
+
+    def __init__(self, cache_dir=None, max_length=2000, *, use_8bit=True):
+        model_id = "google/gemma-7b-it"
+        token = os.getenv("HF_Token")
+        super().__init__(
+            model_id,
+            cache_dir=cache_dir,
+            max_length=max_length,
+            use_8bit=use_8bit,
+            token=token,
+        )
 
 
 pipeline_resolver = Resolver.from_subclasses(

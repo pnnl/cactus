@@ -1,7 +1,9 @@
 # CACTUS 🌵 | Chemistry Agent Connecting Tool Usage to Science
 <img width="1220" alt="Cactus_header" src="workflow_diagram_V2__1_.png"> 
 
-# Preprint Available here: 
+# Preprint 
+
+## Available here: 
 
 ## Running Cactus 🏃
 

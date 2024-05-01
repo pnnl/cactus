@@ -28,7 +28,6 @@ Question: {input}
 {agent_scratchpad}
 ### Response:"""
 
-
 # falcon 7b and mpt 7b instructions and Llama2
 FORMAT_INSTRUCTIONS = """
 To use a tool, please use the following format:

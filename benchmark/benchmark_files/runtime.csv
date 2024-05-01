@@ -1,0 +1,22 @@
+﻿Model,Node,Question Set,Prompt,Time,Accuracy
+gemma7b,A100 80GB,Quantitative,Domain,25.61667,98.4
+gemma7b,A100 80GB,Quantitative,Minimal,36.2,96.4
+gemma7b,A100 80GB,Qualitative,Minimal,23.06667,95.2
+gemma7b,A100 80GB,Qualitative,Domain,24.93333,95.6
+gemma7b,A100 80GB,Full,Domain,43.1,94.7
+gemma7b,A100 80GB,Full,Minimal,84.46667,85
+falcon7b,A100 80GB,Full,Domain,42.8,71.6
+mpt7b,A100 80GB,Quantitative,Domain,34.76667,71.4
+mpt7b,A100 80GB,Quantitative,Minimal,52.25,41.6
+falcon7b,A100 80GB,Full,Minimal,72.91667,16.8
+llama27b,A100 80GB,Full,Domain,187.46667,64.3
+llama27b,A100 80GB,Full,Minimal,31.66667,66.3
+mistral7b,A100 80GB,Full,Minimal,44.51667,88.9
+mistral7b,A100 80GB,Full,Domain,39.45,97
+phi2,V100,Quantitative,Minimal,19.93333,93.6
+phi2,RTX 2080 Ti,Quantitative,Minimal,22.18333,93
+phi2,A100 80GB,Quantitative,Minimal,12.1833,93.6
+phi2,A100 80GB,Full,Minimal,30.21667,69.3
+phi2,A100 80GB,Full,Domain,49.05,85.4
+olmo1b,RTX 2080 Ti,Full,Domain,49.48333,52.2
+olmo1b,RTX 2080 Ti,Full,Minimal,51.48333,0

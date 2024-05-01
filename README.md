@@ -1,5 +1,5 @@
 # CACTUS 🌵 | Chemistry Agent Connecting Tool Usage to Science
-<img width="1000" alt="Cactus_header" src="workflow_diagram_V2__1_.png"> 
+<img width="1000" alt="Cactus_header" src="assets/workflow_diagram_V2__1_.png"> 
 
 # Preprint 
 
@@ -60,10 +60,10 @@ This will generate a readable dataset named `QuestionsChem.csv` for use with the
 
 We are continuously working on improving CACTUS and expanding its capabilities for molecular discovery. Some of our planned features include:
 
-🧬 Integration with physics-based models for 3D structure prediction and analysis
-🔧 Support for advanced machine learning techniques (e.g., graph neural networks)
-🎯 Enhanced tools for target identification and virtual screening    
-📜 Improved interpretability and explainability of the model's reasoning process
+    🧬 Integration with physics-based models for 3D structure prediction and analysis
+    🔧 Support for advanced machine learning techniques (e.g., graph neural networks)
+    🎯 Enhanced tools for target identification and virtual screening    
+    📜 Improved interpretability and explainability of the model's reasoning process
 
 We welcome contributions from the community and are excited to collaborate with researchers and developers to further advance the field of AI-driven drug discovery.
 

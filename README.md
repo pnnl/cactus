@@ -3,7 +3,12 @@
 
 # Preprint 
 
-## Available here: 
+## Available here: [link to preprint]
+
+# Introduction 
+
+CACTUS is an innovative tool-augmented language model designed to assist researchers and chemists in various chemistry-related tasks. By integrating state-of-the-art language models with a suite of powerful cheminformatics tools, CACTUS provides an intelligent and efficient solution for exploring chemical space, predicting molecular properties, and accelerating drug discovery.
+
 
 ## Running Cactus 🏃
 
@@ -39,7 +44,7 @@ python -m pip install -e .
 
 ## Benchmarking 📊
 
-We provide scripts for generating lists of benchmarking questions to supply to the LLM agent.
+We provide scripts for generating lists of benchmarking questions to evaluate the performance of the CACTUS agent.
 
 These scripts are located in the `benchmark` directory.
 
@@ -50,3 +55,18 @@ python benchmark_creation.py
 ```
 
 This will generate a readable dataset named `QuestionsChem.csv` for use with the `Cactus` agent.
+
+## Future Directions
+
+We are continuously working on improving CACTUS and expanding its capabilities for molecular discovery. Some of our planned features include:
+
+🧬 Integration with physics-based models for 3D structure prediction and analysis
+🔧 Support for advanced machine learning techniques (e.g., graph neural networks)
+🎯 Enhanced tools for target identification and virtual screening    
+📜 Improved interpretability and explainability of the model's reasoning process
+
+We welcome contributions from the community and are excited to collaborate with researchers and developers to further advance the field of AI-driven drug discovery.
+
+## Citation 
+
+If you use CACTUS in your research, please cite our preprint:

@@ -26,4 +26,5 @@ To evaluate the performance of CACTUS with each model, we have created a compreh
 
 Comparison of model performance among 7B parameter models using minimal and domain-specific prompts. The Gemma-7b and Mistral-7b models demonstrate strong performance and adaptability across prompting strategies, highlighting their potential for widespread applicability in various computational settings, from high-performance clusters to more modest research setups.
 
-    benchmark/benchmark_files/Combined.png 
+<img width="1000" alt="Benchmarking Models" src="benchmark_files/Combined.png"> 
+

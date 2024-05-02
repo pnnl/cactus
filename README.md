@@ -1,5 +1,5 @@
 # CACTUS 🌵 | Chemistry Agent Connecting Tool Usage to Science
-<img width="1000" alt="Cactus_header" src="assets/workflow_diagram_V2__1_.png"> 
+<img width="1000" alt="Cactus_header" src="assets/workflow_diagram_V2_white_bkg.png"> 
 
 # Preprint 
 

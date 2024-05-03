@@ -5,12 +5,7 @@ CACTUS is an innovative tool-augmented language model designed to assist researc
 
 <img width="1000" alt="Cactus_header" src="assets/workflow_diagram_V2_white_bkg.png"> 
 
-# Preprint 
-
-## Available here: [https://arxiv.org/abs/2405.00972]
-
-
-
+# Preprint Available here: [https://arxiv.org/abs/2405.00972]
 
 ## Running Cactus 🏃
 
@@ -74,6 +69,24 @@ For this application we are benchmarking the following models:
 
 These models were selected based on their strong performance in natural language tasks and their potential for adaptation to domain-specific applications.
 
+## Tools Available
+
+For the initial release, we have simple cheminformatics tools available:
+| Tool Name | Tool Usage |
+| ------ | ------ |
+|   `calculate_molwt`    |    Calculate Molecular weight    |
+|  `calculate_logp`      |    Calculate the Partition Coefficient    |
+| `calculate_tpsa` | Calculate the Topological Polar Surface Area |
+| `calculate_qed` | Calculate the Qualitative Estimate of Drug-likeness |
+| `calculate_sa` | Calculate the Synthetic Accessibility |
+| `calculate_bbb_permeant` | Calculate Blood Brain Barrier Permeance |
+| `calculate_gi_absorption` | Calculate the Gastrointestinal Absorption |
+| `calculate_druglikeness` | Calculate druglikeness based on Lipinski's Rule of 5 |
+| `brenk_filter` | Calculate if molecule passes the Brenk Filter |
+| `pains_filter` | Calculate if molecule passes the PAINS Filter |
+
+⚠️ Notice: These tools currently expect a SMILES as input, tools for conversion between identifiers are available but not yet working as intended. Fix to come soon.
+
 ## Future Directions
 
 We are continuously working on improving CACTUS and expanding its capabilities for molecular discovery. Some of our planned features include:
@@ -87,7 +100,9 @@ We welcome contributions from the community and are excited to collaborate with 
 
 ## Citation 
 
-If you use CACTUS in your research, please cite our preprint: @article{mcnaughton2024cactus,
+If you use CACTUS in your research, please cite our preprint: 
+```bibtex
+@article{mcnaughton2024cactus,
     title={CACTUS: Chemistry Agent Connecting Tool-Usage to Science},
     author={Andrew D. McNaughton and Gautham Ramalaxmi and Agustin Kruel and Carter R. Knutson and Rohith A. Varikoti and Neeraj Kumar},
     year={2024},
@@ -95,3 +110,4 @@ If you use CACTUS in your research, please cite our preprint: @article{mcnaughto
     archivePrefix={arXiv},
     primaryClass={cs.CL}
 }
+```

@@ -7,7 +7,7 @@ CACTUS is an innovative tool-augmented language model designed to assist researc
 
 # Preprint 
 
-## Available here: [link to preprint]
+## Available here: [https://arxiv.org/abs/2405.00972]
 
 
 

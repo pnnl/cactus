@@ -87,4 +87,11 @@ We welcome contributions from the community and are excited to collaborate with 
 
 ## Citation 
 
-If you use CACTUS in your research, please cite our preprint:
+If you use CACTUS in your research, please cite our preprint: @article{mcnaughton2024cactus,
+    title={CACTUS: Chemistry Agent Connecting Tool-Usage to Science},
+    author={Andrew D. McNaughton and Gautham Ramalaxmi and Agustin Kruel and Carter R. Knutson and Rohith A. Varikoti and Neeraj Kumar},
+    year={2024},
+    eprint={2405.00972},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}

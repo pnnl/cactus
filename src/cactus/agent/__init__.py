@@ -1,3 +1,5 @@
+"""Package Initialization."""
+
 from .cactus import Cactus
 from .tools import make_tools
 

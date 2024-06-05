@@ -1,3 +1,5 @@
+"""Tool for converting common name to smiles."""
+
 import pubchempy as pcp
 from langchain.tools import BaseTool
 
@@ -11,18 +13,21 @@ Most generic searches will be in this format.
 
 
 class NameToSMILES(BaseTool):
+    """Convert chemical name into SMILES notation."""
+
     name = "CommonNameToSMILES"
     description = DESC
 
     def _run(self, input_name: str) -> str:
-        """
-        Convert chemical name into SMILES notation.
+        """Convert chemical name into SMILES notation.
 
-        Parameters:
-        input_name (str): The name of the chemical compound.
+        Parameters
+        ----------
+             input_name (str): The name of the chemical compound.
 
-        Returns:
-        str: The SMILES notation in the output format.
+        Returns
+        -------
+             str: The SMILES notation in the output format.
         """
         # checking if the input is a string variable or not
         if isinstance(input_name, str):

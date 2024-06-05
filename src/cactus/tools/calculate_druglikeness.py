@@ -1,15 +1,18 @@
+"""Tool to calculate if a compound passes the Lipinski rule of five."""
+
 from adme_pred import ADME
 from langchain.tools import BaseTool
 from rdkit import Chem
 
 
 class CalculateDruglikeness(BaseTool):
+    """Tool to calculate if a compound passes the Lipinski Rule of Five."""
+
     name = "calculate_druglikeness"
     description = "calculates the druglikeness of the compound with regards to Lipinski's rule of 5"
 
     def _run(self, compound_smiles: str) -> str:
-        """
-        Uses the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master
+        """Use the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master.
 
         From the adme-pred-py github:
         Lipinski (2001) Experimental and computational approaches to estimate
@@ -23,7 +26,6 @@ class CalculateDruglikeness(BaseTool):
             acceptors, a molecular mass of less than 500 daltons, and a logP
             that does not exceed 5.
         """
-
         mol = Chem.MolFromSmiles(compound_smiles)
         mol = ADME(mol)
         return mol.druglikeness_lipinski(verbose=True)
@@ -31,8 +33,3 @@ class CalculateDruglikeness(BaseTool):
     async def _arun(self, compound_smiles: str) -> str:
         """Use the calculate_druglikeness tool asynchronously."""
         raise NotImplementedError()
-
-
-# example use
-# sample = calculate_druglikeness("CC(Cc1ccc(cc1)C(C(=O)O)C)C")
-# print(sample)

@@ -1,37 +1,38 @@
-"""Agent File for Constructing Cactus"""
+"""Agent File for Constructing Cactus."""
+
+import platform
 
 from langchain.agents import AgentExecutor
 from langchain.agents.mrkl.base import ZeroShotAgent
 
 from cactus.agent.anthropic_model_loader import load_anthropic_model
-from cactus.agent.huggingface_model_loaders import (
-    HuggingFacePipelineFactory,
-    pipeline_resolver,
-)
+from cactus.agent.huggingface_model_loaders import pipelines_model
 from cactus.agent.openai_model_loader import load_openai_model
 from cactus.agent.palm_model_loader import load_google_model
 from cactus.agent.prompts import FORMAT_INSTRUCTIONS, PREFIX, SUFFIX
 from cactus.agent.tools import make_tools
-from cactus.agent.vllm_model_loaders import vllm_model
+
+if platform.system() != "Darwin":
+    from cactus.agent.vllm_model_loaders import vllm_model
 
 __all__ = ["Cactus"]
 
 
 def _load_model(
-    model_name: str | None = None,
-    model_type: str | None = None,
+    model_name: str,
+    model_type: str,
     cache_dir: str | None = None,
     max_length: int = 2000,
     *,
     use_8bit: bool = True,
 ):
-    """
-    Load a HuggingFace LLM.
+    """Load a HuggingFace LLM.
 
     This function loads a HuggingFace LLM specified by its name using a
     registered model loader.
 
-    Args:
+    Arguments
+    ---------
         model_name (str): The name of the model to load.
             Default is "google/gemma-7b".
         model_type (str): The type of model being used.
@@ -43,7 +44,8 @@ def _load_model(
         use_8bit (bool, optional): Whether to use 8-bit quantization for the
             model. Default is True.
 
-    Returns:
+    Returns
+    -------
         Model: The loaded HuggingFace LLM.
 
     """
@@ -62,26 +64,22 @@ def _load_model(
             return load_anthropic_model(model_name, temperature=0.7)
 
     elif model_type == "pipelines":
-        model_loader: HuggingFacePipelineFactory = pipeline_resolver.make(
+        return pipelines_model(
             model_name,
             cache_dir=cache_dir,
             max_length=max_length,
             use_8bit=use_8bit,
         )
 
-        return model_loader.load_model()
-
-    elif model_type == "vllm":
-        llm = vllm_model(
+    elif model_type == "vllm" and platform.system() != "Darwin":
+        return vllm_model(
             model=model_name,
             cache_dir=cache_dir,
         )
 
-        return llm
-
 
 class Cactus:  # pylint: disable=too-few-public-methods
-    """LLM Agent for Answering Cheminformatics Questions"""
+    """LLM Agent for Answering Cheminformatics Questions."""
 
     def __init__(
         self,
@@ -124,6 +122,7 @@ class Cactus:  # pylint: disable=too-few-public-methods
             )
 
     def run(self, prompt):
+        """Run the cactus agent over the question."""
         tool_names = self.tool_names
         outputs = self.agent_executor({"input": prompt, "tool_names": tool_names})
         return outputs["output"]

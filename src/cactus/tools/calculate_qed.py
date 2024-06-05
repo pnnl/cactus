@@ -1,20 +1,26 @@
+"""Tool to calculate the QED of a compound."""
+
 from langchain.tools import BaseTool
 from rdkit.Chem import Descriptors, MolFromSmiles
 
 
 class CalculateQED(BaseTool):
+    """Calculate the QED of the compound."""
+
     name = "CalculateQED"
     description = "Compute Quantitative Estimate of Druglikeness (QED) of the given molecule"
 
     def _run(self, compound: str) -> float:
-        """
-        Compute Quantitative Estimate of Druglikeness (QED) of the given molecule.
+        """Compute Quantitative Estimate of Druglikeness (QED) of the given molecule.
+
         Bickerton et al 2012.
 
-        Parameters:
+        Parameters
+        ----------
         compound: Compound in SMILES format
 
-        Returns:
+        Returns
+        -------
         float: The QED from 0 (druglike) to 1 (not)
         """
         return Descriptors.qed(MolFromSmiles(compound))

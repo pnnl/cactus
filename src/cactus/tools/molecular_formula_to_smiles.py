@@ -1,3 +1,5 @@
+"""Tool to convert a chemical formula into SMILES."""
+
 import pubchempy as pcp
 from langchain.tools import BaseTool
 
@@ -14,24 +16,27 @@ Only accept input that appears in this format.
 
 
 class MolecularFormulaToSMILES(BaseTool):
+    """Convert Molecular Formula to SMILES."""
+
     name = "MolecularFormulaToSMILES"
     description = DESC
 
     def _run(self, input_formula: str) -> str:
-        """
-        Convert molecular formula into SMILES notation.
+        """Convert molecular formula into SMILES notation.
 
-        Parameters:
+        Parameters
+        ----------
         input_formula (str): The molecular formula of the chemical compound.
 
-        Returns:
+        Returns
+        -------
         str: The SMILES notation in the output format.
         """
         # checking if the input is a string variable or not
         if isinstance(input_formula, str):
             # checking for the first compund with the given molecular formula
             result = pcp.get_compounds(str(input_formula), "formula")[0]
-            # print (result)
+
             return result.canonical_smiles
 
         # if the input is not a string error will be raised

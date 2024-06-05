@@ -1,17 +1,7 @@
-import pytest
+"""Test file for the cactus tools."""
 
-from cactus.tools import (
-    BrenkFilter,
-    CalculateBBBPermeant,
-    CalculateDruglikeness,
-    CalculateGIAbsorption,
-    CalculateLogP,
-    CalculateMolWt,
-    CalculateQED,
-    CalculateSA,
-    CalculateTPSA,
-    PainsFilter,
-)
+import pytest
+from cactus.tools import BrenkFilter, CalculateQED
 
 
 # Brenk Filter Test
@@ -20,7 +10,7 @@ def test_brenk_filter_success():
     compound_smiles = "CC(=O)N"
     tool = BrenkFilter()
     brenk_pass_fail = tool.run(compound_smiles)
-    assert brenk_pass_fail == False  # Brenk should either be True or False
+    assert brenk_pass_fail is False  # Brenk should either be True or False
 
 
 def test_calculate_qed_success():

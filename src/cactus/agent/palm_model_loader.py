@@ -1,23 +1,25 @@
-""" Model loading scripts for loading Google Generative AI Models through LangChain"""
+"""Model loading scripts for loading Google Generative AI Models through LangChain."""
 
 import os
+
 from langchain.chat_models import ChatGooglePalm
 from langchain.llms import GooglePalm
 
 
 def load_google_model(model_name, *, temperature, api_key=None):
-    """Loads a Google generative AI model into LangChain.
+    """Load a Google generative AI model into LangChain.
 
-    Args:
+    Parameters
+    ----------
       model_name: The name of the Google model to load.
       temperature: The hyperparameter that controls the randomness of the generated text.
       api_key: The Google PaLM API key. If not provided, the environment variable
         GOOGLE_API_KEY will be used.
 
-    Returns:
+    Returns
+    -------
       A LangChain ChatGooglePalm model object.
     """
-
     if api_key is None:
         try:
             if api_key is None:
@@ -28,7 +30,7 @@ def load_google_model(model_name, *, temperature, api_key=None):
                 raise ValueError("API key is not provided or found")
 
         except ValueError as error:
-            print(f"Error: {error}")
+            raise error
 
     if model_name in ["models/chat-bison-001"]:
         llm = ChatGooglePalm(

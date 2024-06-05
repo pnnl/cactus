@@ -1,22 +1,26 @@
+"""Tool to calculate CID to SMILES."""
+
 import pubchempy as pcp
 from langchain.tools import BaseTool
 
 
 class CidToSMILES(BaseTool):
+    """Convert Cid to SMILES."""
+
     name = "CidToSMILES"
     description = "Convert the input Pubchem id into its corresponding SMILES notation"
 
     def _run(self, input_id: str) -> str:
-        """
-        Convert PubChem id into SMILES notation.
+        """Convert PubChem id into SMILES notation.
 
-        Parameters:
+        Parameters
+        ----------
         input_id (str): The PubChem id of the chemical compound.
 
-        Returns:
+        Returns
+        -------
         str: The SMILES notation in the output format.
         """
-
         # checking if the input is a integer variable or not
         if isinstance(input_id, str):
             result = pcp.Compound.from_cid(int(input_id))

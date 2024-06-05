@@ -15,8 +15,7 @@ from cactus.tools import (
 
 
 def make_tools():
-    """Method for aggregating and generating a list of tools for the LLM Agent"""
-
+    """Aggregate and generate a list of tools for the LLM Agent."""
     all_tools = [
         # InchikeyToSMILES(),
         # NameToSMILES(),

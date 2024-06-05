@@ -1,19 +1,24 @@
+"""Tool to convert ChemblID to SMILES."""
+
 from chembl_webresource_client.new_client import new_client
 from langchain.tools import BaseTool
 
 
 class ChemblidToSMILES(BaseTool):
+    """Convert Chemblid to SMILES."""
+
     name = "ChemblidToSMILES"
     description = "Convert the input chemblid into its corresponding SMILES notation"
 
     def _run(self, input_id: str) -> str:
-        """
-        Convert ChEMBL id into SMILES notation.
+        """Convert ChEMBL id into SMILES notation.
 
-        Parameters:
+        Parameters
+        ----------
         input_id (str): The ChEMBL database id of the chemical compound.
 
-        Returns:
+        Returns
+        -------
         str: The SMILES notation in the output format.
         """
         if isinstance(input_id, str):

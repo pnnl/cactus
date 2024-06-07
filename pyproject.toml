@@ -24,6 +24,9 @@ dependencies = [
     "pubchempy>=1.0.4",
     "chembl_webresource_client>=0.10.9",
     "smilite>=2.3.0",
+    "torch>=2.3.1",
+    "torchvision>=0.18.1",
+    "torchaudio>=2.3.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
@@ -59,7 +62,7 @@ dev-dependencies = [
 
 [[tool.rye.sources]]
 name = "pytorch"
-url = "https://download.pytorch.org/whl/cpu"
+url = "https://download.pytorch.org/whl/cu121"
   
 [tool.isort]
 profile = "black"

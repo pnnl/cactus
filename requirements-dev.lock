@@ -123,6 +123,7 @@ numpy==1.26.4
     # via matplotlib
     # via pandas
     # via rdkit
+    # via torchvision
     # via transformers
 orjson==3.10.3
     # via langsmith
@@ -143,6 +144,7 @@ parso==0.8.4
 pillow==10.3.0
     # via matplotlib
     # via rdkit
+    # via torchvision
 platformdirs==4.2.2
     # via requests-cache
 pluggy==1.5.0
@@ -225,8 +227,15 @@ tokenizers==0.19.1
     # via transformers
 tomli==2.0.1
     # via pylsp-mypy
-torch==2.3.0
+torch==2.3.1
     # via accelerate
+    # via cactus
+    # via torchaudio
+    # via torchvision
+torchaudio==2.3.1
+    # via cactus
+torchvision==0.18.1
+    # via cactus
 tqdm==4.66.4
     # via huggingface-hub
     # via transformers

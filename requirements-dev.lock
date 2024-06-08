@@ -9,9 +9,9 @@
 
 -e file:.
 accelerate==0.30.1
-    # via cactus
+    # via cactus-llm
 adme-pred @ git+https://github.com/mcnaughtonadm/adme-pred-py.git
-    # via cactus
+    # via cactus-llm
 aiohttp==3.9.5
     # via langchain
     # via langchain-community
@@ -35,7 +35,7 @@ certifi==2024.2.2
 charset-normalizer==3.3.2
     # via requests
 chembl-webresource-client==0.10.9
-    # via cactus
+    # via cactus-llm
 contourpy==1.2.1
     # via matplotlib
 cycler==0.12.1
@@ -81,10 +81,10 @@ jsonpointer==2.4
 kiwisolver==1.4.5
     # via matplotlib
 langchain==0.2.1
-    # via cactus
+    # via cactus-llm
     # via langchain-community
 langchain-community==0.2.1
-    # via cactus
+    # via cactus-llm
 langchain-core==0.2.3
     # via langchain
     # via langchain-community
@@ -102,7 +102,7 @@ markupsafe==2.1.5
 marshmallow==3.21.2
     # via dataclasses-json
 matplotlib==3.9.0
-    # via cactus
+    # via cactus-llm
 mpmath==1.3.0
     # via sympy
 multidict==6.0.5
@@ -138,7 +138,7 @@ packaging==23.2
     # via pytest
     # via transformers
 pandas==2.2.2
-    # via cactus
+    # via cactus-llm
 parso==0.8.4
     # via jedi
 pillow==10.3.0
@@ -153,7 +153,7 @@ pluggy==1.5.0
 psutil==5.9.8
     # via accelerate
 pubchempy==1.0.4
-    # via cactus
+    # via cactus-llm
 pydantic==2.7.2
     # via langchain
     # via langchain-core
@@ -190,7 +190,7 @@ pyyaml==6.0.1
     # via langchain-core
     # via transformers
 rdkit==2023.9.6
-    # via cactus
+    # via cactus-llm
 regex==2024.5.15
     # via transformers
 requests==2.32.3
@@ -213,7 +213,7 @@ six==1.16.0
     # via python-dateutil
     # via url-normalize
 smilite==2.3.0
-    # via cactus
+    # via cactus-llm
 sqlalchemy==2.0.30
     # via langchain
     # via langchain-community
@@ -229,18 +229,18 @@ tomli==2.0.1
     # via pylsp-mypy
 torch==2.3.1
     # via accelerate
-    # via cactus
+    # via cactus-llm
     # via torchaudio
     # via torchvision
 torchaudio==2.3.1
-    # via cactus
+    # via cactus-llm
 torchvision==0.18.1
-    # via cactus
+    # via cactus-llm
 tqdm==4.66.4
     # via huggingface-hub
     # via transformers
 transformers==4.41.2
-    # via cactus
+    # via cactus-llm
 trove-classifiers==2024.5.22
     # via pyroma
 typing-extensions==4.12.0

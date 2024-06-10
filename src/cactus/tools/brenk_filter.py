@@ -1,3 +1,5 @@
+"""Tool for calculating if a compound passes the Brenk Filter."""
+
 from adme_pred import ADME
 from langchain.tools import BaseTool
 from rdkit import Chem
@@ -8,12 +10,13 @@ Used when you need to calculate whether a molecule triggers the Brenk Filter.
 
 
 class BrenkFilter(BaseTool):
+    """Tool to check if the molecule passes the Brenk Filter."""
+
     name = "BrenkFilter"
     description = DESC
 
     def _run(self, compound_smiles: str) -> bool:
-        """
-        Uses the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master
+        """Use the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master.
 
             From the adme-pred-py documentation:
         Brenk (2008) Lessons Learnt from Assembling Screening Libraries for
@@ -23,7 +26,8 @@ class BrenkFilter(BaseTool):
             chemically reactive, metabolically unstable or to bear properties
             responsible for poor pharmacokinetics."
 
-            Returns:
+        Returns
+        -------
                 Boolean of whether the molecule triggers the Brenk filter.
         """
         mol = Chem.MolFromSmiles(compound_smiles)

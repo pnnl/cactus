@@ -1,4 +1,11 @@
 # CACTUS 🌵 | Chemistry Agent Connecting Tool Usage to Science
+
+[![arXiv](https://img.shields.io/badge/arXiv-2405.00972-b31b1b.svg)](https://arxiv.org/abs/2405.00972)
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json
+)](https://rye-up.com)
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
 # Introduction 
 
 CACTUS is an innovative tool-augmented language model designed to assist researchers and chemists in various chemistry-related tasks. By integrating state-of-the-art language models with a suite of powerful cheminformatics tools, CACTUS provides an intelligent and efficient solution for exploring chemical space, predicting molecular properties, and accelerating drug discovery. Just as the cactus thrives in the harsh desert environment, adapting to limited resources and extreme conditions, CACTUS has been implemented by Pacific Northwest National Laboratory (PNNL) Scientists to navigate the complex landscape of chemical data and extract valuable insights.
@@ -20,23 +27,26 @@ Model.run("What is the molecular weight of the smiles: OCC1OC(O)C(C(C1O)O)O")
 
 ## Installation 💻
 
-First, we must install the version of `pytorch` that is useable by your system. We can do this by following the `torch` install instructions [here](https://pytorch.org/get-started/locally/).
-Note that for some older versions of CUDA, you'll need to build from the compiled wheels [here](https://pytorch.org/get-started/previous-versions/)
-
-For example, using `pip` to install PyTorch 2.0.1 with CUDA 11.7 from the pre-compiled wheel:
+To install `cactus`:
 
 ```bash
-pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117
+pip install git+https://github.com/pnnl/cactus.git
 ```
 
-Once you have the appropriate version of `torch`, we can continue with the install.
-
-To install `cactus`, we can build from source:
+The default `PyTorch` version is compiled for `cuda` 12.1 (or cpu for non-cuda systems). If you want to install for an older version of `cuda`, you should install from source and edit the `pyproject.toml` file at the `[[tool.rye.sources]]` section before installing. Alternatively for development, you can install in an editable configuration using:
 
 ```bash
 git clone https://gitlab.pnnl.gov/computational_data_science/cactus.git
 cd cactus
 python -m pip install -e .
+```
+
+or install using `rye` by running:
+
+```bash
+git clone https://gitlab.pnnl.gov/computational_data_science/cactus.git
+cd cactus
+rye sync
 ```
 
 ## Benchmarking 📊
@@ -72,18 +82,18 @@ These models were selected based on their strong performance in natural language
 ## Tools Available
 
 For the initial release, we have simple cheminformatics tools available:
-| Tool Name | Tool Usage |
-| ------ | ------ |
-|   `calculate_molwt`    |    Calculate Molecular weight    |
-|  `calculate_logp`      |    Calculate the Partition Coefficient    |
-| `calculate_tpsa` | Calculate the Topological Polar Surface Area |
-| `calculate_qed` | Calculate the Qualitative Estimate of Drug-likeness |
-| `calculate_sa` | Calculate the Synthetic Accessibility |
-| `calculate_bbb_permeant` | Calculate Blood Brain Barrier Permeance |
-| `calculate_gi_absorption` | Calculate the Gastrointestinal Absorption |
-| `calculate_druglikeness` | Calculate druglikeness based on Lipinski's Rule of 5 |
-| `brenk_filter` | Calculate if molecule passes the Brenk Filter |
-| `pains_filter` | Calculate if molecule passes the PAINS Filter |
+| Tool Name                 | Tool Usage                                           |
+|---------------------------|------------------------------------------------------|
+| `calculate_molwt`         | Calculate Molecular weight                           |
+| `calculate_logp`          | Calculate the Partition Coefficient                  |
+| `calculate_tpsa`          | Calculate the Topological Polar Surface Area         |
+| `calculate_qed`           | Calculate the Qualitative Estimate of Drug-likeness  |
+| `calculate_sa`            | Calculate the Synthetic Accessibility                |
+| `calculate_bbb_permeant`  | Calculate Blood Brain Barrier Permeance              |
+| `calculate_gi_absorption` | Calculate the Gastrointestinal Absorption            |
+| `calculate_druglikeness`  | Calculate druglikeness based on Lipinski's Rule of 5 |
+| `brenk_filter`            | Calculate if molecule passes the Brenk Filter        |
+| `pains_filter`            | Calculate if molecule passes the PAINS Filter        |
 
 ⚠️ Notice: These tools currently expect a SMILES as input, tools for conversion between identifiers are available but not yet working as intended. Fix to come soon.
 

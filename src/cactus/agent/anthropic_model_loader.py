@@ -6,15 +6,17 @@ from langchain.chat_models import ChatAnthropic
 
 
 def load_anthropic_model(model_name, *, temperature, api_key=None):
-    """Loads an Anthropic chat model into LangChain.
+    """Load an Anthropic chat model into LangChain.
 
-    Args:
+    Parameters
+    ----------
       model_name: The name of the Anthropic chat model to load.
       temperature: The hyperparameter that controls the randomness of the generated text
       api_key: The Anthropic API key. If not provided, the environment variable
         ANTHROPIC_API_KEY will be used.
 
-    Returns:
+    Returns
+    -------
       A LangChain ChatAnthropic model object.
     """
     if api_key is None:

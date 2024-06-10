@@ -1,15 +1,19 @@
+"""Tool to calculate the GI Absorption of the compound."""
+
 from adme_pred import ADME
 from langchain.tools import BaseTool
 from rdkit import Chem
 
 
 class CalculateGIAbsorption(BaseTool):
+    """Calculate the GI Absorption of a compound."""
+
     name = "calculate_gi_absorption"
     description = "returns whether the gastrointestinal absorption is high or low"
 
     def _run(self, compound_smiles: str) -> str:
-        """
-        Uses the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master
+        """Use the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master.
+
         From the adme-pred-py github:
             Daina (2016) A BOILED-Egg To Predict Gastrointestinal Absorption and
             Brain Penetration of Small Molecules

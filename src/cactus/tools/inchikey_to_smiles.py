@@ -1,3 +1,5 @@
+"""Tool to convert InchiKey to SMILES."""
+
 import pubchempy as pcp
 from langchain.tools import BaseTool
 
@@ -13,17 +15,20 @@ Examples of InchiKeys:
 
 
 class InchikeyToSMILES(BaseTool):
+    """Convert Inchikey to SMILES."""
+
     name = "InchikeyToSMILES"
     description = DESC
 
     def _run(self, input_inchikey: str) -> str:
-        """
-        Convert inchikey into SMILES notation.
+        """Convert inchikey into SMILES notation.
 
-        Parameters:
+        Parameters
+        ----------
         input_name (str): The InchIkey of the chemical compound.
 
-        Returns:
+        Returns
+        -------
         str: The SMILES notation in the output format.
         """
         if isinstance(input_inchikey, str):

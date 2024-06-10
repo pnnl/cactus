@@ -1,3 +1,5 @@
+"""Tool to calculate the SA of a compound."""
+
 import os
 import sys
 
@@ -7,18 +9,22 @@ sys.path.append(os.path.join(RDConfig.RDContribDir, "SA_Score"))
 import sascorer
 from langchain.tools import BaseTool
 
+
 class CalculateSA(BaseTool):
+    """Calculate the SA of the compound."""
+
     name = "CalculateSA"
     description = "Used to compute the synthetic accessibility (SA) of the given molecule."
 
     def _run(self, compound: str) -> float:
-        """
-        Compute Synthetic Accessibility (SA) of the given SMILES string. Ertl & Schuffenhauer 2009.
+        """Compute Synthetic Accessibility (SA) of the given SMILES string. Ertl & Schuffenhauer 2009.
 
-        Parameters:
+        Parameters
+        ----------
         compound: Compound in SMILES format
 
-        Returns:
+        Returns
+        -------
         float: The SA between 1 (easy) and 10 (hard)
         """
         return sascorer.calculateScore(MolFromSmiles(compound))

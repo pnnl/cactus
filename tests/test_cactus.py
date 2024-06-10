@@ -1,5 +1,6 @@
-import pytest
+"""Test the Cactus Agent initialization."""
 
+import pytest
 from cactus.agent import Cactus
 
 

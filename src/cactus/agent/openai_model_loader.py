@@ -1,4 +1,4 @@
-"""Model loading scripts for loading Open AI models through LangChain"""
+"""Model loading scripts for loading Open AI models through LangChain."""
 
 import os
 
@@ -7,18 +7,19 @@ from langchain.llms import OpenAI
 
 
 def load_openai_model(model_name, *, temperature, api_key=None):
-    """Loads an OpenAI chat model into LangChain.
+    """Load an OpenAI chat model into LangChain.
 
-    Args:
+    Parameters
+    ----------
       model_name: The name of the OpenAI chat model to load.
       temperature: The hyperparameter that controls the randomness of the generated text
       api_key: The OpenAI API key. If not provided, the environment variable
         OPENAI_API_KEY will be used.
 
-    Returns:
+    Returns
+    -------
       A LangChain ChatOpenAI model object.
     """
-
     if api_key is None:
         try:
             if api_key is None:
@@ -29,7 +30,7 @@ def load_openai_model(model_name, *, temperature, api_key=None):
                 raise ValueError("API key not provided or found")
 
         except ValueError as error:
-            print(f"Error: {error}")
+            raise error
 
     if model_name in ["gpt-3.5-turbo", "gpt-4"]:
         llm = ChatOpenAI(

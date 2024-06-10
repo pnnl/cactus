@@ -1,4 +1,5 @@
-"""Method script for generating some aspects of the chem benchmark"""
+"""Method script for generating some aspects of the chem benchmark."""
+
 from pathlib import Path
 
 import pandas as pd
@@ -54,6 +55,7 @@ def generate_permutations(templates, descriptors, molecules):
 
 
 def main():
+    """Generate benchmark using templates, compounds, and descriptors."""
     templates = [
         "Calculate the {attribute} of cid: {compound}",
         "Calculate the {attribute} of the smiles: {compound}",

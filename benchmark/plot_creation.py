@@ -10,30 +10,25 @@ from matplotlib import font_manager
 
 
 def plot_smiles_length_histogram(df, column_name="smiles", filename: str = "output") -> None:
-    """
-    Plots a histogram of the lengths of SMILES strings in a given DataFrame column.
+    """Plot a histogram of the lengths of SMILES strings in a given DataFrame column.
 
-    Parameters:
-    -----------
+    Parameters
+    ----------
         df (pandas.DataFrame): The DataFrame containing SMILES strings.
         column_name (str, optional): The name of the column containing SMILES strings.
     """
-
-    lengths = df[column_name].apply(len)  # Calculate lengths of SMILES strings
+    lengths = df[column_name].apply(len)
     num_samples = len(lengths)
-    num_bins = int(
-        math.floor(math.sqrt(num_samples))
-    )  # Calculate bins using square root (rounded down)
-    plt.hist(lengths, bins=num_bins, edgecolor="black")  # Create histogram
-    plt.xlabel("SMILES Length")  # Set x-axis label
-    plt.ylabel("Frequency")  # Set y-axis label
-    plt.title(
-        f"Distribution of SMILES String Lengths in '{column_name}' Column"
-    )  # Set informative title
+    num_bins = int(math.floor(math.sqrt(num_samples)))
+    plt.hist(lengths, bins=num_bins, edgecolor="black")
+    plt.xlabel("SMILES Length")
+    plt.ylabel("Frequency")
+    plt.title(f"Distribution of SMILES String Lengths in '{column_name}' Column")
     plt.save_fig(f"{filename}.png", dpi=300)
 
 
 def create_qualitative_plot(df: pd.DataFrame, modelname: str):
+    """Create plot scoring qualitative results."""
     druglike = df[0:100]["answer"].sum()
     pain = df[100:200]["answer"].sum()
     brenk = df[200:300]["answer"].sum()
@@ -42,7 +37,7 @@ def create_qualitative_plot(df: pd.DataFrame, modelname: str):
 
     plt.style.use("seaborn-v0_8-colorblind")
 
-    font_path = "/Users/mcna892/Library/Fonts/HackNerdFont-Regular.ttf"  # Your font path goes here
+    font_path = "/Users/mcna892/Library/Fonts/HackNerdFont-Regular.ttf"
     font_manager.fontManager.addfont(font_path)
     prop = font_manager.FontProperties(fname=font_path)
 
@@ -56,18 +51,11 @@ def create_qualitative_plot(df: pd.DataFrame, modelname: str):
         "BB Barrier",
         "GI Absorption",
     ]
-
-    # Calculate incorrect values
     incorrect = [100 - val for val in [druglike, pain, brenk, bbb, gi]]
-
-    # Create DataFrame
     df_summary = pd.DataFrame(
         list(zip(categories, [druglike, pain, brenk, bbb, gi], incorrect, strict=False)),
         columns=["attribute", "correct", "incorrect"],
     )
-
-    # Plot the dashed line
-
     plt.figure(figsize=(10, 6))
     plt.bar(df_summary["attribute"], df_summary["correct"], label="Correct")
     plt.bar(
@@ -85,6 +73,7 @@ def create_qualitative_plot(df: pd.DataFrame, modelname: str):
 
 
 def create_quantitative_plot(df: pd.DataFrame, modelname: str):
+    """Create plot scoring quantitative results."""
     molwt = df[0:100]["answer"].sum()
     qed = df[100:200]["answer"].sum()
     sa = df[200:300]["answer"].sum()
@@ -99,19 +88,12 @@ def create_quantitative_plot(df: pd.DataFrame, modelname: str):
 
     plt.rcParams["font.family"] = "monospace"
     plt.rcParams["font.monospace"] = prop.get_name()
-    # Define categories
     categories = ["MolWt", "QED", "SA", "TPSA", "LogP"]
-
-    # Calculate incorrect values
     incorrect = [100 - val for val in [molwt, qed, sa, tpsa, logp]]
-
-    # Create DataFrame
     df_summary = pd.DataFrame(
         list(zip(categories, [molwt, qed, sa, tpsa, logp], incorrect, strict=False)),
         columns=["attribute", "correct", "incorrect"],
     )
-
-    # Plot the dashed line
 
     plt.figure(figsize=(10, 6))
 
@@ -131,6 +113,7 @@ def create_quantitative_plot(df: pd.DataFrame, modelname: str):
 
 
 def create_combined_plot(df: pd.DataFrame, model_name: str):
+    """Create plot scoring quantitative and qualitative results."""
     druglike = df[0:100]["answer"].sum()
     pain = df[100:200]["answer"].sum()
     brenk = df[200:300]["answer"].sum()
@@ -163,11 +146,7 @@ def create_combined_plot(df: pd.DataFrame, model_name: str):
         "TPSA",
         "LogP",
     ]
-
-    # Calculate incorrect values
     incorrect = [100 - val for val in [druglike, pain, brenk, bbb, gi, molwt, qed, sa, tpsa, logp]]
-
-    # Create DataFrame
     df_summary = pd.DataFrame(
         list(
             zip(
@@ -179,16 +158,9 @@ def create_combined_plot(df: pd.DataFrame, model_name: str):
         ),
         columns=["attribute", "correct", "incorrect"],
     )
-
-    # Create stacked bar plot using matplotlib (same as before)
-    mid_index = (len(categories) - 1) // 2  # Integer division for center index
-
-    # Get positions for the bars (assuming equal width)
+    mid_index = (len(categories) - 1) // 2
     x = np.arange(len(categories))
-    bar_width = 1  # Adjust bar width as needed
-
-    # Plot the dashed line
-
+    bar_width = 1
     plt.figure(figsize=(10, 6))
     plt.axvline(x[mid_index] + bar_width / 2, color="black", linestyle="--", linewidth=1)
     plt.text(2, 107, "Qualitative", ha="center", va="center", fontsize=15)
@@ -210,6 +182,7 @@ def create_combined_plot(df: pd.DataFrame, model_name: str):
 
 
 def create_aggregate_plot(dfs: list, model_names: list):
+    """Create plot for comparing correct results from each model per category."""
     categories = [
         "Druglikeness",
         "PAINS Filter",
@@ -233,7 +206,7 @@ def create_aggregate_plot(dfs: list, model_names: list):
     plt.figure(figsize=(10, 6))
 
     num_models = len(model_names)
-    bar_width = 0.7 / num_models  # Adjust as needed
+    bar_width = 0.7 / num_models
     x = np.arange(len(categories))
 
     colors = sns.color_palette("colorblind", 10)
@@ -259,11 +232,3 @@ def create_aggregate_plot(dfs: list, model_names: list):
     )
     plt.tight_layout()
     plt.savefig("Combined.png", dpi=600)
-
-
-def main():
-    pass
-
-
-if __name__ == "__main__":
-    main()

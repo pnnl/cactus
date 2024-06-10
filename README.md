@@ -1,5 +1,6 @@
 # CACTUS 🌵 | Chemistry Agent Connecting Tool Usage to Science
 
+[![arXiv](https://img.shields.io/badge/arXiv-2405.00972-b31b1b.svg)](https://arxiv.org/abs/2405.00972)
 [![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json
 )](https://rye-up.com)
 [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
@@ -29,10 +30,10 @@ Model.run("What is the molecular weight of the smiles: OCC1OC(O)C(C(C1O)O)O")
 To install `cactus`:
 
 ```bash
-pip install cactus-llm
+pip install git+https://github.com/pnnl/cactus.git
 ```
 
-The default `PyTorch` version is compiled for `cuda` 12.1 (or cpu for non-cuda systems). If you want to install for an older version of `cuda`, you should install from source and edit the `pyproject.toml` file at the `[[tool.rye.sources]]` section before installing. To build from source:
+The default `PyTorch` version is compiled for `cuda` 12.1 (or cpu for non-cuda systems). If you want to install for an older version of `cuda`, you should install from source and edit the `pyproject.toml` file at the `[[tool.rye.sources]]` section before installing. Alternatively for development, you can install in an editable configuration using:
 
 ```bash
 git clone https://gitlab.pnnl.gov/computational_data_science/cactus.git
@@ -40,7 +41,7 @@ cd cactus
 python -m pip install -e .
 ```
 
-or install from source using `rye` by running:
+or install using `rye` by running:
 
 ```bash
 git clone https://gitlab.pnnl.gov/computational_data_science/cactus.git
@@ -81,18 +82,18 @@ These models were selected based on their strong performance in natural language
 ## Tools Available
 
 For the initial release, we have simple cheminformatics tools available:
-| Tool Name | Tool Usage |
-| ------ | ------ |
-|   `calculate_molwt`    |    Calculate Molecular weight    |
-|  `calculate_logp`      |    Calculate the Partition Coefficient    |
-| `calculate_tpsa` | Calculate the Topological Polar Surface Area |
-| `calculate_qed` | Calculate the Qualitative Estimate of Drug-likeness |
-| `calculate_sa` | Calculate the Synthetic Accessibility |
-| `calculate_bbb_permeant` | Calculate Blood Brain Barrier Permeance |
-| `calculate_gi_absorption` | Calculate the Gastrointestinal Absorption |
-| `calculate_druglikeness` | Calculate druglikeness based on Lipinski's Rule of 5 |
-| `brenk_filter` | Calculate if molecule passes the Brenk Filter |
-| `pains_filter` | Calculate if molecule passes the PAINS Filter |
+| Tool Name                 | Tool Usage                                           |
+|---------------------------|------------------------------------------------------|
+| `calculate_molwt`         | Calculate Molecular weight                           |
+| `calculate_logp`          | Calculate the Partition Coefficient                  |
+| `calculate_tpsa`          | Calculate the Topological Polar Surface Area         |
+| `calculate_qed`           | Calculate the Qualitative Estimate of Drug-likeness  |
+| `calculate_sa`            | Calculate the Synthetic Accessibility                |
+| `calculate_bbb_permeant`  | Calculate Blood Brain Barrier Permeance              |
+| `calculate_gi_absorption` | Calculate the Gastrointestinal Absorption            |
+| `calculate_druglikeness`  | Calculate druglikeness based on Lipinski's Rule of 5 |
+| `brenk_filter`            | Calculate if molecule passes the Brenk Filter        |
+| `pains_filter`            | Calculate if molecule passes the PAINS Filter        |
 
 ⚠️ Notice: These tools currently expect a SMILES as input, tools for conversion between identifiers are available but not yet working as intended. Fix to come soon.
 

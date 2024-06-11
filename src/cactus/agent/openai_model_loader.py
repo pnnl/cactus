@@ -2,8 +2,7 @@
 
 import os
 
-from langchain.chat_models import ChatOpenAI
-from langchain.llms import OpenAI
+from langchain_openai import ChatOpenAI, OpenAI
 
 
 def load_openai_model(model_name, *, temperature, api_key=None):

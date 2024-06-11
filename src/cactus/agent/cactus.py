@@ -6,9 +6,9 @@ from langchain.agents import AgentExecutor
 from langchain.agents.mrkl.base import ZeroShotAgent
 
 from cactus.agent.anthropic_model_loader import load_anthropic_model
+from cactus.agent.gemini_model_loader import load_google_model
 from cactus.agent.huggingface_model_loaders import pipelines_model
 from cactus.agent.openai_model_loader import load_openai_model
-from cactus.agent.palm_model_loader import load_google_model
 from cactus.agent.prompts import FORMAT_INSTRUCTIONS, PREFIX, SUFFIX
 from cactus.agent.tools import make_tools
 
@@ -83,12 +83,12 @@ class Cactus:  # pylint: disable=too-few-public-methods
 
     def __init__(
         self,
-        tools=None,
         model_name="google/gemma-7b",
         model_type="vllm",
         cache_dir=None,
         max_length=2000,
         *,
+        tools=None,
         use_8bit=True,
     ):
         try:

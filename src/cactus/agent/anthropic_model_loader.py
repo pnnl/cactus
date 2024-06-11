@@ -2,7 +2,7 @@
 
 import os
 
-from langchain.chat_models import ChatAnthropic
+from langchain_anthropic import ChatAnthropic
 
 
 def load_anthropic_model(model_name, *, temperature, api_key=None):

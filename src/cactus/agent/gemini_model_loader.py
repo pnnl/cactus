@@ -2,8 +2,7 @@
 
 import os
 
-from langchain.chat_models import ChatGooglePalm
-from langchain.llms import GooglePalm
+from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAI
 
 
 def load_google_model(model_name, *, temperature, api_key=None):
@@ -13,12 +12,12 @@ def load_google_model(model_name, *, temperature, api_key=None):
     ----------
       model_name: The name of the Google model to load.
       temperature: The hyperparameter that controls the randomness of the generated text.
-      api_key: The Google PaLM API key. If not provided, the environment variable
+      api_key: The Google Gemini API key. If not provided, the environment variable
         GOOGLE_API_KEY will be used.
 
     Returns
     -------
-      A LangChain ChatGooglePalm model object.
+      A LangChain ChatGoogleGenerativeAI model object.
     """
     if api_key is None:
         try:
@@ -32,15 +31,15 @@ def load_google_model(model_name, *, temperature, api_key=None):
         except ValueError as error:
             raise error
 
-    if model_name in ["models/chat-bison-001"]:
-        llm = ChatGooglePalm(
+    if model_name in ["gemini-pro"]:
+        llm = ChatGoogleGenerativeAI(
             model_name=model_name,
             temperature=temperature,
             google_api_key=api_key,
         )
 
     else:
-        llm = GooglePalm(
+        llm = GoogleGenerativeAI(
             model_name=model_name,
             temperature=temperature,
             google_api_key=api_key,

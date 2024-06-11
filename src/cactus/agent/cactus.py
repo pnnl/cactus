@@ -53,7 +53,7 @@ def _load_model(
         if model_name in ["gpt-3.5-turbo", "gpt-4"]:
             return load_openai_model(model_name, temperature=0.7)
 
-        if model_name in ["models/chat-bison-001", "models/text-bison-001"]:
+        if model_name in ["gemini-pro"]:
             return load_google_model(model_name, temperature=0.7)
 
         if model_name in [

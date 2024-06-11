@@ -33,7 +33,7 @@ def load_google_model(model_name, *, temperature, api_key=None):
 
     if model_name in ["gemini-pro"]:
         llm = ChatGoogleGenerativeAI(
-            model_name=model_name,
+            model=model_name,
             temperature=temperature,
             google_api_key=api_key,
         )

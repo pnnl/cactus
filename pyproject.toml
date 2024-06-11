@@ -1,6 +1,6 @@
 [project]
 name = "cactus-llm"
-version = "0.3.1"
+version = "0.3.2"
 description = "LLM Agent designed for use with cheminformatics tools."
 authors = [
     { name = "Andrew McNaughton", email = "andrew.mcnaughton@pnnl.gov" }

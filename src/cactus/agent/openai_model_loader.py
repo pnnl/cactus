@@ -33,16 +33,16 @@ def load_openai_model(model_name, *, temperature, api_key=None):
 
     if model_name in ["gpt-3.5-turbo", "gpt-4"]:
         llm = ChatOpenAI(
-            model_name=model_name,
+            model=model_name,
             temperature=temperature,
-            openai_api_key=api_key,
+            api_key=api_key,
         )
 
     else:
         llm = OpenAI(
-            model_name=model_name,
+            model=model_name,
             temperature=temperature,
-            oppenai_api_key=api_key,
+            api_key=api_key,
         )
 
     return llm

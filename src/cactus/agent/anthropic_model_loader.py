@@ -39,9 +39,9 @@ def load_anthropic_model(model_name, *, temperature, api_key=None):
         "claude-3-haiku-20240307",
     ]:
         llm = ChatAnthropic(
-            model_name=model_name,
+            model=model_name,
             temperature=temperature,
-            anthropic_api_key=api_key,
+            api_key=api_key,
         )
     else:
         error_message = f"Model name: {model_name}, not found!"

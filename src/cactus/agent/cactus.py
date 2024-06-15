@@ -25,6 +25,7 @@ def _load_model(
     max_length: int = 2000,
     *,
     use_8bit: bool = True,
+    dtype=str,
 ):
     """Load a HuggingFace LLM.
 
@@ -75,6 +76,7 @@ def _load_model(
         return vllm_model(
             model=model_name,
             cache_dir=cache_dir,
+            dtype=dtype,
         )
 
 
@@ -90,6 +92,7 @@ class Cactus:  # pylint: disable=too-few-public-methods
         *,
         tools=None,
         use_8bit=True,
+        dtype="float16"
     ):
         try:
             llm = _load_model(
@@ -98,6 +101,7 @@ class Cactus:  # pylint: disable=too-few-public-methods
                 cache_dir,
                 max_length,
                 use_8bit=use_8bit,
+                dtype=dtype,
             )
 
         except AssertionError as err:

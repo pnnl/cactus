@@ -1,0 +1,45 @@
+```latex
+\documentclass{article}
+\usepackage{hyperref}
+
+\title{LangChain Agent and CACTUS Agent Tutorials}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Adding API Keys}
+
+\subsection*{Overview}
+To start using LangChain and CACTUS agents effectively, you need to add your API keys. This is crucial because the installation process in the next steps requires these keys and may take some time. Ensure to add the API keys every time you restart your Colab session.
+
+\subsection*{Steps to Add API Keys}
+
+\begin{enumerate}
+    \item \textbf{Get Your Gemini-API Key:}
+    \begin{itemize}
+        \item Follow this link to obtain your Gemini-API key: \href{https://ai.google.dev/gemini-api/docs/api-key}{Gemini-API Key}.
+    \end{itemize}
+    \item \textbf{Add API Key to Colab Secrets:}
+    \begin{itemize}
+        \item On the left menu of your Colab notebook, find the "Secrets" section.
+        \item Add your Gemini-API key here.
+    \end{itemize}
+    \item \textbf{Restart Your Session:}
+    \begin{itemize}
+        \item After adding the API key, restart your Colab session to apply the changes.
+    \end{itemize}
+\end{enumerate}
+
+\section*{LangChain: Large Language Model Agents}
+
+\subsection*{Introduction}
+LangChain is a versatile tool for building Large Language Model (LLM) agents. These agents are LLMs equipped with tools to perform specific tasks. For instance, configuring a database or accessing the internet can be achieved using LangChain agents.
+
+\subsection*{Tutorial Overview}
+This tutorial guides you through creating an SQL Database manager using LangChain. You will learn how to load a local LLM via \texttt{vllm} and utilize API-based models like GPT-4, Gemini-Pro, or Claude.
+
+\end{document}
+```

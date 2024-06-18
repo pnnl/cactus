@@ -11,9 +11,11 @@ Huggingface Access Token: [https://huggingface.co/docs/hub/en/security-tokens]
 
 # LangChain: Large Language Model Agents Chains 💬
 
+
+
 ## Introduction
 
-LangChain is a versatile tool for building Large Language Model (LLM) agents. These agents are LLMs equipped with tools to perform specific tasks. For instance, configuring a database or accessing the internet can be achieved using LangChain agents.
+LangChain is a framework for developing applications powered by large language models (LLMs). In particular, LangChain is a versatile tool for building Large Language Model (LLM) agents. These agents are LLMs equipped with tools to perform specific tasks. For instance, configuring a database or accessing the internet can be achieved using LangChain agents.
 
 ## Tutorial Overview
 

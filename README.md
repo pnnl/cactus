@@ -12,7 +12,9 @@ CACTUS is an innovative tool-augmented language model designed to assist researc
 
 <img width="1000" alt="Cactus_header" src="assets/workflow_diagram_V2_white_bkg.png"> 
 
-# Preprint Available here: [https://arxiv.org/abs/2405.00972]
+# Preprint Available [here](https://arxiv.org/abs/2405.00972)
+
+# Demo (API-only) on HuggingFace Spaces [here](https://huggingface.co/spaces/PNNL/cactus-demo)
 
 ## Running Cactus 🏃
 
@@ -33,7 +35,9 @@ To install `cactus`:
 pip install git+https://github.com/pnnl/cactus.git
 ```
 
-The default `PyTorch` version is compiled for `cuda` 12.1 (or cpu for non-cuda systems). If you want to install for an older version of `cuda`, you should install from source and edit the `pyproject.toml` file at the `[[tool.rye.sources]]` section before installing. Alternatively for development, you can install in an editable configuration using:
+The default `PyTorch` version is compiled for `cuda` 12.1 (or cpu for non-cuda systems). If you want to install for an older version of `cuda`, you should install from source and edit the `pyproject.toml` file at the `[[tool.rye.sources]]` section before installing. But be aware `vllm` may not work properly for older versions of `PyTorch`.
+
+Alternatively for development, you can install in an editable configuration using:
 
 ```bash
 git clone https://gitlab.pnnl.gov/computational_data_science/cactus.git

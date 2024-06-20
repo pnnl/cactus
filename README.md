@@ -7,7 +7,8 @@
 )](https://rye.astral.sh/)
 
 
-[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/PNNL/cactus-demo)
+[![Spaces](https://img.shields.io/badge/Open_in_HF_Spaces-yellow?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/PNNL/cactus-demo)
+
 
 # Introduction 
 

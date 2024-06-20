@@ -1,10 +1,13 @@
 # CACTUS 🌵 | Chemistry Agent Connecting Tool Usage to Science
 
 [![arXiv](https://img.shields.io/badge/arXiv-2405.00972-b31b1b.svg)](https://arxiv.org/abs/2405.00972)
-[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json
-)](https://rye-up.com)
 [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json
+)](https://rye.astral.sh/)
+
+
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/PNNL/cactus-demo)
 
 # Introduction 
 

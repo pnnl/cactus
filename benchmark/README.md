@@ -20,7 +20,32 @@ These models were selected based on their strong performance in natural language
 
 ## Benchmark Dataset
 
-To evaluate the performance of CACTUS with each model, we have created a comprehensive benchmark dataset consisting of a wide range of chemistry-related questions. This dataset, named 'QuestionsChem.csv', can be generated using the 'benchmark_creation.py' script provided in this folder.
+To evaluate the performance of CACTUS with each model, we have created a comprehensive benchmark dataset consisting of a wide range of chemistry-related questions. This dataset can be generated using the `benchmark_creation.py` script provided in this folder. For the preprint we use the following benchmark datasets that are included here for reproducibility:
+
+| File                                      | Description                                                                             |
+|-------------------------------------------|-----------------------------------------------------------------------------------------|
+| `SingleStepQuestionList_Qualitative.csv`  | The 500 __Qualitative__ questions used in the manuscript                                |
+| `SingleStepQuestionList_Quantitative.csv` | The 500 __Quantitative__ questions used in the manuscript                               |
+| `SingleStepQuestionList_Combined.csv`     | A concatenation of the Qualitative and Quantitative questions (1000 questions in total) |
+
+The other files contained in this folder are:
+
+| File                                  | Description                                                                                                                |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| `benchmark_creation.py`               | The script used to generate the above benchmark question lists                                                             |
+| `compound_list.csv`                   | A collection of 1000 molecules found on PubChem for benchmark creation                                                     |
+| `run_benchmark.py`                    | A script to run a benchmark by using CACTUS                                                                                |
+| `plot_creation.py`                    | A series of methods for generating the plots used in the manuscript                                                        |
+| `benchmark_files/`                     | A directory of all the resulting benchmark files used in the manuscript                                                    |
+| `benchmark_files/Data_Analysis.ipynb` | A notebook detailing information about the dataset used, as well as how to calculate the expected answers from the dataset |
+
+To run the benchmark using the `run_benchmark.py` script, you can do the following:
+
+```shell
+python run_benchmark.py --model_name "google/gemma-7b" --model-type "vllm" --input-csv "SingleStepQuestionList_Combined.csv" --output-csv "output.csv"
+```
+
+Optionally you can include a `--cache-dir` and a `--log-file` but these default to `None` and `my_log.txt` respectfully.
 
 ## Bechmarking Results
 

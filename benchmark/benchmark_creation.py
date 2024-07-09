@@ -54,29 +54,56 @@ def generate_permutations(templates, descriptors, molecules):
     return questions
 
 
-def main():
-    """Generate benchmark using templates, compounds, and descriptors."""
+def generate_qualitative_questions(molecules):
+    """Generate qualitative questions for the given molecules."""
     templates = [
-        "Calculate the {attribute} of cid: {compound}",
-        "Calculate the {attribute} of the smiles: {compound}",
-        "Calculate the {attribute} of the inchikey: {compound}",
-        "Calculate the {attribute} of {compound}",
+        "Is the smiles: {compound} , druglike ?",
+        "Does the smiles: {compound} , trigger the PAINS filter ?",
+        "Does the smiles: {compound}, trigger the Brenk filter ?",
+        "Is the smiles: {compound}, blood brain barrier permeant ?",
+        "Calculate the Gastrointestinal absorption of the smiles: {compound} ?",
     ]
+    descriptors = ["Qualitative"]
+    return generate_permutations(templates, descriptors, molecules)
 
-    pubchem_molecules = pd.read_csv(COMPOUND)
-    sampled = pubchem_molecules.sample(n=25)
+
+def generate_quantitative_questions(molecules):
+    """Generate quantitative questions for the given molecules."""
+    templates = [
+        # "Calculate the {attribute} of cid: {compound}",
+        "Calculate the {attribute} of the smiles: {compound}",
+        # "Calculate the {attribute} of the inchikey: {compound}",
+        # "Calculate the {attribute} of {compound}",
+    ]
     descriptors = [
         "Molecular Weight",
         "QED",
         "Synthetic Accessibility",
-        "Total Polar Surface Area",
+        "Topological Polar Surface Area",
         "LogP",
     ]
+    return generate_permutations(templates, descriptors, molecules)
 
-    questions = generate_permutations(templates, descriptors, sampled)
-    question_df = pd.DataFrame(questions, columns=["Question"])
 
-    question_df.to_csv("QuestionList.csv", index=False)
+def main():
+    """Run the benchmark creation script for 100 randomly selected PubChem compounds."""
+    pubchem_molecules = pd.read_csv(COMPOUND)
+    sampled = pubchem_molecules.sample(n=100)
+
+    qualitative_questions = generate_qualitative_questions(sampled)
+    quantitative_questions = generate_quantitative_questions(sampled)
+
+    # Create DataFrames
+    qualitative_df = pd.DataFrame(qualitative_questions, columns=["Question"])
+    quantitative_df = pd.DataFrame(quantitative_questions, columns=["Question"])
+
+    # Combined DataFrame
+    combined_df = pd.concat([qualitative_df, quantitative_df], ignore_index=True)
+
+    # Save DataFrames to CSV
+    qualitative_df.to_csv("SingleStepQuestionList_Qualitative.csv", index=False)
+    quantitative_df.to_csv("SingleStepQuestionList_Quantitative.csv", index=False)
+    combined_df.to_csv("SingleStepQuestionList_Combined.csv", index=False)
 
 
 if __name__ == "__main__":

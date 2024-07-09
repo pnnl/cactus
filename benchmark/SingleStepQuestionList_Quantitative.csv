@@ -1,0 +1,501 @@
+Question
+Calculate the Molecular Weight of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC
+Calculate the Molecular Weight of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O
+Calculate the Molecular Weight of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O
+Calculate the Molecular Weight of the smiles: CC(=O)CCC(=O)O
+Calculate the Molecular Weight of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O
+Calculate the Molecular Weight of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl
+Calculate the Molecular Weight of the smiles: CCC(C)(C)O
+Calculate the Molecular Weight of the smiles: CC1CCC(C(C1)O)C(C)C
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2
+Calculate the Molecular Weight of the smiles: C(=O)(O)[O-].[Na+]
+Calculate the Molecular Weight of the smiles: CCCC[Sn](CCCC)(Cl)Cl
+Calculate the Molecular Weight of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O
+Calculate the Molecular Weight of the smiles: CCC(=O)[O-].[Na+]
+Calculate the Molecular Weight of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O
+Calculate the Molecular Weight of the smiles: CCCC=O
+Calculate the Molecular Weight of the smiles: CN(C)C(=S)SSC(=S)N(C)C
+Calculate the Molecular Weight of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O
+Calculate the Molecular Weight of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1C(=O)O)N
+Calculate the Molecular Weight of the smiles: C(C(C(C(C=O)O)O)O)O
+Calculate the Molecular Weight of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O
+Calculate the Molecular Weight of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O
+Calculate the Molecular Weight of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O
+Calculate the Molecular Weight of the smiles: CCCCCCCC(=O)OC
+Calculate the Molecular Weight of the smiles: C(C(=O)CO)O
+Calculate the Molecular Weight of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C
+Calculate the Molecular Weight of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC
+Calculate the Molecular Weight of the smiles: C1=CC=C(C=C1)N
+Calculate the Molecular Weight of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl
+Calculate the Molecular Weight of the smiles: CN(C)NC(=O)CCC(=O)O
+Calculate the Molecular Weight of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O
+Calculate the Molecular Weight of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C
+Calculate the Molecular Weight of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O
+Calculate the Molecular Weight of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO
+Calculate the Molecular Weight of the smiles: CCCCCCCCC=O
+Calculate the Molecular Weight of the smiles: C1CCNC(C1)C2=CN=CC=C2
+Calculate the Molecular Weight of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C
+Calculate the Molecular Weight of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O
+Calculate the Molecular Weight of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O
+Calculate the Molecular Weight of the smiles: C1CC(NC1)C(=O)O
+Calculate the Molecular Weight of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)NC=N2
+Calculate the Molecular Weight of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the Molecular Weight of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O
+Calculate the Molecular Weight of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N
+Calculate the Molecular Weight of the smiles: C=CC(=O)O
+Calculate the Molecular Weight of the smiles: CC(C)C(C(=O)O)N
+Calculate the Molecular Weight of the smiles: COC1=CC=CC=C1O
+Calculate the Molecular Weight of the smiles: C1CNCCN1
+Calculate the Molecular Weight of the smiles: C1CCNCC1
+Calculate the Molecular Weight of the smiles: CC(=O)OC
+Calculate the Molecular Weight of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O
+Calculate the Molecular Weight of the smiles: CCCCS
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1C(CN)O)O)O
+Calculate the Molecular Weight of the smiles: C(CO)N(CCO)CCO
+Calculate the Molecular Weight of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C
+Calculate the Molecular Weight of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the Molecular Weight of the smiles: CN(C)C=O
+Calculate the Molecular Weight of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O
+Calculate the Molecular Weight of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3
+Calculate the Molecular Weight of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC
+Calculate the Molecular Weight of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O
+Calculate the Molecular Weight of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl
+Calculate the Molecular Weight of the smiles: CSCCC=O
+Calculate the Molecular Weight of the smiles: CNC(=O)CSP(=O)(OC)OC
+Calculate the Molecular Weight of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O
+Calculate the Molecular Weight of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C
+Calculate the Molecular Weight of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C
+Calculate the Molecular Weight of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC
+Calculate the Molecular Weight of the smiles: C(=C(Cl)Cl)Cl
+Calculate the Molecular Weight of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N
+Calculate the Molecular Weight of the smiles: CCCCCCC=C
+Calculate the Molecular Weight of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C
+Calculate the Molecular Weight of the smiles: CCCCCCCCCCCCCCCC(=O)OC
+Calculate the Molecular Weight of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O
+Calculate the Molecular Weight of the smiles: CCCCC
+Calculate the Molecular Weight of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O
+Calculate the Molecular Weight of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N
+Calculate the Molecular Weight of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3
+Calculate the Molecular Weight of the smiles: CC(=O)N(C)C
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O
+Calculate the Molecular Weight of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C
+Calculate the Molecular Weight of the smiles: CCCCCCCCCC(=O)O
+Calculate the Molecular Weight of the smiles: C(I)(I)I
+Calculate the Molecular Weight of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O
+Calculate the Molecular Weight of the smiles: CC=O
+Calculate the Molecular Weight of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C
+Calculate the Molecular Weight of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3
+Calculate the Molecular Weight of the smiles: CCC=C
+Calculate the Molecular Weight of the smiles: C(=S)=S
+Calculate the Molecular Weight of the smiles: C(CS)O
+Calculate the Molecular Weight of the smiles: CC(CCC=C(C)C)CCO
+Calculate the Molecular Weight of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C=CC=C2O
+Calculate the Molecular Weight of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC
+Calculate the Molecular Weight of the smiles: C1CCC(CC1)N
+Calculate the QED of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC
+Calculate the QED of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O
+Calculate the QED of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O
+Calculate the QED of the smiles: CC(=O)CCC(=O)O
+Calculate the QED of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O
+Calculate the QED of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl
+Calculate the QED of the smiles: CCC(C)(C)O
+Calculate the QED of the smiles: CC1CCC(C(C1)O)C(C)C
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2
+Calculate the QED of the smiles: C(=O)(O)[O-].[Na+]
+Calculate the QED of the smiles: CCCC[Sn](CCCC)(Cl)Cl
+Calculate the QED of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O
+Calculate the QED of the smiles: CCC(=O)[O-].[Na+]
+Calculate the QED of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O
+Calculate the QED of the smiles: CCCC=O
+Calculate the QED of the smiles: CN(C)C(=S)SSC(=S)N(C)C
+Calculate the QED of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O
+Calculate the QED of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+Calculate the QED of the smiles: C1=CC(=CC=C1C(=O)O)N
+Calculate the QED of the smiles: C(C(C(C(C=O)O)O)O)O
+Calculate the QED of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O
+Calculate the QED of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O
+Calculate the QED of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O
+Calculate the QED of the smiles: CCCCCCCC(=O)OC
+Calculate the QED of the smiles: C(C(=O)CO)O
+Calculate the QED of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C
+Calculate the QED of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC
+Calculate the QED of the smiles: C1=CC=C(C=C1)N
+Calculate the QED of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34
+Calculate the QED of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl
+Calculate the QED of the smiles: CN(C)NC(=O)CCC(=O)O
+Calculate the QED of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O
+Calculate the QED of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C
+Calculate the QED of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O
+Calculate the QED of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO
+Calculate the QED of the smiles: CCCCCCCCC=O
+Calculate the QED of the smiles: C1CCNC(C1)C2=CN=CC=C2
+Calculate the QED of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C
+Calculate the QED of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O
+Calculate the QED of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O
+Calculate the QED of the smiles: C1CC(NC1)C(=O)O
+Calculate the QED of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O
+Calculate the QED of the smiles: C1=CC=C2C(=C1)NC=N2
+Calculate the QED of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the QED of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C
+Calculate the QED of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O
+Calculate the QED of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N
+Calculate the QED of the smiles: C=CC(=O)O
+Calculate the QED of the smiles: CC(C)C(C(=O)O)N
+Calculate the QED of the smiles: COC1=CC=CC=C1O
+Calculate the QED of the smiles: C1CNCCN1
+Calculate the QED of the smiles: C1CCNCC1
+Calculate the QED of the smiles: CC(=O)OC
+Calculate the QED of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C
+Calculate the QED of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O
+Calculate the QED of the smiles: CCCCS
+Calculate the QED of the smiles: C1=CC(=C(C=C1C(CN)O)O)O
+Calculate the QED of the smiles: C(CO)N(CCO)CCO
+Calculate the QED of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C
+Calculate the QED of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the QED of the smiles: CN(C)C=O
+Calculate the QED of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C
+Calculate the QED of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O
+Calculate the QED of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3
+Calculate the QED of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC
+Calculate the QED of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O
+Calculate the QED of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl
+Calculate the QED of the smiles: CSCCC=O
+Calculate the QED of the smiles: CNC(=O)CSP(=O)(OC)OC
+Calculate the QED of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O
+Calculate the QED of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C
+Calculate the QED of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C
+Calculate the QED of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC
+Calculate the QED of the smiles: C(=C(Cl)Cl)Cl
+Calculate the QED of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N
+Calculate the QED of the smiles: CCCCCCC=C
+Calculate the QED of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C
+Calculate the QED of the smiles: CCCCCCCCCCCCCCCC(=O)OC
+Calculate the QED of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O
+Calculate the QED of the smiles: CCCCC
+Calculate the QED of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O
+Calculate the QED of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N
+Calculate the QED of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3
+Calculate the QED of the smiles: CC(=O)N(C)C
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O
+Calculate the QED of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C
+Calculate the QED of the smiles: CCCCCCCCCC(=O)O
+Calculate the QED of the smiles: C(I)(I)I
+Calculate the QED of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O
+Calculate the QED of the smiles: CC=O
+Calculate the QED of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C
+Calculate the QED of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3
+Calculate the QED of the smiles: CCC=C
+Calculate the QED of the smiles: C(=S)=S
+Calculate the QED of the smiles: C(CS)O
+Calculate the QED of the smiles: CC(CCC=C(C)C)CCO
+Calculate the QED of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C=CC=C2O
+Calculate the QED of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC
+Calculate the QED of the smiles: C1CCC(CC1)N
+Calculate the Synthetic Accessibility of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC
+Calculate the Synthetic Accessibility of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O
+Calculate the Synthetic Accessibility of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O
+Calculate the Synthetic Accessibility of the smiles: CC(=O)CCC(=O)O
+Calculate the Synthetic Accessibility of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl
+Calculate the Synthetic Accessibility of the smiles: CCC(C)(C)O
+Calculate the Synthetic Accessibility of the smiles: CC1CCC(C(C1)O)C(C)C
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2
+Calculate the Synthetic Accessibility of the smiles: C(=O)(O)[O-].[Na+]
+Calculate the Synthetic Accessibility of the smiles: CCCC[Sn](CCCC)(Cl)Cl
+Calculate the Synthetic Accessibility of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O
+Calculate the Synthetic Accessibility of the smiles: CCC(=O)[O-].[Na+]
+Calculate the Synthetic Accessibility of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O
+Calculate the Synthetic Accessibility of the smiles: CCCC=O
+Calculate the Synthetic Accessibility of the smiles: CN(C)C(=S)SSC(=S)N(C)C
+Calculate the Synthetic Accessibility of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O
+Calculate the Synthetic Accessibility of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1C(=O)O)N
+Calculate the Synthetic Accessibility of the smiles: C(C(C(C(C=O)O)O)O)O
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O
+Calculate the Synthetic Accessibility of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCC(=O)OC
+Calculate the Synthetic Accessibility of the smiles: C(C(=O)CO)O
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C
+Calculate the Synthetic Accessibility of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C(C=C1)N
+Calculate the Synthetic Accessibility of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl
+Calculate the Synthetic Accessibility of the smiles: CN(C)NC(=O)CCC(=O)O
+Calculate the Synthetic Accessibility of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O
+Calculate the Synthetic Accessibility of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C
+Calculate the Synthetic Accessibility of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O
+Calculate the Synthetic Accessibility of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCC=O
+Calculate the Synthetic Accessibility of the smiles: C1CCNC(C1)C2=CN=CC=C2
+Calculate the Synthetic Accessibility of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C
+Calculate the Synthetic Accessibility of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O
+Calculate the Synthetic Accessibility of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O
+Calculate the Synthetic Accessibility of the smiles: C1CC(NC1)C(=O)O
+Calculate the Synthetic Accessibility of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)NC=N2
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the Synthetic Accessibility of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O
+Calculate the Synthetic Accessibility of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N
+Calculate the Synthetic Accessibility of the smiles: C=CC(=O)O
+Calculate the Synthetic Accessibility of the smiles: CC(C)C(C(=O)O)N
+Calculate the Synthetic Accessibility of the smiles: COC1=CC=CC=C1O
+Calculate the Synthetic Accessibility of the smiles: C1CNCCN1
+Calculate the Synthetic Accessibility of the smiles: C1CCNCC1
+Calculate the Synthetic Accessibility of the smiles: CC(=O)OC
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O
+Calculate the Synthetic Accessibility of the smiles: CCCCS
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1C(CN)O)O)O
+Calculate the Synthetic Accessibility of the smiles: C(CO)N(CCO)CCO
+Calculate the Synthetic Accessibility of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the Synthetic Accessibility of the smiles: CN(C)C=O
+Calculate the Synthetic Accessibility of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O
+Calculate the Synthetic Accessibility of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC
+Calculate the Synthetic Accessibility of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O
+Calculate the Synthetic Accessibility of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl
+Calculate the Synthetic Accessibility of the smiles: CSCCC=O
+Calculate the Synthetic Accessibility of the smiles: CNC(=O)CSP(=O)(OC)OC
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C
+Calculate the Synthetic Accessibility of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C
+Calculate the Synthetic Accessibility of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC
+Calculate the Synthetic Accessibility of the smiles: C(=C(Cl)Cl)Cl
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N
+Calculate the Synthetic Accessibility of the smiles: CCCCCCC=C
+Calculate the Synthetic Accessibility of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCCCCCCCC(=O)OC
+Calculate the Synthetic Accessibility of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O
+Calculate the Synthetic Accessibility of the smiles: CCCCC
+Calculate the Synthetic Accessibility of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O
+Calculate the Synthetic Accessibility of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N
+Calculate the Synthetic Accessibility of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N(C)C
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O
+Calculate the Synthetic Accessibility of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCC(=O)O
+Calculate the Synthetic Accessibility of the smiles: C(I)(I)I
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O
+Calculate the Synthetic Accessibility of the smiles: CC=O
+Calculate the Synthetic Accessibility of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C
+Calculate the Synthetic Accessibility of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3
+Calculate the Synthetic Accessibility of the smiles: CCC=C
+Calculate the Synthetic Accessibility of the smiles: C(=S)=S
+Calculate the Synthetic Accessibility of the smiles: C(CS)O
+Calculate the Synthetic Accessibility of the smiles: CC(CCC=C(C)C)CCO
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C=CC=C2O
+Calculate the Synthetic Accessibility of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC
+Calculate the Synthetic Accessibility of the smiles: C1CCC(CC1)N
+Calculate the Topological Polar Surface Area of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC
+Calculate the Topological Polar Surface Area of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O
+Calculate the Topological Polar Surface Area of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)CCC(=O)O
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl
+Calculate the Topological Polar Surface Area of the smiles: CCC(C)(C)O
+Calculate the Topological Polar Surface Area of the smiles: CC1CCC(C(C1)O)C(C)C
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2
+Calculate the Topological Polar Surface Area of the smiles: C(=O)(O)[O-].[Na+]
+Calculate the Topological Polar Surface Area of the smiles: CCCC[Sn](CCCC)(Cl)Cl
+Calculate the Topological Polar Surface Area of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O
+Calculate the Topological Polar Surface Area of the smiles: CCC(=O)[O-].[Na+]
+Calculate the Topological Polar Surface Area of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O
+Calculate the Topological Polar Surface Area of the smiles: CCCC=O
+Calculate the Topological Polar Surface Area of the smiles: CN(C)C(=S)SSC(=S)N(C)C
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O
+Calculate the Topological Polar Surface Area of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1C(=O)O)N
+Calculate the Topological Polar Surface Area of the smiles: C(C(C(C(C=O)O)O)O)O
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O
+Calculate the Topological Polar Surface Area of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCC(=O)OC
+Calculate the Topological Polar Surface Area of the smiles: C(C(=O)CO)O
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C
+Calculate the Topological Polar Surface Area of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C(C=C1)N
+Calculate the Topological Polar Surface Area of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl
+Calculate the Topological Polar Surface Area of the smiles: CN(C)NC(=O)CCC(=O)O
+Calculate the Topological Polar Surface Area of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C
+Calculate the Topological Polar Surface Area of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCC=O
+Calculate the Topological Polar Surface Area of the smiles: C1CCNC(C1)C2=CN=CC=C2
+Calculate the Topological Polar Surface Area of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C
+Calculate the Topological Polar Surface Area of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O
+Calculate the Topological Polar Surface Area of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O
+Calculate the Topological Polar Surface Area of the smiles: C1CC(NC1)C(=O)O
+Calculate the Topological Polar Surface Area of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)NC=N2
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the Topological Polar Surface Area of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O
+Calculate the Topological Polar Surface Area of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N
+Calculate the Topological Polar Surface Area of the smiles: C=CC(=O)O
+Calculate the Topological Polar Surface Area of the smiles: CC(C)C(C(=O)O)N
+Calculate the Topological Polar Surface Area of the smiles: COC1=CC=CC=C1O
+Calculate the Topological Polar Surface Area of the smiles: C1CNCCN1
+Calculate the Topological Polar Surface Area of the smiles: C1CCNCC1
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)OC
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O
+Calculate the Topological Polar Surface Area of the smiles: CCCCS
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1C(CN)O)O)O
+Calculate the Topological Polar Surface Area of the smiles: C(CO)N(CCO)CCO
+Calculate the Topological Polar Surface Area of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the Topological Polar Surface Area of the smiles: CN(C)C=O
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O
+Calculate the Topological Polar Surface Area of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC
+Calculate the Topological Polar Surface Area of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O
+Calculate the Topological Polar Surface Area of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl
+Calculate the Topological Polar Surface Area of the smiles: CSCCC=O
+Calculate the Topological Polar Surface Area of the smiles: CNC(=O)CSP(=O)(OC)OC
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C
+Calculate the Topological Polar Surface Area of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C
+Calculate the Topological Polar Surface Area of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC
+Calculate the Topological Polar Surface Area of the smiles: C(=C(Cl)Cl)Cl
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCC=C
+Calculate the Topological Polar Surface Area of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCCCCCCCC(=O)OC
+Calculate the Topological Polar Surface Area of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O
+Calculate the Topological Polar Surface Area of the smiles: CCCCC
+Calculate the Topological Polar Surface Area of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O
+Calculate the Topological Polar Surface Area of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N
+Calculate the Topological Polar Surface Area of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N(C)C
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O
+Calculate the Topological Polar Surface Area of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCC(=O)O
+Calculate the Topological Polar Surface Area of the smiles: C(I)(I)I
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O
+Calculate the Topological Polar Surface Area of the smiles: CC=O
+Calculate the Topological Polar Surface Area of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C
+Calculate the Topological Polar Surface Area of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3
+Calculate the Topological Polar Surface Area of the smiles: CCC=C
+Calculate the Topological Polar Surface Area of the smiles: C(=S)=S
+Calculate the Topological Polar Surface Area of the smiles: C(CS)O
+Calculate the Topological Polar Surface Area of the smiles: CC(CCC=C(C)C)CCO
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C=CC=C2O
+Calculate the Topological Polar Surface Area of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC
+Calculate the Topological Polar Surface Area of the smiles: C1CCC(CC1)N
+Calculate the LogP of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC
+Calculate the LogP of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O
+Calculate the LogP of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O
+Calculate the LogP of the smiles: CC(=O)CCC(=O)O
+Calculate the LogP of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O
+Calculate the LogP of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl
+Calculate the LogP of the smiles: CCC(C)(C)O
+Calculate the LogP of the smiles: CC1CCC(C(C1)O)C(C)C
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2
+Calculate the LogP of the smiles: C(=O)(O)[O-].[Na+]
+Calculate the LogP of the smiles: CCCC[Sn](CCCC)(Cl)Cl
+Calculate the LogP of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O
+Calculate the LogP of the smiles: CCC(=O)[O-].[Na+]
+Calculate the LogP of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O
+Calculate the LogP of the smiles: CCCC=O
+Calculate the LogP of the smiles: CN(C)C(=S)SSC(=S)N(C)C
+Calculate the LogP of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O
+Calculate the LogP of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+Calculate the LogP of the smiles: C1=CC(=CC=C1C(=O)O)N
+Calculate the LogP of the smiles: C(C(C(C(C=O)O)O)O)O
+Calculate the LogP of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O
+Calculate the LogP of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O
+Calculate the LogP of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O
+Calculate the LogP of the smiles: CCCCCCCC(=O)OC
+Calculate the LogP of the smiles: C(C(=O)CO)O
+Calculate the LogP of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C
+Calculate the LogP of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC
+Calculate the LogP of the smiles: C1=CC=C(C=C1)N
+Calculate the LogP of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34
+Calculate the LogP of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl
+Calculate the LogP of the smiles: CN(C)NC(=O)CCC(=O)O
+Calculate the LogP of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O
+Calculate the LogP of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C
+Calculate the LogP of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O
+Calculate the LogP of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO
+Calculate the LogP of the smiles: CCCCCCCCC=O
+Calculate the LogP of the smiles: C1CCNC(C1)C2=CN=CC=C2
+Calculate the LogP of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C
+Calculate the LogP of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O
+Calculate the LogP of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O
+Calculate the LogP of the smiles: C1CC(NC1)C(=O)O
+Calculate the LogP of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)NC=N2
+Calculate the LogP of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the LogP of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C
+Calculate the LogP of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O
+Calculate the LogP of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N
+Calculate the LogP of the smiles: C=CC(=O)O
+Calculate the LogP of the smiles: CC(C)C(C(=O)O)N
+Calculate the LogP of the smiles: COC1=CC=CC=C1O
+Calculate the LogP of the smiles: C1CNCCN1
+Calculate the LogP of the smiles: C1CCNCC1
+Calculate the LogP of the smiles: CC(=O)OC
+Calculate the LogP of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C
+Calculate the LogP of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O
+Calculate the LogP of the smiles: CCCCS
+Calculate the LogP of the smiles: C1=CC(=C(C=C1C(CN)O)O)O
+Calculate the LogP of the smiles: C(CO)N(CCO)CCO
+Calculate the LogP of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C
+Calculate the LogP of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl
+Calculate the LogP of the smiles: CN(C)C=O
+Calculate the LogP of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C
+Calculate the LogP of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O
+Calculate the LogP of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3
+Calculate the LogP of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC
+Calculate the LogP of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O
+Calculate the LogP of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl
+Calculate the LogP of the smiles: CSCCC=O
+Calculate the LogP of the smiles: CNC(=O)CSP(=O)(OC)OC
+Calculate the LogP of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O
+Calculate the LogP of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C
+Calculate the LogP of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C
+Calculate the LogP of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC
+Calculate the LogP of the smiles: C(=C(Cl)Cl)Cl
+Calculate the LogP of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N
+Calculate the LogP of the smiles: CCCCCCC=C
+Calculate the LogP of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C
+Calculate the LogP of the smiles: CCCCCCCCCCCCCCCC(=O)OC
+Calculate the LogP of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O
+Calculate the LogP of the smiles: CCCCC
+Calculate the LogP of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O
+Calculate the LogP of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N
+Calculate the LogP of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3
+Calculate the LogP of the smiles: CC(=O)N(C)C
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O
+Calculate the LogP of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C
+Calculate the LogP of the smiles: CCCCCCCCCC(=O)O
+Calculate the LogP of the smiles: C(I)(I)I
+Calculate the LogP of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O
+Calculate the LogP of the smiles: CC=O
+Calculate the LogP of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C
+Calculate the LogP of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3
+Calculate the LogP of the smiles: CCC=C
+Calculate the LogP of the smiles: C(=S)=S
+Calculate the LogP of the smiles: C(CS)O
+Calculate the LogP of the smiles: CC(CCC=C(C)C)CCO
+Calculate the LogP of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C=CC=C2O
+Calculate the LogP of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC
+Calculate the LogP of the smiles: C1CCC(CC1)N

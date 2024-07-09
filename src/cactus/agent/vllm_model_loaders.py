@@ -1,9 +1,20 @@
 """Loads a vLLM hosted model for optimized inference."""
 
+import logging
+import os
+
 from langchain.llms import VLLM
 
 
-def vllm_model(model, cache_dir, *, trust_remote_code=True, temperature=0.7, dtype):
+def vllm_model(
+    model,
+    cache_dir,
+    *,
+    trust_remote_code=True,
+    temperature=0.7,
+    dtype="auto",
+    api_key=None,
+):
     """Load in a vllm compatible model.
 
     Parameters
@@ -17,6 +28,11 @@ def vllm_model(model, cache_dir, *, trust_remote_code=True, temperature=0.7, dty
     -------
          llm (BaseModel): A langchain compatible LLM ready for inference
     """
+    if api_key is None:
+        api_key = os.getenv("HF_TOKEN")
+        if api_key is None:
+            logging.warning("HF_TOKEN not found. Some models might not load correctly if gated.")
+
     llm = VLLM(
         model=model,
         download_dir=cache_dir,

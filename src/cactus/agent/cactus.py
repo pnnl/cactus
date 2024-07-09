@@ -92,7 +92,7 @@ class Cactus:  # pylint: disable=too-few-public-methods
         *,
         tools=None,
         use_8bit=True,
-        dtype="float16"
+        dtype="auto",
     ):
         try:
             llm = _load_model(

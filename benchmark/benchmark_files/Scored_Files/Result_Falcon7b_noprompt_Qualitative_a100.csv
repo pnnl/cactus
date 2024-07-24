@@ -1,0 +1,1594 @@
+Question,result_column,smiles,tool_result,answer,,
+"Is the smiles: CCON=O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCON=O,No violations found,0,,36
+"Is the smiles: C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75 , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75,No violations found,0,,7.2
+"Is the smiles: C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N , druglike ?",Agent stopped due to iteration limit or time limit.,C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N,"['H Bond Donors 11>5', 'H Bond Acceptors 15>10']",0,,
+"Is the smiles: CSSC , druglike ?",Agent stopped due to iteration limit or time limit.,CSSC,No violations found,0,,
+"Is the smiles: C(C(CCl)O)Cl , druglike ?",FALSE,C(C(CCl)O)Cl,No violations found,1,,
+"Is the smiles: C1CCOC1 , druglike ?",FALSE,C1CCOC1,No violations found,1,,
+"Is the smiles: C1=C(C=C(C(=C1Cl)O)Cl)Cl , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=C(C=C(C(=C1Cl)O)Cl)Cl,No violations found,0,,
+"Is the smiles: CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO,No violations found,0,,
+"Is the smiles: C#C , druglike ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",C#C,No violations found,0,,
+"Is the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,No violations found,0,,
+"Is the smiles: C1=CC(=CC=C1O)O , druglike ?","Invalid Format: Missing 'Question:' at the beginning of the answer
+
+Question: Is the smiles: C1=CC(=CC=C1O)O , druglike ?
+Thought: No, it is not druglike (calculate_druglikeness)
+Action: PainsFilter",C1=CC(=CC=C1O)O,No violations found,0,,
+"Is the smiles: CC1=CC(=CC=C1)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC(=CC=C1)O,No violations found,0,,
+"Is the smiles: C1=CC=C(C=C1)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)O,No violations found,0,,
+"Is the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,No violations found,0,,
+"Is the smiles: CC(=O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)O,No violations found,0,,
+"Is the smiles: CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C , druglike ?",the final answer to the question,CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C,No violations found,0,,
+"Is the smiles: C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2 , druglike ?","Invalid Format: Missing 'final answer' after 'thought'
+
+Question: Is the smiles: O=C(C=C1)C(=O)C(=O)O , druglike?
+Thought: Yes, it is.
+Action: BrenkFilter
+Action input: BrenkFilter",C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2,No violations found,0,,
+"Is the smiles: CC(C)(CO)C(C(=O)NCCCO)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(CO)C(C(=O)NCCCO)O,No violations found,0,,
+"Is the smiles: C(Br)(Br)(Br)Br , druglike ?",Agent stopped due to iteration limit or time limit.,C(Br)(Br)(Br)Br,No violations found,0,,
+"Is the smiles: CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,"['H Bond Acceptors 14>10', 'Molecular Weight 747.476891268>500']",0,,
+"Is the smiles: CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C , druglike ?",Agent stopped due to iteration limit or time limit.,CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,"['H Bond Acceptors 14>10', 'Molecular Weight 853.3309553120001>500']",0,,
+"Is the smiles: CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,"['H Bond Donors 6>5', 'H Bond Acceptors 14>10', 'Molecular Weight 780.4296067280002>500']",0,,
+"Is the smiles: COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1 , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1,No violations found,0,,
+"Is the smiles: C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O , druglike ?",Agent stopped due to iteration limit or time limit.,C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O,No violations found,0,,
+"Is the smiles: CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,No violations found,0,,
+"Is the smiles: CCCCCCCCCCCCCCCC(=O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCCCCC(=O)O,['LOGP 5.552300000000005>5'],0,,
+"Is the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O , druglike ?",Agent stopped due to iteration limit or time limit.,CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,No violations found,0,,
+"Is the smiles: CC1=CC=CC=C1 , druglike ?",Agent stopped due to iteration limit or time limit.,CC1=CC=CC=C1,No violations found,0,,
+"Is the smiles: CCCCCOC(=O)C , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCOC(=O)C,No violations found,,,
+"Is the smiles: C1=CC=C(C=C1)C2=CC=CC=C2O , druglike ?",The Brenk Filter is not a valid tool,C1=CC=C(C=C1)C2=CC=CC=C2O,No violations found,0,,
+"Is the smiles: CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C,No violations found,0,,
+"Is the smiles: COC1=CC=C(C=C1)O , druglike ?",Agent stopped due to iteration limit or time limit.,COC1=CC=C(C=C1)O,No violations found,0,,
+"Is the smiles: C(C1C(C(C(C(O1)O)N)O)O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C1C(C(C(C(O1)O)N)O)O)O,No violations found,0,,
+"Is the smiles: CC(C)CO , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)CO,No violations found,0,,
+"Is the smiles: C=CC1=CC=CC=C1 , druglike ?","No
+
+Question: Is the smiles: [C@](O)[C@@H](O)[C@](O)[C@@H](O)[C@](O)[C@](O)[C@](O)[C@@H](O)C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-])C([O-",C=CC1=CC=CC=C1,No violations found,1,,
+"Is the smiles: CC(C)(C=NOC(=O)NC)SC , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C=NOC(=O)NC)SC,No violations found,0,,
+"Is the smiles: CS(=O)C , druglike ?",The smiles: CS(=O)C is druglike,CS(=O)C,No violations found,1,,
+"Is the smiles: CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O , druglike ?","no, it is not druglike",CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O,['LOGP 6.881900000000007>5'],1,,
+"Is the smiles: CCC(=O)[O-].CCC(=O)[O-].[Ca+2] , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(=O)[O-].CCC(=O)[O-].[Ca+2],No violations found,0,,
+"Is the smiles: C(C(Cl)Cl)(Cl)Cl , druglike ?",FALSE,C(C(Cl)Cl)(Cl)Cl,No violations found,0,,
+"Is the smiles: CC(=O)CCC(=O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)CCC(=O)O,No violations found,0,,
+"Is the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl , druglike ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,['Molecular Weight 530.1487607360001>500'],0,,
+"Is the smiles: CN1C(=O)C=C(S1)Cl , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1C(=O)C=C(S1)Cl,No violations found,0,,
+"Is the smiles: C(C(=O)O)N , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C(=O)O)N,No violations found,0,,
+"Is the smiles: CCSCCSP(=S)(OC)OC , druglike ?",Agent stopped due to iteration limit or time limit.,CCSCCSP(=S)(OC)OC,No violations found,0,,
+"Is the smiles: CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C,"['H Bond Acceptors 13>10', 'Molecular Weight 687.4193763919999>500']",0,,
+"Is the smiles: CCCCCCCCCC(=O)O , druglike ?",Agent stopped due to iteration limit or time limit.,CCCCCCCCCC(=O)O,No violations found,0,,
+"Is the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,No violations found,0,,
+"Is the smiles: C(CC(=O)O)C(C(=O)[O-])N.[Na+] , druglike ?",Agent stopped due to iteration limit or time limit.,C(CC(=O)O)C(C(=O)[O-])N.[Na+],No violations found,0,,
+"Is the smiles: C1=CC=C(C=C1)CC(C(=O)O)N , druglike ?","Yes, it is druglike
+Question: Is the smiles: C1=CC=C(C=C1)CC(C(=O)O)N , bloodbrainbarrierpermeant ?
+Thought: I believe it is
+Action: CalculateBBBPermeant
+Action Input: ""C1=CC=C(C=C1)CC(C(=O)O)N",C1=CC=C(C=C1)CC(C(=O)O)N,No violations found,1,,
+"Is the smiles: C(=S)(N)N , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(=S)(N)N,No violations found,0,,
+"Is the smiles: CC1(C(=O)N(C(=O)N1CO)CO)C , druglike ?",Agent stopped due to iteration limit or time limit.,CC1(C(=O)N(C(=O)N1CO)CO)C,No violations found,0,,
+"Is the smiles: CC1=CCC(CC1)C(=C)C , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(=C)C,No violations found,0,,
+"Is the smiles: CCCCO , druglike ?",No,CCCCO,No violations found,0,,
+"Is the smiles: CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-] , druglike ?",The answer is no.,CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],No violations found,0,,
+"Is the smiles: C1=CC(=C(C=C1C(CN)O)O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=C(C=C1C(CN)O)O)O,No violations found,0,,
+"Is the smiles: CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C , druglike ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C,No violations found,0,,
+"Is the smiles: COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC,No violations found,0,,
+"Is the smiles: CN1C(CCC1=O)C2=CN=CC=C2 , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1C(CCC1=O)C2=CN=CC=C2,No violations found,0,,
+"Is the smiles: C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl,"['H Bond Donors 6>5', 'Molecular Weight 504.2031963200001>500']",0,,
+"Is the smiles: CC(=NOC(=O)NC)SC , druglike ?","No, it is not",CC(=NOC(=O)NC)SC,No violations found,0,,
+"Is the smiles: C=CC(=O)OCCO , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=CC(=O)OCCO,No violations found,0,,
+"Is the smiles: C1CCC(=O)C1 , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCC(=O)C1,No violations found,0,,
+"Is the smiles: CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O,No violations found,0,,
+"Is the smiles: CC(C)(C1=CC=CC=C1)OO , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C1=CC=CC=C1)OO,No violations found,0,,
+"Is the smiles: CCCCC , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCC,No violations found,0,,
+"Is the smiles: CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl , druglike ?","No, it is not druglike",CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl,No violations found,0,,
+"Is the smiles: CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O,No violations found,0,,
+"Is the smiles: C(CC(=O)O)C(=O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(CC(=O)O)C(=O)O,No violations found,0,,
+"Is the smiles: CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3] , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],"['H Bond Donors 9>5', 'H Bond Acceptors 20>10', 'Molecular Weight 1354.5674001259993>500']",0,,
+"Is the smiles: CCC(C)(C)O , druglike ?",Agent stopped due to iteration limit or time limit.,CCC(C)(C)O,No violations found,0,,
+"Is the smiles: CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl , druglike ?","Yes, the compound is not druglike",CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl,"['H Bond Acceptors 12>10', 'Molecular Weight 704.239307056>500', 'LOGP 5.5773000000000055>5']",1,,
+"Is the smiles: CNCC(C1=CC(=CC=C1)O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CNCC(C1=CC(=CC=C1)O)O,No violations found,0,,
+"Is the smiles: C1CCC(CC1)NS(=O)(=O)O , druglike ?",Yes,C1CCC(CC1)NS(=O)(=O)O,No violations found,1,,
+"Is the smiles: C1=CC=C(C=C1)C(=O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)O,No violations found,0,,
+"Is the smiles: C1=CC=C(C=C1)C(=O)[O-].[Na+] , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)[O-].[Na+],No violations found,0,,
+"Is the smiles: C(SC#N)SC#N , druglike ?",Agent stopped due to iteration limit or time limit.,C(SC#N)SC#N,No violations found,0,,
+"Is the smiles: CCCCCCCCCCCCC(=O)O , druglike ?",Agent stopped due to iteration limit or time limit.,CCCCCCCCCCCCC(=O)O,No violations found,0,,
+"Is the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O , druglike ?",Agent stopped due to iteration limit or time limit.,CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,No violations found,0,,
+"Is the smiles: C(C(C(=O)O)N)C(=O)O , druglike ?",The original question was answered ‘No’,C(C(C(=O)O)N)C(=O)O,No violations found,0,,
+"Is the smiles: CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O , druglike ?",Agent stopped due to iteration limit or time limit.,CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O,No violations found,0,,
+"Is the smiles: C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+] , druglike ?","""True""",C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],"['H Bond Acceptors 12>10', 'Molecular Weight 603.926890392>500']",1,,
+"Is the smiles: CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C , druglike ?","Yes, it is
+
+Question: Is the smiles: (C)CCO(C)CCO(C)CCO(C)CCCO(C)CCO(C)CCCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCCO(C)CCO(C)CCCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CC )CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCO(C)CCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCO(C)CCCO(C)CCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCO(C)CCO(C)CCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C) )CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(C)CCCO(",CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C,['Molecular Weight 581.2638192200001>500'],0,,
+"Is the smiles: CCCCC(=O)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCC(=O)O,No violations found,0,,
+"Is the smiles: CC(C)C=O , druglike ?",Agent stopped due to iteration limit or time limit.,CC(C)C=O,No violations found,0,,
+"Is the smiles: C=C(Cl)Cl , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=C(Cl)Cl,No violations found,0,,
+"Is the smiles: CC1=CCC(CC1)C(C)(C)O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(C)(C)O,No violations found,0,,
+"Is the smiles: C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl,No violations found,0,,
+"Is the smiles: C1OC2=C(O1)C=C(C=C2)O , druglike ?",no,C1OC2=C(O1)C=C(C=C2)O,No violations found,0,,
+"Is the smiles: C(C=O)C=O , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C=O)C=O,No violations found,0,,
+"Is the smiles: C(CO)N , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(CO)N,No violations found,0,,
+"Is the smiles: C1=CC=C2C(=O)C=CC(=O)C2=C1 , druglike ?",Agent stopped due to iteration limit or time limit.,C1=CC=C2C(=O)C=CC(=O)C2=C1,No violations found,0,,
+"Is the smiles: CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC , druglike ?",Agent stopped due to iteration limit or time limit.,CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC,No violations found,0,,
+"Is the smiles: CC1=C(N=C(C(=N1)C)C)C , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C(N=C(C(=N1)C)C)C,No violations found,0,,
+"Is the smiles: CN1CCCC1C2=CN=CC=C2 , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1CCCC1C2=CN=CC=C2,No violations found,0,,
+"Is the smiles: CCCOC(=O)C , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCOC(=O)C,No violations found,0,,
+"Is the smiles: CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C,No violations found,0,,
+"Is the smiles: CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N , druglike ?","No
+
+End",CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N,No violations found,0,,
+"Is the smiles: CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-] , druglike ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-],No violations found,0,,
+"Is the smiles: CC(=O)NC1=CC=C(C=C1)O , druglike ?",Agent stopped due to iteration limit or time limit.,CC(=O)NC1=CC=C(C=C1)O,No violations found,0,,
+"Does the smiles: CCON=O , trigger the PAINS filter ?","BrenkFilter - calculate_druglikeness is not a valid tool, try one of [BrenkFilter, CalculateBBBPermeant, calculate_druglikeness, calculate_gi_absorption, PainsFilter]",CCON=O,FALSE,0,,
+"Does the smiles: C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75 , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75,FALSE,0,,
+"Does the smiles: C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N , trigger the PAINS filter ?","No, it doesn't.",C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N,FALSE,1,,
+"Does the smiles: CSSC , trigger the PAINS filter ?","No, CSSC does not trigger the PAINS filter",CSSC,FALSE,1,,
+"Does the smiles: C(C(CCl)O)Cl , trigger the PAINS filter ?",the final answer to the original input question,C(C(CCl)O)Cl,FALSE,0,,
+"Does the smiles: C1CCOC1 , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCOC1,FALSE,0,,
+"Does the smiles: C1=C(C=C(C(=C1Cl)O)Cl)Cl , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",C1=C(C=C(C(=C1Cl)O)Cl)Cl,FALSE,0,,
+"Does the smiles: CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO , trigger the PAINS filter ?","BrenkFilter
+
+Question: does the smiles: CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO , trigger the Pains filter ?
+Thought: In order to find out if the PAINS filter is triggered for the molecule, we need to go through the following steps:
+
+1) Arcsine transformation for the atom
+2) Calculate the number of hydrogen bond acceptors (HBA)
+3) Calculate the number of hydrogen bond donors (HBD)
+4) Calculate the number of atoms that are nitrosylated (NNO)
+5) Calculate the number of atoms that are nitroso-phosphoryl (PNO)
+6) Calculate the number of atoms that are nitrosyl-phosphoryl (PNO2)
+7) Calculate the number of atoms that are hydroxyl (OH)
+8) Calculate the number of atoms that are alcohols (ALCOHOL)
+9) Calculate the number of atoms that are carboxyls (CARBOXYL)
+10) Calculate the number of atoms that are amines (AMINE)
+11) Calculate the number of atoms that are carbonyls (CARBONYL)
+12) Calculate the number of atoms that are sulfides (SULFIDE)
+13) Calculate the number of atoms that are sulfonates (SULFOATE)
+14) Calculate the number of atoms that are fluorides (FLUORIDE)
+15) Calculate the number of atoms that are sulfates (SULFOATE)
+16) Calculate the number of atoms that are sulfonates (SULFOATE)
+17) Calculate the number of atoms that are amides (AMIDE)
+18) Calculate the number of atoms that are sulfonamides (SULFONAMIDE)
+19) Calculate the number of atoms that are sulfonamides (SULFONAMIDE)
+20) Calculate the number of atoms that are sulfonamides (SULFONAMIDE)
+
+Action: BrenkFilter",CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO,FALSE,0,,
+"Does the smiles: C#C , trigger the PAINS filter ?",C#C triggers the PAINS filter,C#C,FALSE,0,,
+"Does the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,FALSE,0,,
+"Does the smiles: C1=CC(=CC=C1O)O , trigger the PAINS filter ?","C1=CC(=CC=C1O)O does not trigger the PAINS filter.
+
+Question: Does the smiles: C1=CC(=CC=C1O)O trigger the Pains filter ?
+Thought: No, it does not. It does not trigger the Pains filter. It is not a lipophilic compound.
+Action: I need to calculate the GI Absorption of the compound.
+Action input: 2",C1=CC(=CC=C1O)O,FALSE,1,,
+"Does the smiles: CC1=CC(=CC=C1)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC(=CC=C1)O,FALSE,0,,
+"Does the smiles: C1=CC=C(C=C1)O , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,C1=CC=C(C=C1)O,FALSE,0,,
+"Does the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,FALSE,0,,
+"Does the smiles: CC(=O)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)O,FALSE,0,,
+"Does the smiles: CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C , trigger the PAINS filter ?","Yes, the compound triggers the PAINS filter
+Action: BrenkFilter
+Action Input: ['C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)' + 'C(O)=O' + 'C(O)=O' + 'C(O)=O' + 'C(O)=O' + 'C(O)=O'",CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C,FALSE,0,,
+"Does the smiles: C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2 , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2,FALSE,0,,
+"Does the smiles: CC(C)(CO)C(C(=O)NCCCO)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(CO)C(C(=O)NCCCO)O,FALSE,0,,
+"Does the smiles: C(Br)(Br)(Br)Br , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(Br)(Br)(Br)Br,FALSE,0,,
+"Does the smiles: CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,FALSE,0,,
+"Does the smiles: CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,FALSE,0,,
+"Does the smiles: CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,FALSE,0,,
+"Does the smiles: COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1 , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1,FALSE,0,,
+"Does the smiles: C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O,FALSE,0,,
+"Does the smiles: CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,TRUE,0,,
+"Does the smiles: CCCCCCCCCCCCCCCC(=O)O , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CCCCCCCCCCCCCCCC(=O)O,FALSE,0,,
+"Does the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,FALSE,0,,
+"Does the smiles: CC1=CC=CC=C1 , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC=CC=C1,FALSE,0,,
+"Does the smiles: CCCCCOC(=O)C , trigger the PAINS filter ?",The answer to my original question is Yes,CCCCCOC(=O)C,FALSE,0,,
+"Does the smiles: C1=CC=C(C=C1)C2=CC=CC=C2O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C2=CC=CC=C2O,FALSE,0,,
+"Does the smiles: CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C , trigger the PAINS filter ?",,CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C,FALSE,0,,
+"Does the smiles: COC1=CC=C(C=C1)O , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,COC1=CC=C(C=C1)O,FALSE,0,,
+"Does the smiles: C(C1C(C(C(C(O1)O)N)O)O)O , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,C(C1C(C(C(C(O1)O)N)O)O)O,FALSE,0,,
+"Does the smiles: CC(C)CO , trigger the PAINS filter ?",no trigger!,CC(C)CO,FALSE,1,,
+"Does the smiles: C=CC1=CC=CC=C1 , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,C=CC1=CC=CC=C1,FALSE,0,,
+"Does the smiles: CC(C)(C=NOC(=O)NC)SC , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C=NOC(=O)NC)SC,FALSE,0,,
+"Does the smiles: CS(=O)C , trigger the PAINS filter ?",FALSE,CS(=O)C,FALSE,1,,
+"Does the smiles: CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O,FALSE,0,,
+"Does the smiles: CCC(=O)[O-].CCC(=O)[O-].[Ca+2] , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,CCC(=O)[O-].CCC(=O)[O-].[Ca+2],FALSE,0,,
+"Does the smiles: C(C(Cl)Cl)(Cl)Cl , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",C(C(Cl)Cl)(Cl)Cl,FALSE,0,,
+"Does the smiles: CC(=O)CCC(=O)O , trigger the PAINS filter ?",No,CC(=O)CCC(=O)O,FALSE,1,,
+"Does the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl , trigger the PAINS filter ?","PAINS
+
+Action:
+
+CalculateGIABsorption
+
+PainsFilter
+
+
+Thought:
+
+Does the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C5)Cl)Cl , trigger the PAINS filter ?
+
+Answer:
+
+!
+
+Action: CalculateGIABsorption
+
+PainsFilter
+
+Thought:
+
+Does the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C5)Cl)Cl , trigger the PAINS filter ?
+
+Answer:
+
+!
+
+Action: BrenkFilter is not a valid tool, try one of [CalculateBBBPermeant, CalculateGIABsorption, P",CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,TRUE,0,,
+"Does the smiles: CN1C(=O)C=C(S1)Cl , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1C(=O)C=C(S1)Cl,FALSE,0,,
+"Does the smiles: C(C(=O)O)N , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",C(C(=O)O)N,FALSE,0,,
+"Does the smiles: CCSCCSP(=S)(OC)OC , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CCSCCSP(=S)(OC)OC,FALSE,0,,
+"Does the smiles: CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C,FALSE,0,,
+"Does the smiles: CCCCCCCCCC(=O)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCC(=O)O,FALSE,0,,
+"Does the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,FALSE,0,,
+"Does the smiles: C(CC(=O)O)C(C(=O)[O-])N.[Na+] , trigger the PAINS filter ?",FALSE,C(CC(=O)O)C(C(=O)[O-])N.[Na+],FALSE,1,,
+"Does the smiles: C1=CC=C(C=C1)CC(C(=O)O)N , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)CC(C(=O)O)N,FALSE,0,,
+"Does the smiles: C(=S)(N)N , trigger the PAINS filter ?",No,C(=S)(N)N,FALSE,1,,
+"Does the smiles: CC1(C(=O)N(C(=O)N1CO)CO)C , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,CC1(C(=O)N(C(=O)N1CO)CO)C,FALSE,0,,
+"Does the smiles: CC1=CCC(CC1)C(=C)C , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(=C)C,FALSE,0,,
+"Does the smiles: CCCCO , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,CCCCO,FALSE,0,,
+"Does the smiles: CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-] , trigger the PAINS filter ?",This compound does not trigger the PAINS filter,CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],FALSE,1,,
+"Does the smiles: C1=CC(=C(C=C1C(CN)O)O)O , trigger the PAINS filter ?",Yes it triggers the PAINS filter.,C1=CC(=C(C=C1C(CN)O)O)O,TRUE,1,,
+"Does the smiles: CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C , trigger the PAINS filter ?","Yes, this compound triggers Brenk Filter",CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C,FALSE,0,,
+"Does the smiles: COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC,FALSE,0,,
+"Does the smiles: CN1C(CCC1=O)C2=CN=CC=C2 , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1C(CCC1=O)C2=CN=CC=C2,FALSE,0,,
+"Does the smiles: C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl,FALSE,0,,
+"Does the smiles: CC(=NOC(=O)NC)SC , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CC(=NOC(=O)NC)SC,FALSE,0,,
+"Does the smiles: C=CC(=O)OCCO , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=CC(=O)OCCO,FALSE,0,,
+"Does the smiles: C1CCC(=O)C1 , trigger the PAINS filter ?",Yes,C1CCC(=O)C1,FALSE,0,,
+"Does the smiles: CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O,FALSE,0,,
+"Does the smiles: CC(C)(C1=CC=CC=C1)OO , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C1=CC=CC=C1)OO,FALSE,0,,
+"Does the smiles: CCCCC , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCC,FALSE,0,,
+"Does the smiles: CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl,FALSE,0,,
+"Does the smiles: CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O,FALSE,0,,
+"Does the smiles: C(CC(=O)O)C(=O)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(CC(=O)O)C(=O)O,FALSE,0,,
+"Does the smiles: CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3] , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],FALSE,0,,
+"Does the smiles: CCC(C)(C)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(C)(C)O,FALSE,0,,
+"Does the smiles: CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl,TRUE,0,,
+"Does the smiles: CNCC(C1=CC(=CC=C1)O)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CNCC(C1=CC(=CC=C1)O)O,FALSE,0,,
+"Does the smiles: C1CCC(CC1)NS(=O)(=O)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCC(CC1)NS(=O)(=O)O,FALSE,0,,
+"Does the smiles: C1=CC=C(C=C1)C(=O)O , trigger the PAINS filter ?","Yes, it does trigger the Pains filter",C1=CC=C(C=C1)C(=O)O,FALSE,0,,
+"Does the smiles: C1=CC=C(C=C1)C(=O)[O-].[Na+] , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)[O-].[Na+],FALSE,0,,
+"Does the smiles: C(SC#N)SC#N , trigger the PAINS filter ?","I now know the final answer to the original input question
+
+The final answer is high",C(SC#N)SC#N,FALSE,0,,
+"Does the smiles: CCCCCCCCCCCCC(=O)O , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,CCCCCCCCCCCCC(=O)O,FALSE,0,,
+"Does the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,FALSE,0,,
+"Does the smiles: C(C(C(=O)O)N)C(=O)O , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",C(C(C(=O)O)N)C(=O)O,FALSE,0,,
+"Does the smiles: CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O,FALSE,0,,
+"Does the smiles: C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+] , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],TRUE,0,,
+"Does the smiles: CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C,FALSE,0,,
+"Does the smiles: CCCCC(=O)O , trigger the PAINS filter ?",FALSE,CCCCC(=O)O,FALSE,1,,
+"Does the smiles: CC(C)C=O , trigger the PAINS filter ?","Yes, the PAINS filter will be triggered",CC(C)C=O,FALSE,0,,
+"Does the smiles: C=C(Cl)Cl , trigger the PAINS filter ?","BrenkFilter. is not a valid tool, try one of [BrenkFilter, CalculateBBBPermeant, calculate_druglikeness, calculate_gi_absorption, PainsFilter].",C=C(Cl)Cl,FALSE,0,,
+"Does the smiles: CC1=CCC(CC1)C(C)(C)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(C)(C)O,FALSE,0,,
+"Does the smiles: C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl,FALSE,0,,
+"Does the smiles: C1OC2=C(O1)C=C(C=C2)O , trigger the PAINS filter ?","No, it does not trigger the PAINS filter
+
+Question: Does the smiles: C1OC2=C(O1)C=C(C=C2)O trigger the Brenk Filter ?
+Thought: I know that Brenk Filter is triggered by aromatic compounds
+Action: Calculate the Brix Factor for the molecule (Brix Factor = 1 / sum(Brix Factor for each atom in the molecule * Atom Count) )
+Action input: smiles: C1OC2=C(O1)C=C(C=C2)O",C1OC2=C(O1)C=C(C=C2)O,FALSE,1,,
+"Does the smiles: C(C=O)C=O , trigger the PAINS filter ?",Agent stopped due to iteration limit or time limit.,C(C=O)C=O,FALSE,0,,
+"Does the smiles: C(CO)N , trigger the PAINS filter ?",No,C(CO)N,FALSE,1,,
+"Does the smiles: C1=CC=C2C(=O)C=CC(=O)C2=C1 , trigger the PAINS filter ?",FALSE,C1=CC=C2C(=O)C=CC(=O)C2=C1,TRUE,0,,
+"Does the smiles: CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC,FALSE,0,,
+"Does the smiles: CC1=C(N=C(C(=N1)C)C)C , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C(N=C(C(=N1)C)C)C,FALSE,0,,
+"Does the smiles: CN1CCCC1C2=CN=CC=C2 , trigger the PAINS filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CN1CCCC1C2=CN=CC=C2,FALSE,0,,
+"Does the smiles: CCCOC(=O)C , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCOC(=O)C,FALSE,0,,
+"Does the smiles: CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C,FALSE,0,,
+"Does the smiles: CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N , trigger the PAINS filter ?",FALSE,CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N,FALSE,1,,
+"Does the smiles: CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-] , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-],FALSE,0,,
+"Does the smiles: CC(=O)NC1=CC=C(C=C1)O , trigger the PAINS filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)NC1=CC=C(C=C1)O,FALSE,0,,
+"Does the smiles: CCON=O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCON=O,TRUE,0,,
+"Does the smiles: C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75, trigger the Brenk filter ?","No
+End!",C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75,TRUE,0,,
+"Does the smiles: C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N,FALSE,0,,
+"Does the smiles: CSSC, trigger the Brenk filter ?",TRUE,CSSC,TRUE,1,,
+"Does the smiles: C(C(CCl)O)Cl, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C(CCl)O)Cl,TRUE,0,,
+"Does the smiles: C1CCOC1, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCOC1,FALSE,0,,
+"Does the smiles: C1=C(C=C(C(=C1Cl)O)Cl)Cl, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=C(C=C(C(=C1Cl)O)Cl)Cl,FALSE,0,,
+"Does the smiles: CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO,TRUE,0,,
+"Does the smiles: C#C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C#C,TRUE,0,,
+"Does the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,FALSE,0,,
+"Does the smiles: C1=CC(=CC=C1O)O, trigger the Brenk filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",C1=CC(=CC=C1O)O,TRUE,0,,
+"Does the smiles: CC1=CC(=CC=C1)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC(=CC=C1)O,FALSE,0,,
+"Does the smiles: C1=CC=C(C=C1)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)O,FALSE,0,,
+"Does the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,TRUE,0,,
+"Does the smiles: CC(=O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)O,FALSE,0,,
+"Does the smiles: CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C,FALSE,0,,
+"Does the smiles: C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2,FALSE,0,,
+"Does the smiles: CC(C)(CO)C(C(=O)NCCCO)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(CO)C(C(=O)NCCCO)O,TRUE,0,,
+"Does the smiles: C(Br)(Br)(Br)Br, trigger the Brenk filter ?",FALSE,C(Br)(Br)(Br)Br,TRUE,0,,
+"Does the smiles: CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,FALSE,0,,
+"Does the smiles: CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,TRUE,0,,
+"Does the smiles: CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O, trigger the Brenk filter ?",Agent stopped due to iteration limit or time limit.,CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,TRUE,0,,
+"Does the smiles: COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1,TRUE,0,,
+"Does the smiles: C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O,TRUE,0,,
+"Does the smiles: CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,FALSE,0,,
+"Does the smiles: CCCCCCCCCCCCCCCC(=O)O, trigger the Brenk filter ?",FALSE,CCCCCCCCCCCCCCCC(=O)O,TRUE,0,,
+"Does the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O, trigger the Brenk filter ?",The compound triggers the Brenk filter!,CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,FALSE,0,,
+"Does the smiles: CC1=CC=CC=C1, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC=CC=C1,FALSE,0,,
+"Does the smiles: CCCCCOC(=O)C, trigger the Brenk filter ?",Agent stopped due to iteration limit or time limit.,CCCCCOC(=O)C,TRUE,0,,
+"Does the smiles: C1=CC=C(C=C1)C2=CC=CC=C2O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C2=CC=CC=C2O,FALSE,0,,
+"Does the smiles: CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C,TRUE,0,,
+"Does the smiles: COC1=CC=C(C=C1)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=CC=C(C=C1)O,FALSE,0,,
+"Does the smiles: C(C1C(C(C(C(O1)O)N)O)O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C1C(C(C(C(O1)O)N)O)O)O,FALSE,0,,
+"Does the smiles: CC(C)CO, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)CO,FALSE,0,,
+"Does the smiles: C=CC1=CC=CC=C1, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=CC1=CC=CC=C1,FALSE,0,,
+"Does the smiles: CC(C)(C=NOC(=O)NC)SC, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C=NOC(=O)NC)SC,TRUE,0,,
+"Does the smiles: CS(=O)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CS(=O)C,FALSE,0,,
+"Does the smiles: CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O,TRUE,0,,
+"Does the smiles: CCC(=O)[O-].CCC(=O)[O-].[Ca+2], trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(=O)[O-].CCC(=O)[O-].[Ca+2],FALSE,0,,
+"Does the smiles: C(C(Cl)Cl)(Cl)Cl, trigger the Brenk filter ?",Agent stopped due to iteration limit or time limit.,C(C(Cl)Cl)(Cl)Cl,TRUE,0,,
+"Does the smiles: CC(=O)CCC(=O)O, trigger the Brenk filter ?","BrenkFilter (If you don't know how to call a function, just type in the function name in the command line in a terminal and hit enter) does not trigger the Brenk filter.",CC(=O)CCC(=O)O,FALSE,0,,
+"Does the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,FALSE,0,,
+"Does the smiles: CN1C(=O)C=C(S1)Cl, trigger the Brenk filter ?",FALSE,CN1C(=O)C=C(S1)Cl,FALSE,1,,
+"Does the smiles: C(C(=O)O)N, trigger the Brenk filter ?",BrenkFilter is the correct answer!,C(C(=O)O)N,FALSE,0,,
+"Does the smiles: CCSCCSP(=S)(OC)OC, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCSCCSP(=S)(OC)OC,TRUE,0,,
+"Does the smiles: CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C,TRUE,0,,
+"Does the smiles: CCCCCCCCCC(=O)O, trigger the Brenk filter ?",Agent stopped due to iteration limit or time limit.,CCCCCCCCCC(=O)O,TRUE,0,,
+"Does the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,FALSE,0,,
+"Does the smiles: C(CC(=O)O)C(C(=O)[O-])N.[Na+], trigger the Brenk filter ?",FALSE,C(CC(=O)O)C(C(=O)[O-])N.[Na+],FALSE,1,,
+"Does the smiles: C1=CC=C(C=C1)CC(C(=O)O)N, trigger the Brenk filter ?",Agent stopped due to iteration limit or time limit.,C1=CC=C(C=C1)CC(C(=O)O)N,FALSE,0,,
+"Does the smiles: C(=S)(N)N, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(=S)(N)N,TRUE,0,,
+"Does the smiles: CC1(C(=O)N(C(=O)N1CO)CO)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1(C(=O)N(C(=O)N1CO)CO)C,TRUE,0,,
+"Does the smiles: CC1=CCC(CC1)C(=C)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(=C)C,TRUE,0,,
+"Does the smiles: CCCCO, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCO,FALSE,0,,
+"Does the smiles: CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-], trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],TRUE,0,,
+"Does the smiles: C1=CC(=C(C=C1C(CN)O)O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=C(C=C1C(CN)O)O)O,TRUE,0,,
+"Does the smiles: CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C, trigger the Brenk filter ?",Agent stopped due to iteration limit or time limit.,CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C,FALSE,0,,
+"Does the smiles: COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC, trigger the Brenk filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC,TRUE,0,,
+"Does the smiles: CN1C(CCC1=O)C2=CN=CC=C2, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1C(CCC1=O)C2=CN=CC=C2,FALSE,0,,
+"Does the smiles: C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl, trigger the Brenk filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl,TRUE,0,,
+"Does the smiles: CC(=NOC(=O)NC)SC, trigger the Brenk filter ?","True
+Question: Does the smiles: CC(=O)NCCNCOC, trigger the Brenk filter ?
+Thought: Yes
+Action: BrenkFilter
+Action Input: [Y",CC(=NOC(=O)NC)SC,TRUE,1,,
+"Does the smiles: C=CC(=O)OCCO, trigger the Brenk filter ?",Yes,C=CC(=O)OCCO,TRUE,1,,
+"Does the smiles: C1CCC(=O)C1, trigger the Brenk filter ?",No,C1CCC(=O)C1,FALSE,1,,
+"Does the smiles: CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O,TRUE,0,,
+"Does the smiles: CC(C)(C1=CC=CC=C1)OO, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C1=CC=CC=C1)OO,TRUE,0,,
+"Does the smiles: CCCCC, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCC,FALSE,0,,
+"Does the smiles: CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl,FALSE,0,,
+"Does the smiles: CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O,FALSE,0,,
+"Does the smiles: C(CC(=O)O)C(=O)O, trigger the Brenk filter ?",FALSE,C(CC(=O)O)C(=O)O,FALSE,1,,
+"Does the smiles: CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3], trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],TRUE,0,,
+"Does the smiles: CCC(C)(C)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(C)(C)O,FALSE,0,,
+"Does the smiles: CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl,FALSE,0,,
+"Does the smiles: CNCC(C1=CC(=CC=C1)O)O, trigger the Brenk filter ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CNCC(C1=CC(=CC=C1)O)O,FALSE,0,,
+"Does the smiles: C1CCC(CC1)NS(=O)(=O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCC(CC1)NS(=O)(=O)O,TRUE,0,,
+"Does the smiles: C1=CC=C(C=C1)C(=O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)O,FALSE,0,,
+"Does the smiles: C1=CC=C(C=C1)C(=O)[O-].[Na+], trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)[O-].[Na+],FALSE,0,,
+"Does the smiles: C(SC#N)SC#N, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(SC#N)SC#N,TRUE,0,,
+"Does the smiles: CCCCCCCCCCCCC(=O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCC(=O)O,TRUE,0,,
+"Does the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O, trigger the Brenk filter ?","I now know the final answer to my original question. My answer is 'True' or 'False'.
+
+EDIT:
+Here is a link to a video which shows how to use the tool:
+ I am not sure I understand the question. This seems to be more of a ""tool"" than a ""tutorial"". I get the impression you are looking for a tutorial on how to use the tools. Yes, it is a tool. But it will also show you how to use the tools. I can see how it would be helpful for the person who is using the tools, but I don't see how it would be helpful for someone who is trying to learn about the tools. You are right. It is not a ""tutorial"" but it is a ""tool"" (like the tools!).  I just need to know how to use it. I'll look into this. It's for a course I'm teaching. Thank you :)
+
+I just want to say that I am very grateful for your work. I have seen the results of your work, and I can tell that it is very good. You are doing amazing work. Thank you! I'm glad you are finding it useful.
+
+Yes, this is a great tool. I'm glad to be able to help people learn about it.
+
+I'm really glad I found out about it. I think it would be really useful for teaching. I have my own set of tutorials that I developed for my own students. They are not very well known, but I am not worried about them. I developed them for my own students. I am very happy to see other people using my work. That's wonderful! I'm glad you're happy with them. I hope you continue to use them. I'm sure they will be a great help for your students. Thank you. I hope my students will also like them. Thank you for your work! I am very grateful for your work. I will continue to use it. Thank you! I hope you find it helpful. Thank you for your work! I hope you continue to use it. I am very grateful for your work. I hope you find it helpful. Thank you!",CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,FALSE,0,,
+"Does the smiles: C(C(C(=O)O)N)C(=O)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C(C(=O)O)N)C(=O)O,FALSE,0,,
+"Does the smiles: CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O,FALSE,0,,
+"Does the smiles: C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+], trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],TRUE,0,,
+"Does the smiles: CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C,FALSE,0,,
+"Does the smiles: CCCCC(=O)O, trigger the Brenk filter ?","Valid Filter
+
+Question: does the smiles: (CCOcCOc)n trigger the Brenk filter ?
+Thought: I think I should do this by BrenkFilter
+Action: BrenkFilter",CCCCC(=O)O,FALSE,0,,
+"Does the smiles: CC(C)C=O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)C=O,TRUE,0,,
+"Does the smiles: C=C(Cl)Cl, trigger the Brenk filter ?","No, this compound does not trigger the Brenk Filter.",C=C(Cl)Cl,FALSE,1,,
+"Does the smiles: CC1=CCC(CC1)C(C)(C)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(C)(C)O,TRUE,0,,
+"Does the smiles: C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl,TRUE,0,,
+"Does the smiles: C1OC2=C(O1)C=C(C=C2)O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1OC2=C(O1)C=C(C=C2)O,FALSE,0,,
+"Does the smiles: C(C=O)C=O, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C=O)C=O,TRUE,0,,
+"Does the smiles: C(CO)N, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(CO)N,FALSE,0,,
+"Does the smiles: C1=CC=C2C(=O)C=CC(=O)C2=C1, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=O)C=CC(=O)C2=C1,FALSE,0,,
+"Does the smiles: CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC,FALSE,0,,
+"Does the smiles: CC1=C(N=C(C(=N1)C)C)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C(N=C(C(=N1)C)C)C,FALSE,0,,
+"Does the smiles: CN1CCCC1C2=CN=CC=C2, trigger the Brenk filter ?",Agent stopped due to iteration limit or time limit.,CN1CCCC1C2=CN=CC=C2,FALSE,0,,
+"Does the smiles: CCCOC(=O)C, trigger the Brenk filter ?","The answer is YES, the Brenk Filter is triggered
+
+Now lets try to answer the question 'does the smiles: CCCOC(=O)C, trigger the Pains Filter ?
+
+Question: Does the smiles: [C@H]1CCOC(=O)C, trigger the Brenk Filter ?
+Thought: Lets try to answer this with BrenkFilter
+Action: BrenkFilter",CCCOC(=O)C,FALSE,0,,
+"Does the smiles: CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C,TRUE,0,,
+"Does the smiles: CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N, trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N,TRUE,0,,
+"Does the smiles: CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-], trigger the Brenk filter ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-],TRUE,0,,
+"Does the smiles: CC(=O)NC1=CC=C(C=C1)O, trigger the Brenk filter ?",FALSE,CC(=O)NC1=CC=C(C=C1)O,TRUE,0,,
+"Is the smiles: CCON=O, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,CCON=O,Yes,0,,
+"Is the smiles: C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75,Yes,0,,
+"Is the smiles: C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N,No,0,,
+"Is the smiles: CSSC, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,CSSC,No,0,,
+"Is the smiles: C(C(CCl)O)Cl, blood brain barrier permeant ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcNumHBD(NoneType)
+did not match C++ signature:
+    CalcNumHBD(RDKit::ROMol mol)",C(C(CCl)O)Cl,Yes,0,,
+"Is the smiles: C1CCOC1, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCOC1,No,0,,
+"Is the smiles: C1=C(C=C(C(=C1Cl)O)Cl)Cl, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,C1=C(C=C(C(=C1Cl)O)Cl)Cl,Yes,0,,
+"Is the smiles: CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO,No,0,,
+"Is the smiles: C#C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C#C,No,0,,
+"Is the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,No,0,,
+"Is the smiles: C1=CC(=CC=C1O)O, blood brain barrier permeant ?",FALSE,C1=CC(=CC=C1O)O,Yes,0,,
+"Is the smiles: CC1=CC(=CC=C1)O, blood brain barrier permeant ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcNumHBD(NoneType)
+did not match C++ signature:
+    CalcNumHBD(RDKit::ROMol mol)",CC1=CC(=CC=C1)O,Yes,0,,
+"Is the smiles: C1=CC=C(C=C1)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)O,Yes,0,,
+"Is the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,No,0,,
+"Is the smiles: CC(=O)O, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,CC(=O)O,No,0,,
+"Is the smiles: CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C,No,0,,
+"Is the smiles: C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2,Yes,0,,
+"Is the smiles: CC(C)(CO)C(C(=O)NCCCO)O, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,CC(C)(CO)C(C(=O)NCCCO)O,No,0,,
+"Is the smiles: C(Br)(Br)(Br)Br, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(Br)(Br)(Br)Br,Yes,0,,
+"Is the smiles: CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,No,0,,
+"Is the smiles: CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,No,0,,
+"Is the smiles: CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O, blood brain barrier permeant ?","This compound is not Brenk Filter-Preventing
+
+Question: Is the smiles: 0.2-1.0, blood brain barrier permeant ?
+Thought: This question is about whether a compound triggers the Pains Filter, so I could use PainsFilter
+Action: I will use PainsFilter
+Input: I will enter the formula for this compound into PainsFilter",CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,No,1,,
+"Is the smiles: COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1,No,0,,
+"Is the smiles: C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O, blood brain barrier permeant ?",the final answer to the original input question,C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O,Yes,0,,
+"Is the smiles: CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,No,0,,
+"Is the smiles: CCCCCCCCCCCCCCCC(=O)O, blood brain barrier permeant ?",No is not a valid tool,CCCCCCCCCCCCCCCC(=O)O,Yes,0,,
+"Is the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,Yes,0,,
+"Is the smiles: CC1=CC=CC=C1, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC=CC=C1,No,0,,
+"Is the smiles: CCCCCOC(=O)C, blood brain barrier permeant ?",This compound is not permeant,CCCCCOC(=O)C,Yes,0,,
+"Is the smiles: C1=CC=C(C=C1)C2=CC=CC=C2O, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,C1=CC=C(C=C1)C2=CC=CC=C2O,Yes,0,,
+"Is the smiles: CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C,Yes,0,,
+"Is the smiles: COC1=CC=C(C=C1)O, blood brain barrier permeant ?",Yes,COC1=CC=C(C=C1)O,Yes,1,,
+"Is the smiles: C(C1C(C(C(C(O1)O)N)O)O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C1C(C(C(C(O1)O)N)O)O)O,No,0,,
+"Is the smiles: CC(C)CO, blood brain barrier permeant ?",Yes,CC(C)CO,No,0,,
+"Is the smiles: C=CC1=CC=CC=C1, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,C=CC1=CC=CC=C1,Yes,0,,
+"Is the smiles: CC(C)(C=NOC(=O)NC)SC, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C=NOC(=O)NC)SC,Yes,0,,
+"Is the smiles: CS(=O)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CS(=O)C,No,0,,
+"Is the smiles: CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O,No,0,,
+"Is the smiles: CCC(=O)[O-].CCC(=O)[O-].[Ca+2], blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(=O)[O-].CCC(=O)[O-].[Ca+2],No,0,,
+"Is the smiles: C(C(Cl)Cl)(Cl)Cl, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C(Cl)Cl)(Cl)Cl,Yes,0,,
+"Is the smiles: CC(=O)CCC(=O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)CCC(=O)O,No,0,,
+"Is the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl, blood brain barrier permeant ?","BrenkFilter (calculateBBBPermeant) is not a valid tool, try one of [BrenkFilter, CalculateBBBPermeant, calculate_druglikeness, calculate_gi_absorption, PainsFilter].",CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Yes,0,,
+"Is the smiles: CN1C(=O)C=C(S1)Cl, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,CN1C(=O)C=C(S1)Cl,Yes,0,,
+"Is the smiles: C(C(=O)O)N, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,C(C(=O)O)N,No,0,,
+"Is the smiles: CCSCCSP(=S)(OC)OC, blood brain barrier permeant ?","Yes, it is blood brain permeant",CCSCCSP(=S)(OC)OC,Yes,1,,
+"Is the smiles: CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C,No,0,,
+"Is the smiles: CCCCCCCCCC(=O)O, blood brain barrier permeant ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CCCCCCCCCC(=O)O,Yes,0,,
+"Is the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N, blood brain barrier permeant ?",The answer is false,C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,Yes,0,,
+"Is the smiles: C(CC(=O)O)C(C(=O)[O-])N.[Na+], blood brain barrier permeant ?",PainsFilter: calculate_gi_absorption,C(CC(=O)O)C(C(=O)[O-])N.[Na+],No,0,,
+"Is the smiles: C1=CC=C(C=C1)CC(C(=O)O)N, blood brain barrier permeant ?","Yes, it is a valid tool.
+
+Question: Can the molecule (SMILES: (CH3)2C(=O)C(=O)O)C(=O)O)O)O)C(=O)O)O)C(=O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)O)O)C(=O)O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)C(=O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O)O)C(=O)O)O",C1=CC=C(C=C1)CC(C(=O)O)N,No,0,,
+"Is the smiles: C(=S)(N)N, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,C(=S)(N)N,No,0,,
+"Is the smiles: CC1(C(=O)N(C(=O)N1CO)CO)C, blood brain barrier permeant ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CC1(C(=O)N(C(=O)N1CO)CO)C,No,0,,
+"Is the smiles: CC1=CCC(CC1)C(=C)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(=C)C,Yes,0,,
+"Is the smiles: CCCCO, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCO,Yes,0,,
+"Is the smiles: CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-], blood brain barrier permeant ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],Yes,0,,
+"Is the smiles: C1=CC(=C(C=C1C(CN)O)O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=C(C=C1C(CN)O)O)O,No,0,,
+"Is the smiles: CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C,No,0,,
+"Is the smiles: COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC,No,0,,
+"Is the smiles: CN1C(CCC1=O)C2=CN=CC=C2, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1C(CCC1=O)C2=CN=CC=C2,Yes,0,,
+"Is the smiles: C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl,No,0,,
+"Is the smiles: CC(=NOC(=O)NC)SC, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=NOC(=O)NC)SC,Yes,0,,
+"Is the smiles: C=CC(=O)OCCO, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=CC(=O)OCCO,No,0,,
+"Is the smiles: C1CCC(=O)C1, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCC(=O)C1,Yes,0,,
+"Is the smiles: CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O,No,0,,
+"Is the smiles: CC(C)(C1=CC=CC=C1)OO, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C1=CC=CC=C1)OO,Yes,0,,
+"Is the smiles: CCCCC, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCC,No,0,,
+"Is the smiles: CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl,Yes,0,,
+"Is the smiles: CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O,Yes,0,,
+"Is the smiles: C(CC(=O)O)C(=O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(CC(=O)O)C(=O)O,No,0,,
+"Is the smiles: CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3], blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],No,0,,
+"Is the smiles: CCC(C)(C)O, blood brain barrier permeant ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CCC(C)(C)O,Yes,0,,
+"Is the smiles: CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl,No,0,,
+"Is the smiles: CNCC(C1=CC(=CC=C1)O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CNCC(C1=CC(=CC=C1)O)O,Yes,0,,
+"Is the smiles: C1CCC(CC1)NS(=O)(=O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCC(CC1)NS(=O)(=O)O,No,0,,
+"Is the smiles: C1=CC=C(C=C1)C(=O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)O,Yes,0,,
+"Is the smiles: C1=CC=C(C=C1)C(=O)[O-].[Na+], blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)[O-].[Na+],No,0,,
+"Is the smiles: C(SC#N)SC#N, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(SC#N)SC#N,Yes,0,,
+"Is the smiles: CCCCCCCCCCCCC(=O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCC(=O)O,Yes,0,,
+"Is the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,No,0,,
+"Is the smiles: C(C(C(=O)O)N)C(=O)O, blood brain barrier permeant ?","BrenkFilter, calculate_druglikeness, calculate_gi_absorption is not a valid tool, try one of [BrenkFilter, CalculateBBBPermeant, calculate_druglikeness, calculate_gi_absorption, PainsFilter].",C(C(C(=O)O)N)C(=O)O,No,0,,
+"Is the smiles: CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O,No,0,,
+"Is the smiles: C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+], blood brain barrier permeant ?",Yes,C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],No,0,,
+"Is the smiles: CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C,No,0,,
+"Is the smiles: CCCCC(=O)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCC(=O)O,Yes,0,,
+"Is the smiles: CC(C)C=O, blood brain barrier permeant ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcNumHBD(NoneType)
+did not match C++ signature:
+    CalcNumHBD(RDKit::ROMol mol)",CC(C)C=O,No,0,,
+"Is the smiles: C=C(Cl)Cl, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=C(Cl)Cl,No,0,,
+"Is the smiles: CC1=CCC(CC1)C(C)(C)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(C)(C)O,Yes,0,,
+"Is the smiles: C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl,Yes,0,,
+"Is the smiles: C1OC2=C(O1)C=C(C=C2)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1OC2=C(O1)C=C(C=C2)O,Yes,0,,
+"Is the smiles: C(C=O)C=O, blood brain barrier permeant ?",No,C(C=O)C=O,No,1,,
+"Is the smiles: C(CO)N, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(CO)N,No,0,,
+"Is the smiles: C1=CC=C2C(=O)C=CC(=O)C2=C1, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=O)C=CC(=O)C2=C1,Yes,0,,
+"Is the smiles: CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC,Yes,0,,
+"Is the smiles: CC1=C(N=C(C(=N1)C)C)C, blood brain barrier permeant ?","Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcNumHBD(NoneType)
+did not match C++ signature:
+    CalcNumHBD(RDKit::ROMol mol)",CC1=C(N=C(C(=N1)C)C)C,Yes,0,,
+"Is the smiles: CN1CCCC1C2=CN=CC=C2, blood brain barrier permeant ?",Agent stopped due to iteration limit or time limit.,CN1CCCC1C2=CN=CC=C2,Yes,0,,
+"Is the smiles: CCCOC(=O)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCOC(=O)C,Yes,0,,
+"Is the smiles: CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C,No,0,,
+"Is the smiles: CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N,Yes,0,,
+"Is the smiles: CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-], blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-],Yes,0,,
+"Is the smiles: CC(=O)NC1=CC=C(C=C1)O, blood brain barrier permeant ?","Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)NC1=CC=C(C=C1)O,Yes,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCON=O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCON=O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75 ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CSSC ?,CSSC is a GI receptor agonist,CSSC,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(C(CCl)O)Cl ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C(CCl)O)Cl,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1CCOC1 ?,The compound is not a drug,C1CCOC1,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=C(C=C(C(=C1Cl)O)Cl)Cl ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=C(C=C(C(=C1Cl)O)Cl)Cl,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C#C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C#C,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O ?,Agent stopped due to iteration limit or time limit.,COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC(=CC=C1O)O ?,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",C1=CC(=CC=C1O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=CC(=CC=C1)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC(=CC=C1)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C(C=C1)O ?,Agent stopped due to iteration limit or time limit.,C1=CC=C(C=C1)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O ?,"the final answer to the original input question is not valid
+
+End!",C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(=O)O ?,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CC(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2 ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(C)(CO)C(C(=O)NCCCO)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(C)(CO)C(C(=O)NCCCO)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(Br)(Br)(Br)Br ?,The Gastrointestinal absorption of the smiles is high,C(Br)(Br)(Br)Br,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O ?,the gastrointestinal absorption is high,CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1 ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O ?,this smile is not prone to GI absorption,C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F ?,Agent stopped due to iteration limit or time limit.,CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCCCCCCCCCCCCC(=O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCCCCC(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O ?,Agent stopped due to iteration limit or time limit.,CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=CC=CC=C1 ?,Agent stopped due to iteration limit or time limit.,CC1=CC=CC=C1,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCCOC(=O)C ?,CCCCCOC(=O)C has high gastrointestinal absorption,CCCCCOC(=O)C,High,1,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C(C=C1)C2=CC=CC=C2O ?,TRUE,C1=CC=C(C=C1)C2=CC=CC=C2O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=CCC1=C(C=CC2=C1OC(=O)C=C2)OC)C,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: COC1=CC=C(C=C1)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC1=CC=C(C=C1)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(C1C(C(C(C(O1)O)N)O)O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C1C(C(C(C(O1)O)N)O)O)O,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(C)CO ?,"Invalid Format: Missing 'Action Input:' after 'Action:'
+
+Question: Calculate the Blood Brain Barrier Permeability of the smiles: CC(C)CO ?
+Thought: I need to calculate the BBB Permeability of CC(C)CO
+Action: CalculateBBBPermeant",CC(C)CO,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C=CC1=CC=CC=C1 ?,3,C=CC1=CC=CC=C1,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(C)(C=NOC(=O)NC)SC ?,TRUE,CC(C)(C=NOC(=O)NC)SC,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CS(=O)C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CS(=O)C,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O ?,Agent stopped due to iteration limit or time limit.,CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCC(=O)[O-].CCC(=O)[O-].[Ca+2] ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(=O)[O-].CCC(=O)[O-].[Ca+2],High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(C(Cl)Cl)(Cl)Cl ?,Agent stopped due to iteration limit or time limit.,C(C(Cl)Cl)(Cl)Cl,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(=O)CCC(=O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)CCC(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CN1C(=O)C=C(S1)Cl ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN1C(=O)C=C(S1)Cl,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(C(=O)O)N ?,"False
+Final Answer: True",C(C(=O)O)N,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCSCCSP(=S)(OC)OC ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCSCCSP(=S)(OC)OC,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1CC(C(C(O1)OC2C(CC3(CO3)C(=O)C(C(C(C(OC(=O)C(C(C2C)OC4CC(C(C(O4)C)O)OC)C)C)C)O)C)C)O)N(C)C,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCCCCCCC(=O)O ?,Agent stopped due to iteration limit or time limit.,CCCCCCCCCC(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(CC(=O)O)C(C(=O)[O-])N.[Na+] ?,Agent stopped due to iteration limit or time limit.,C(CC(=O)O)C(C(=O)[O-])N.[Na+],Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N ?,"the final answer to the original input question
+
+Continue!
+
+Question: Calculate the Pain of the smiles: C1=CC",C1=CC=C(C=C1)CC(C(=O)O)N,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(=S)(N)N ?,No,C(=S)(N)N,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1(C(=O)N(C(=O)N1CO)CO)C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1(C(=O)N(C(=O)N1CO)CO)C,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=CCC(CC1)C(=C)C ?,"BrenkFilter ? is not a valid tool, try one of [BrenkFilter, CalculateBBBPermeant, calculate_druglikeness, calculate_gi_absorption, PainsFilter].",CC1=CCC(CC1)C(=C)C,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCO ?,FALSE,CCCCO,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-] ?,Agent stopped due to iteration limit or time limit.,CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC(=C(C=C1C(CN)O)O)O ?,GI_absorption = 0.35,C1=CC(=C(C=C1C(CN)O)O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",COC=C(C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)C(=O)OC,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CN1C(CCC1=O)C2=CN=CC=C2 ?,"BrenkFilter is not a valid tool, try one of [BrenkFilter, CalculateBBBPermeant, calculate_druglikeness, calculate_gi_absorption, PainsFilter].",CN1C(CCC1=O)C2=CN=CC=C2,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(=NOC(=O)NC)SC ?,"Calculate Gastrointestinal absorption is not a valid tool, try one of [BrenkFilter, CalculateBBBPermeant, calculate_druglikeness, calculate_gi_absorption, PainsFilter].
+
+And so on...
+
+Your input will be stored in the file ""input.txt"".",CC(=NOC(=O)NC)SC,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C=CC(=O)OCCO ?,"Invalid or incomplete response
+
+End!",C=CC(=O)OCCO,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1CCC(=O)C1 ?,"The answer to the original question
+
+Continue!",C1CCC(=O)C1,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O ?,The formula fits the PainsFilter,CC1C(=O)OC2CCN3C2C(=CC3)COC(=O)C(C1(C)O)(C)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(C)(C1=CC=CC=C1)OO ?,"Yes, it is possible to formulate this compound",CC(C)(C1=CC=CC=C1)OO,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCC ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCC,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl ?,"1
+
+Question: Calculate the GI Absorption of the smiles: C1=CC=C(O)C(C1=CC=C(O)C=O)N1P(O)(O)(O)C=O ?
+Thought: I know that the Cl",CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O ?,The answer should be 0.47 for Gastrointestinal absorption,CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(CC(=O)O)C(=O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(CC(=O)O)C(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3] ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCC(C)(C)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(C)(C)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CNCC(C1=CC(=CC=C1)O)O ?,TRUE,CNCC(C1=CC(=CC=C1)O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1CCC(CC1)NS(=O)(=O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1CCC(CC1)NS(=O)(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C(C=C1)C(=O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C(C=C1)C(=O)[O-].[Na+] ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C(C=C1)C(=O)[O-].[Na+],Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(SC#N)SC#N ?,Agent stopped due to iteration limit or time limit.,C(SC#N)SC#N,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCCCCCCCCCC(=O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCCCCCCCCCC(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(C(C(=O)O)N)C(=O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C(C(C(=O)O)N)C(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+] ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1=CC=C2C(=C1)C(=CC=C2S(=O)(=O)[O-])N=NC3=C4C=CC(=CC4=CC(=C3O)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C ?,"Invalid Format: Missing 'Observation:' after 'Final Answer'
+
+Section: 
+Thought: Calculate the Lipinski Rule of 5 of the smiles: CC1(C(=O)N2C(C(=O)N3CCCC3CC2)CC4=CC=C(O)O)CC5=NC(=O)C6=CC=NN=C7C=N(C(C)C=CC=C(O)O)C6=CC=CN(C6CC5=C(C(O)O)=NC(=O)C5)C4=CC=C(O)O)C5=C(C(O)O)C4=OCC(=O)C3=C2=CC=C(O)C4=C3=C=C(O)C3=CC=C(O)C4=C3=CC=C(O)C3=CC=C(O)C4=C3=NC(=O)C2=CC=C(O)C3=CC=C(O)C2=CC=C(O)C3=CC=C(O)C2=NC(=O)C3=CC=C(O)C2=CC=C(O)C3=CC=C(O)C2=NC(=O)C3=CC=C(O)C2=CC=C(O)C3=CC=C(O)C2=NC(=O)C3=CC=C(O)C2=NC(=O)C3=CC=C(O)C2=CC=C(O)C3=CC=C(O)C2=N(CC(C(=O)O)C3=O)C4=C2=NCC=C(O)C3=CC=C(O)C4=C3=NCC=C(O)C3=CC=C(O)C4=C3=NCC=C(O)C3=CC=C(O)C4=C3=NC(=O)C2=CC=C(O)C3=CC=C(O)C2=CC=C(O)C3=",CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCC(=O)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCCCC(=O)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(C)C=O ?,Agent stopped due to iteration limit or time limit.,CC(C)C=O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C=C(Cl)Cl ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C=C(Cl)Cl,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=CCC(CC1)C(C)(C)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=CCC(CC1)C(C)(C)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl ?,Agent stopped due to iteration limit or time limit.,C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1OC2=C(O1)C=C(C=C2)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",C1OC2=C(O1)C=C(C=C2)O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(C=O)C=O ?,Agent stopped due to iteration limit or time limit.,C(C=O)C=O,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C(CO)N ?,Agent stopped due to iteration limit or time limit.,C(CO)N,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: C1=CC=C2C(=O)C=CC(=O)C2=C1 ?,Agent stopped due to iteration limit or time limit.,C1=CC=C2C(=O)C=CC(=O)C2=C1,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC1=C(N=C(C(=N1)C)C)C ?,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CC1=C(N=C(C(=N1)C)C)C,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CN1CCCC1C2=CN=CC=C2 ?,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)",CN1CCCC1C2=CN=CC=C2,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCOC(=O)C ?,TRUE,CCCOC(=O)C,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C,Low,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N,High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-] ?,Agent stopped due to iteration limit or time limit.,CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-],High,0,,
+Calculate the Gastrointestinal absorption of the smiles: CC(=O)NC1=CC=C(C=C1)O ?,"Error: Python argument types in
+    FilterCatalog.HasMatch(FilterCatalog, NoneType)
+did not match C++ signature:
+    HasMatch(RDKit::FilterCatalog {lvalue} self, RDKit::ROMol mol)",CC(=O)NC1=CC=C(C=C1)O,High,0,,

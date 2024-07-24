@@ -48,7 +48,7 @@ To make a contribution, you will need to set up the development environment. Thi
 If using rye, you can quickly spin up the development environment using the following:
 
 ```shell
-git clone git+https://github.com/pnnl/cactus.git
+git clone https://github.com/pnnl/cactus.git
 cd cactus
 rye sync
 ```
@@ -60,7 +60,7 @@ This will will install the code in an editable configuration and install all the
 
 First you must install the code via:
 ```shell
-git clone git+https://github.com/pnnl/cactus.git
+git clone https://github.com/pnnl/cactus.git
 cd cactus
 pip install -e .
 ```

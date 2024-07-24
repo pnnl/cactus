@@ -44,7 +44,7 @@ The default `PyTorch` version is compiled for `cuda` 12.1 (or cpu for non-cuda s
 Alternatively for development, you can install in an editable configuration using:
 
 ```bash
-git clone https://gitlab.pnnl.gov/computational_data_science/cactus.git
+git clone https://github.com/pnnl/cactus.git
 cd cactus
 python -m pip install -e .
 ```
@@ -52,7 +52,7 @@ python -m pip install -e .
 or install using `rye` by running:
 
 ```bash
-git clone https://gitlab.pnnl.gov/computational_data_science/cactus.git
+git clone https://github.com/pnnl/cactus.git
 cd cactus
 rye sync
 ```
@@ -75,15 +75,17 @@ This will generate a readable dataset named `QuestionsChem.csv` for use with the
 
 For this application we are benchmarking the following models:
 
-| Model        | model_name                  |
-|--------------|-----------------------------|
-| `llama2-7b`  | `meta-llama/Llama-2-7b-hf`  |
-| `mistral-7b` | `mistralai/Mistral-7B-v0.1` |
-| `gemma-7b`   | `google/gemma-7b-it`        |
-| `falcon-7b`  | `tiiuae/falcon-7b`          |
-| `MPT-7b`     | `mosaicml/mpt-7b`           |
-| `Phi-2`      | `microsoft/phi-2`           |
-| `OLMo-1b`    | `allenai/OLMo-1B`           |
+| Model        | model_name                         |
+|--------------|------------------------------------|
+| `llama2-7b`  | `meta-llama/Llama-2-7b-hf`         |
+| `llama3-8b`  | `meta-llama/Meta-Llama-3-8B`       |
+| `mistral-7b` | `mistralai/Mistral-7B-v0.1`        |
+| `gemma-7b`   | `google/gemma-7b-it`               |
+| `falcon-7b`  | `tiiuae/falcon-7b`                 |
+| `MPT-7b`     | `mosaicml/mpt-7b`                  |
+| `Phi-2`      | `microsoft/phi-2`                  |
+| `Phi-3`      | `microsoft/Phi-3-mini-4k-instruct` |
+| `OLMo-1b`    | `allenai/OLMo-1B`                  |
 
 These models were selected based on their strong performance in natural language tasks and their potential for adaptation to domain-specific applications.
 

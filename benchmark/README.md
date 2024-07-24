@@ -6,15 +6,17 @@ In this benchmarking study, we evaluate the performance of CACTUS across a diver
 
 For this application we are benchmarking the following models:
 
-| Model        | model_name                  |
-|--------------|-----------------------------|
-| `llama2-7b`  | `meta-llama/Llama-2-7b-hf`  |
-| `mistral-7b` | `mistralai/Mistral-7B-v0.1` |
-| `gemma-7b`   | `google/gemma-7b-it`        |
-| `falcon-7b`  | `tiiuae/falcon-7b`          |
-| `MPT-7b`     | `mosaicml/mpt-7b`           |
-| `Phi-2`      | `microsoft/phi-2`           |
-| `OLMo-1b`    | `allenai/OLMo-1B`           |
+| Model        | model_name                         |
+|--------------|------------------------------------|
+| `llama2-7b`  | `meta-llama/Llama-2-7b-hf`         |
+| `llama3-8b`  | `meta-llama/Meta-Llama-3-8B`       |
+| `mistral-7b` | `mistralai/Mistral-7B-v0.1`        |
+| `gemma-7b`   | `google/gemma-7b-it`               |
+| `falcon-7b`  | `tiiuae/falcon-7b`                 |
+| `MPT-7b`     | `mosaicml/mpt-7b`                  |
+| `Phi-2`      | `microsoft/phi-2`                  |
+| `Phi-3`      | `microsoft/Phi-3-mini-4k-instruct` |
+| `OLMo-1b`    | `allenai/OLMo-1B`                  |
 
 These models were selected based on their strong performance in natural language tasks and their potential for adaptation to domain-specific applications.
 
@@ -36,7 +38,8 @@ The other files contained in this folder are:
 | `compound_list.csv`                   | A collection of 1000 molecules found on PubChem for benchmark creation                                                     |
 | `run_benchmark.py`                    | A script to run a benchmark by using CACTUS                                                                                |
 | `plot_creation.py`                    | A series of methods for generating the plots used in the manuscript                                                        |
-| `benchmark_files/`                     | A directory of all the resulting benchmark files used in the manuscript                                                    |
+| `plot_runtime.py`                     | A dedicated python script to generate the accuracy vs time plot in the manuscript                                          |
+| `benchmark_files/`                    | A directory of all the resulting benchmark files used in the manuscript                                                    |
 | `benchmark_files/Data_Analysis.ipynb` | A notebook detailing information about the dataset used, as well as how to calculate the expected answers from the dataset |
 
 To run the benchmark using the `run_benchmark.py` script, you can do the following:

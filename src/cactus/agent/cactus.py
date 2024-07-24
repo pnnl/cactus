@@ -110,6 +110,7 @@ class Cactus:  # pylint: disable=too-few-public-methods
 
         if tools is None:
             tools = make_tools()
+
             self.tool_names = [tool.name for tool in tools]
             self.agent_executor = AgentExecutor.from_agent_and_tools(
                 tools=tools,

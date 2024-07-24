@@ -1,6 +1,6 @@
 [project]
 name = "cactus-llm"
-version = "0.3.2"
+version = "0.3.3"
 description = "LLM Agent designed for use with cheminformatics tools."
 authors = [
     { name = "Andrew McNaughton", email = "andrew.mcnaughton@pnnl.gov" }
@@ -17,7 +17,7 @@ dependencies = [
     "transformers>=4.41.2",
     "pandas>=2.2.2",
     "accelerate>=0.30.1",
-    "vllm>=0.4.2; platform_system != 'Darwin'",
+    "vllm>=0.4.2; platform_system != 'Darwin' and platform_system != 'Windows'",
     "rdkit>=2023.9.6",
     "adme-pred @ git+https://github.com/mcnaughtonadm/adme-pred-py.git",
     "matplotlib>=3.9.0",
@@ -31,6 +31,7 @@ dependencies = [
     "langchain-anthropic>=0.1.15",
     "langchain-openai>=0.1.8",
     "langchain-google-genai>=1.0.6",
+    "seaborn>=0.13.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
@@ -54,14 +55,14 @@ build-backend = "hatchling.build"
 [tool.rye]
 managed = true
 dev-dependencies = [
-    "ruff>=0.4.7",
-    "isort>=5.13.2",
-    "mypy>=1.10.0",
-    "python-lsp-server>=1.11.0",
-    "python-lsp-ruff>=2.2.1",
-    "pylsp-mypy>=0.6.8",
-    "pyroma>=4.2",
-    "pytest>=8.2.1",
+  "ruff>=0.4.7",
+  "isort>=5.13.2",
+  "mypy>=1.10.0",
+  "python-lsp-server>=1.11.0",
+  "python-lsp-ruff>=2.2.1",
+  "pylsp-mypy>=0.6.8",
+  "pyroma>=4.2",
+  "pytest>=8.2.1",
 ]
 
 [[tool.rye.sources]]
@@ -90,46 +91,45 @@ target-version = "py311"
 
 [tool.ruff.lint]
 select = [
-    # mccabe
-    "C90",
-    # flake-8 comprehensions
-    "C4",
-    # pycodestyle
-    "E", # Error
-    "W", # Warning
-    # PyFlakes
-    "F",
-    # flake8-bugbear
-    "B",
-    # flake8-simplify
-    "SIM",
-    # isort
-    "I",
-    # type checking
-    "TCH",
-    # flake8-print
-    "T2",
-    # pep8-naming
-    "N",
-    # pydocstyle
-    "D",
-    # flake8-bandit
-    "S",
-    
+  # mccabe
+  "C90",
+  # flake-8 comprehensions
+  "C4",
+  # pycodestyle
+  "E", # Error
+  "W", # Warning
+  # PyFlakes
+  "F",
+  # flake8-bugbear
+  "B",
+  # flake8-simplify
+  "SIM",
+  # isort
+  "I",
+  # type checking
+  "TCH",
+  # flake8-print
+  "T2",
+  # pep8-naming
+  "N",
+  # pydocstyle
+  "D",
+  # flake8-bandit
+  "S",
 ]
 
 exclude = [
-    ".tox",
-    ".git",
-    "__pycache__",
-    "build",
-    "dist",
-    "tests/fixtures/*",
-    "*.pyc",
-    "*.egg-info",
-    ".cache",
-    ".eggs",
-    "data",
+  ".tox",
+  ".git",
+  "__pycache__",
+  "build",
+  "dist",
+  "tests/fixtures/*",
+  "*.pyc",
+  "*.egg-info",
+  ".cache",
+  ".eggs",
+  "data",
 ]
 
 # 1. Enable flake8-bugbear (`B`) rules, in addition to the defaults.

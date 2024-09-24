@@ -8,46 +8,46 @@ gemma7b,A100 80GB,Full,Minimal,84.5,85
 falcon7b,A100 80GB,Full,Domain,42.8,71.6
 falcon7b,A100 80GB,Full,Minimal,72.9,16.8
 falcon7b,A100 80GB,Quantitative,Domain,18.4,61.6
-falcon7b,A100 80GB,Quantitative,Minimal,50.0,6.0
+falcon7b,A100 80GB,Quantitative,Minimal,50,6
 falcon7b,A100 80GB,Qualitative,Domain,22.1,33.6
 falcon7b,A100 80GB,Qualitative,Minimal,22.6,7.2
 llama27b,A100 80GB,Full,Domain,187.5,64.3
 llama27b,A100 80GB,Full,Minimal,31.7,66.3
-llama27b,A100 80GB,Quantitative,Domain,20.1,92.0
-llama27b,A100 80GB,Quantitative,Minimal,38.1,29.0
+llama27b,A100 80GB,Quantitative,Domain,20.1,92
+llama27b,A100 80GB,Quantitative,Minimal,38.1,29
 llama27b,A100 80GB,Qualitative,Domain,25.2,62.2
-llama27b,A100 80GB,Qualitative,Minimal,28.9,9.0
+llama27b,A100 80GB,Qualitative,Minimal,28.9,9
 mpt7b,A100 80GB,Quantitative,Domain,34.8,71.4
 mpt7b,A100 80GB,Quantitative,Minimal,52.2,41.6
-mpt7b,A100 80GB,Qualitative,Domain,21.0,62.6
+mpt7b,A100 80GB,Qualitative,Domain,21,62.6
 mpt7b,A100 80GB,Qualitative,Minimal,35.8,12.4
 mistral7b,A100 80GB,Full,Minimal,44.5,88.9
 mistral7b,A100 80GB,Full,Domain,39.4,97
-mistral7b,A100 80GB,Quantitative,Domain,20.9,94.0
+mistral7b,A100 80GB,Quantitative,Domain,20.9,94
 mistral7b,A100 80GB,Quantitative,Minimal,19.2,78.4
 mistral7b,A100 80GB,Qualitative,Domain,14.4,88.8
 mistral7b,A100 80GB,Qualitative,Minimal,14.2,6.8
-phi2,V100,Quantitative,Minimal,19.9,93.6
 phi2,RTX 2080 Ti,Quantitative,Minimal,22.2,93
 phi2,A100 80GB,Quantitative,Minimal,12.2,93.6
 phi2,A100 80GB,Full,Minimal,30.2,69.3
-phi2,A100 80GB,Full,Domain,49.0,85.4
+phi2,A100 80GB,Full,Domain,49,85.4
 olmo1b,RTX 2080 Ti,Full,Domain,49.5,52.2
 olmo1b,RTX 2080 Ti,Full,Minimal,51.5,0
-olmo1b,RTX 2080 Ti,Quantitative,Domain,19.5,35.0
+olmo1b,RTX 2080 Ti,Quantitative,Domain,19.5,35
 olmo1b,RTX 2080 Ti,Quantitative,Minimal,37.6,0.2
-olmo1b,RTX 2080 Ti,Qualitative,Domain,14.9,15.0
+olmo1b,RTX 2080 Ti,Qualitative,Domain,14.9,15
 olmo1b,RTX 2080 Ti,Qualitative,Minimal,37.8,3.4
-llama38b,A100 80GB,Full,Domain,36.0,66.0
+llama38b,A100 80GB,Full,Domain,36,66
 llama38b,A100 80GB,Full,Minimal,64.5,91.5
 llama38b,A100 80GB,Quantitative,Domain,19.3,95.4
 llama38b,A100 80GB,Quantitative,Minimal,36.3,63.2
-llama38b,A100 80GB,Qualitative,Domain,17.5,93.0
+llama38b,A100 80GB,Qualitative,Domain,17.5,93
 llama38b,A100 80GB,Qualitative,Minimal,38.4,61.4
-phi3-mini-4k-instruct,RTX 2080 Ti,Full,Domain,116.5,93.0
+phi3-mini-4k-instruct,RTX 2080 Ti,Full,Domain,116.5,93
 phi3-mini-4k-instruct,RTX 2080 Ti,Full,Minimal,93.08,87.4
-phi3-mini-4k-instruct,RTX 2080 Ti,Quantitative,Domain,59.7,94.0
+phi3-mini-4k-instruct,RTX 2080 Ti,Quantitative,Domain,59.7,94
 phi3-mini-4k-instruct,RTX 2080 Ti,Quantitative,Minimal,38.8,92.2
 phi3-mini-4k-instruct,RTX 2080 Ti,Qualitative,Domain,61.9,92.6
 phi3-mini-4k-instruct,RTX 2080 Ti,Qualitative,Minimal,38.4,70.4
 gemini_pro,API,Quantitative,Domain,56.5,100
+gemini_pro,API,Quantitative,Minimal,70,93.8

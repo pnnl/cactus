@@ -1,0 +1,526 @@
+Question,result_column
+Calculate the Molecular Weight of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,290.13789043599996
+Calculate the Molecular Weight of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,351.034747896
+Calculate the Molecular Weight of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,1134.36976394
+Calculate the Molecular Weight of the smiles: CC(=O)CCC(=O)O,116.047344116
+Calculate the Molecular Weight of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,298.25079494799996
+Calculate the Molecular Weight of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,422.126042284
+Calculate the Molecular Weight of the smiles: CCC(C)(C)O,88.088815004
+Calculate the Molecular Weight of the smiles: CC1CCC(C(C1)O)C(C)C,3.352673852141253
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,146.036779432
+Calculate the Molecular Weight of the smiles: C(=O)(O)[O-].[Na+],83.982338172
+Calculate the Molecular Weight of the smiles: CCCC[Sn](CCCC)(Cl)Cl,"the MW is 303.98, the QED is 0.63, the TPSA is 0.0, the LogP is 4.51, and the SA is 3.12"
+Calculate the Molecular Weight of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,192.02700259600002
+Calculate the Molecular Weight of the smiles: CCC(=O)[O-].[Na+],96.01872368000001
+Calculate the Molecular Weight of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,315.147058152
+Calculate the Molecular Weight of the smiles: CCCC=O,72.057514876
+Calculate the Molecular Weight of the smiles: CN(C)C(=S)SSC(=S)N(C)C,239.988332384
+Calculate the Molecular Weight of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,423.05587726399995
+Calculate the Molecular Weight of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,307.08380626400003
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1C(=O)O)N,Invalid Format: Missing 'Action:' after 'Thought:
+Calculate the Molecular Weight of the smiles: C(C(C(C(C=O)O)O)O)O,150.05282342
+Calculate the Molecular Weight of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,282.255880328
+Calculate the Molecular Weight of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,"[925.5034999400003, 0.17529207534705477, 319.60999999999996, 0.9357000000000051, 7.505262378346863]"
+Calculate the Molecular Weight of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcExactMolWt(NoneType)
+did not match C++ signature:
+    CalcExactMolWt(RDKit::ROMol mol, bool onlyHeavy=False)"
+Calculate the Molecular Weight of the smiles: CCCCCCCC(=O)OC,158.130679816
+Calculate the Molecular Weight of the smiles: C(C(=O)CO)O,0.4353852085134311
+Calculate the Molecular Weight of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,302.18819469199997
+Calculate the Molecular Weight of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,608.27338086
+Calculate the Molecular Weight of the smiles: C1=CC=C(C=C1)N,93.057849224
+Calculate the Molecular Weight of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,274.193280072
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,156.993056048
+Calculate the Molecular Weight of the smiles: CN(C)NC(=O)CCC(=O)O,160.084792244
+Calculate the Molecular Weight of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,276.12
+Calculate the Molecular Weight of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,220.182715388
+Calculate the Molecular Weight of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,1154.7499271959998
+Calculate the Molecular Weight of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,296.12598836
+Calculate the Molecular Weight of the smiles: CCCCCCCCC=O,142.135765196
+Calculate the Molecular Weight of the smiles: C1CCNC(C1)C2=CN=CC=C2,162.115698448
+Calculate the Molecular Weight of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,502.97316766800003
+Calculate the Molecular Weight of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,266.130679816
+Calculate the Molecular Weight of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,2.6515718319171953
+Calculate the Molecular Weight of the smiles: C1CC(NC1)C(=O)O,115.063328528
+Calculate the Molecular Weight of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,174.01643791200001
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)NC=N2,118.053098192
+Calculate the Molecular Weight of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,530.1487607360001
+Calculate the Molecular Weight of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,392.19990224799994
+Calculate the Molecular Weight of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,166.026608672
+Calculate the Molecular Weight of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,337.04493572
+Calculate the Molecular Weight of the smiles: C=CC(=O)O,72.021129368
+Calculate the Molecular Weight of the smiles: CC(C)C(C(=O)O)N,117.078978592
+Calculate the Molecular Weight of the smiles: COC1=CC=CC=C1O,124.052429496
+Calculate the Molecular Weight of the smiles: C1CNCCN1,86.08439831999999
+Calculate the Molecular Weight of the smiles: C1CCNCC1,85.08914935199999
+Calculate the Molecular Weight of the smiles: CC(=O)OC,74.036779432
+Calculate the Molecular Weight of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,524.45933116
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,306.10406544399996
+Calculate the Molecular Weight of the smiles: CCCCS,90.05032132
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,169.073893212
+Calculate the Molecular Weight of the smiles: C(CO)N(CCO)CCO,149.10519334
+Calculate the Molecular Weight of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,222.198365452
+Calculate the Molecular Weight of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,530.1487607360001
+Calculate the Molecular Weight of the smiles: CN(C)C=O,73.052763844
+Calculate the Molecular Weight of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,240.122240372
+Calculate the Molecular Weight of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,219.969399412
+Calculate the Molecular Weight of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,243.19869979999999
+Calculate the Molecular Weight of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,278.02002297
+Calculate the Molecular Weight of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,3.7523244459817278
+Calculate the Molecular Weight of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,248.08287409599998
+Calculate the Molecular Weight of the smiles: CSCCC=O,104.0296
+Calculate the Molecular Weight of the smiles: CNC(=O)CSP(=O)(OC)OC,213.022465494
+Calculate the Molecular Weight of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,1447.4301996399995
+Calculate the Molecular Weight of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,3.6930868901222604
+Calculate the Molecular Weight of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,204.187800768
+Calculate the Molecular Weight of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,915.5191500040002
+Calculate the Molecular Weight of the smiles: C(=C(Cl)Cl)Cl,129.914383072
+Calculate the Molecular Weight of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,165.078978592
+Calculate the Molecular Weight of the smiles: CCCCCCC=C,"MW: 112.12520051199999
+QED: 0.37835862251165964
+TPSA: 0.0
+LogP: 3.142800000000002
+SA: 1.875104833811422"
+Calculate the Molecular Weight of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,514.2368762
+Calculate the Molecular Weight of the smiles: CCCCCCCCCCCCCCCC(=O)OC,270.255880328
+Calculate the Molecular Weight of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,307.145140004
+Calculate the Molecular Weight of the smiles: CCCCC,None
+Calculate the Molecular Weight of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,1700.172974183999
+Calculate the Molecular Weight of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,236.15247788
+Calculate the Molecular Weight of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,285.136493468
+Calculate the Molecular Weight of the smiles: CC(=O)N(C)C,87.068413908
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,2.406635201507086
+Calculate the Molecular Weight of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,196.14632988
+Calculate the Molecular Weight of the smiles: CCCCCCCCCC(=O)O,172.14632988
+Calculate the Molecular Weight of the smiles: C(I)(I)I,393.721244032
+Calculate the Molecular Weight of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,581.265669688
+Calculate the Molecular Weight of the smiles: CC=O,44.026214748
+Calculate the Molecular Weight of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,4.389631109331721
+Calculate the Molecular Weight of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,196.073558864
+Calculate the Molecular Weight of the smiles: CCC=C,56.062600255999996
+Calculate the Molecular Weight of the smiles: C(=S)=S,75.944142
+Calculate the Molecular Weight of the smiles: C(CS)O,78.013935812
+Calculate the Molecular Weight of the smiles: CC(CCC=C(C)C)CCO,156.15141526
+Calculate the Molecular Weight of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,248.039733872
+Calculate the Molecular Weight of the smiles: C1=CC=C2C(=C1)C=CC=C2O,144.057514876
+Calculate the Molecular Weight of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,303.147058152
+Calculate the Molecular Weight of the smiles: C1CCC(CC1)N,99.10479941599999
+Calculate the QED of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,0.847401444528972
+Calculate the QED of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,0.8613672076779287
+Calculate the QED of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,0.1125393105397789
+Calculate the QED of the smiles: CC(=O)CCC(=O)O,0.5816626924315285
+Calculate the QED of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,0.3272779695688504
+Calculate the QED of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: CCC(C)(C)O,0.5097634659284825
+Calculate the QED of the smiles: CC1CCC(C(C1)O)C(C)C,0.6179494584335713
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,0.5302216682110639
+Calculate the QED of the smiles: C(=O)(O)[O-].[Na+],0.30327610731514837
+Calculate the QED of the smiles: CCCC[Sn](CCCC)(Cl)Cl,0.6335275735440196
+Calculate the QED of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,0.4274213512497735
+Calculate the QED of the smiles: CCC(=O)[O-].[Na+],0.3134658838124572
+Calculate the QED of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,0.839282607029206
+Calculate the QED of the smiles: CCCC=O,0.4443450475833798
+Calculate the QED of the smiles: CN(C)C(=S)SSC(=S)N(C)C,0.46886077125428943
+Calculate the QED of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,0.36563982763097236
+Calculate the QED of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,0.26343729334807475
+Calculate the QED of the smiles: C1=CC(=CC=C1C(=O)O)N,0.566589187245288
+Calculate the QED of the smiles: C(C(C(C(C=O)O)O)O)O,0.3258384035161684
+Calculate the QED of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,0.2905169417988814
+Calculate the QED of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,0.17529207534705477
+Calculate the QED of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,0.19175772399443441
+Calculate the QED of the smiles: CCCCCCCC(=O)OC,0.4383150695699537
+Calculate the QED of the smiles: C(C(=O)CO)O,0.4353852085134311
+Calculate the QED of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,0.5692267993614908
+Calculate the QED of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,4.342204991410328
+Calculate the QED of the smiles: C1=CC=C(C=C1)N,Error: You need to provide a mol argument.
+Calculate the QED of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,0.733928635563028
+Calculate the QED of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,0.46360210314198946
+Calculate the QED of the smiles: CN(C)NC(=O)CCC(=O)O,0.5409408843832045
+Calculate the QED of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,0.49859625509607547
+Calculate the QED of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,0.6909972184662643
+Calculate the QED of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,0.034695025007506354
+Calculate the QED of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,0.5458309652959041
+Calculate the QED of the smiles: CCCCCCCCC=O,0.3943168373689603
+Calculate the QED of the smiles: C1CCNC(C1)C2=CN=CC=C2,0.6818149785973887
+Calculate the QED of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,0.4215663731784319
+Calculate the QED of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,0.7966718656376948
+Calculate the QED of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,0.5101568892419974
+Calculate the QED of the smiles: C1CC(NC1)C(=O)O,0.4982089208893278
+Calculate the QED of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,0.4976684796992808
+Calculate the QED of the smiles: C1=CC=C2C(=C1)NC=N2,0.5583728365871126
+Calculate the QED of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,0.45541449702144693
+Calculate the QED of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,0.6672134969921051
+Calculate the QED of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,0.688908808436835
+Calculate the QED of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,0.28661243847385526
+Calculate the QED of the smiles: C=CC(=O)O,0.4508580596042506
+Calculate the QED of the smiles: CC(C)C(C(=O)O)N,0.5369765717084767
+Calculate the QED of the smiles: COC1=CC=CC=C1O,0.6127725486570803
+Calculate the QED of the smiles: C1CNCCN1,0.4022372466625182
+Calculate the QED of the smiles: C1CCNCC1,0.4576362279207808
+Calculate the QED of the smiles: CC(=O)OC,0.38296659073251405
+Calculate the QED of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,0.08987434515285701
+Calculate the QED of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,0.7515159753061997
+Calculate the QED of the smiles: CCCCS,0.49025297206668045
+Calculate the QED of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,0.4724272074622585
+Calculate the QED of the smiles: C(CO)N(CCO)CCO,0.419530358360434
+Calculate the QED of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,0.6330301643827799
+Calculate the QED of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,0.45541449702144693
+Calculate the QED of the smiles: CN(C)C=O,0.3902682398861675
+Calculate the QED of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,0.7271671448939994
+Calculate the QED of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,0.85199274417323
+Calculate the QED of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,0.7469327757845524
+Calculate the QED of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,0.6056546156883094
+Calculate the QED of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,0.7629173210900769
+Calculate the QED of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,0.856137149346395
+Calculate the QED of the smiles: CSCCC=O,0.3912828365702852
+Calculate the QED of the smiles: CNC(=O)CSP(=O)(OC)OC,0.6861794924550499
+Calculate the QED of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,0.07434800355531383
+Calculate the QED of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcExactMolWt(NoneType)
+did not match C++ signature:
+    CalcExactMolWt(RDKit::ROMol mol, bool onlyHeavy=False)"
+Calculate the QED of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,0.5005620426274199
+Calculate the QED of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,0.13088726197403125
+Calculate the QED of the smiles: C(=C(Cl)Cl)Cl,0.47377505861481944
+Calculate the QED of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,0.6904627990029388
+Calculate the QED of the smiles: CCCCCCC=C,0.37835862251165964
+Calculate the QED of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,0.243238592025165
+Calculate the QED of the smiles: CCCCCCCCCCCCCCCC(=O)OC,0.30139776583567224
+Calculate the QED of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,0.92141338710529
+Calculate the QED of the smiles: CCCCC,0.4687855098011332
+Calculate the QED of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,0.01979820055574048
+Calculate the QED of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,0.6038456847188672
+Calculate the QED of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,0.632788302073214
+Calculate the QED of the smiles: CC(=O)N(C)C,Agent stopped due to iteration limit or time limit.
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,0.5459100356936089
+Calculate the QED of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,0.4981507139283784
+Calculate the QED of the smiles: CCCCCCCCCC(=O)O,0.570683149963468
+Calculate the QED of the smiles: C(I)(I)I,0.43826332672952517
+Calculate the QED of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,0.06824479508490591
+Calculate the QED of the smiles: CC=O,0.35500761339323206
+Calculate the QED of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,0.7848332802556961
+Calculate the QED of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,0.42124595946297344
+Calculate the QED of the smiles: CCC=C,0.39998668920534597
+Calculate the QED of the smiles: C(=S)=S,0.3949540667862806
+Calculate the QED of the smiles: C(CS)O,0.4198536028422452
+Calculate the QED of the smiles: CC(CCC=C(C)C)CCO,0.6067463726043822
+Calculate the QED of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,0.8436434384722771
+Calculate the QED of the smiles: C1=CC=C2C(=C1)C=CC=C2O,0.6020160700037418
+Calculate the QED of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,0.7979361284429697
+Calculate the QED of the smiles: C1CCC(CC1)N,0.4860844589993981
+Calculate the Synthetic Accessibility of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,2.306021195399575
+Calculate the Synthetic Accessibility of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,2.6621529597870204
+Calculate the Synthetic Accessibility of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,6.852751532915974
+Calculate the Synthetic Accessibility of the smiles: CC(=O)CCC(=O)O,1.8093060226226125
+Calculate the Synthetic Accessibility of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,2.699469507518412
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,3.3230612449986943
+Calculate the Synthetic Accessibility of the smiles: CCC(C)(C)O,2.145824039410421
+Calculate the Synthetic Accessibility of the smiles: CC1CCC(C(C1)O)C(C)C,3.352673852141253
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,1.6719282209126138
+Calculate the Synthetic Accessibility of the smiles: C(=O)(O)[O-].[Na+],3.8547976130575936
+Calculate the Synthetic Accessibility of the smiles: CCCC[Sn](CCCC)(Cl)Cl,3.117358956986884
+Calculate the Synthetic Accessibility of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,2.45
+Calculate the Synthetic Accessibility of the smiles: CCC(=O)[O-].[Na+],3.91271131751693
+Calculate the Synthetic Accessibility of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,4.979568492526502
+Calculate the Synthetic Accessibility of the smiles: CCCC=O,2.734983411874161
+Calculate the Synthetic Accessibility of the smiles: CN(C)C(=S)SSC(=S)N(C)C,3.550581561407837
+Calculate the Synthetic Accessibility of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,3.4057138973514274
+Calculate the Synthetic Accessibility of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,3.0052431539973607
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1C(=O)O)N,1.4381001359062822
+Calculate the Synthetic Accessibility of the smiles: C(C(C(C(C=O)O)O)O)O,3.7647622777449996
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,2.0334518277801017
+Calculate the Synthetic Accessibility of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,7.505262378346863
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,5.311123363867539
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCC(=O)OC,1.5482203362972307
+Calculate the Synthetic Accessibility of the smiles: C(C(=O)CO)O,2.8823890098246228
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,4.167391302739001
+Calculate the Synthetic Accessibility of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,4.342204991410328
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C(C=C1)N,1.2633697403702335
+Calculate the Synthetic Accessibility of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,4.055971381160166
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,1.4290744948806413
+Calculate the Synthetic Accessibility of the smiles: CN(C)NC(=O)CCC(=O)O,2.2623937428906356
+Calculate the Synthetic Accessibility of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,2.4151864819860567
+Calculate the Synthetic Accessibility of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,2.10362001380987
+Calculate the Synthetic Accessibility of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,6.688749151150762
+Calculate the Synthetic Accessibility of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,6.2692031908643004
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCC=O,1.9183792567854052
+Calculate the Synthetic Accessibility of the smiles: C1CCNC(C1)C2=CN=CC=C2,2.659013863096428
+Calculate the Synthetic Accessibility of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,3.6554864675664707
+Calculate the Synthetic Accessibility of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,2.350291866309947
+Calculate the Synthetic Accessibility of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,2.6515718319171953
+Calculate the Synthetic Accessibility of the smiles: C1CC(NC1)C(=O)O,2.7356470655699425
+Calculate the Synthetic Accessibility of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,2.6133677152539914
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)NC=N2,1.9121459559435046
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,3.4373369828621243
+Calculate the Synthetic Accessibility of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,4.635267019270959
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,1.2966492537155307
+Calculate the Synthetic Accessibility of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,3.329385026160667
+Calculate the Synthetic Accessibility of the smiles: C=CC(=O)O,2.273849361309342
+Calculate the Synthetic Accessibility of the smiles: CC(C)C(C(=O)O)N,2.527042170465048
+Calculate the Synthetic Accessibility of the smiles: COC1=CC=CC=C1O,1.3187972379947865
+Calculate the Synthetic Accessibility of the smiles: C1CNCCN1,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.GetMorganFingerprint(NoneType, int)
+did not match C++ signature:
+    GetMorganFingerprint(RDKit::ROMol mol, unsigned int radius, boost::python::api::object invariants=[], boost::python::api::object fromAtoms=[], bool useChirality=False, bool useBondTypes=True, bool useFeatures=False, bool useCounts=True, boost::python::api::object bitInfo=None, bool includeRedundantEnvironments=False)"
+Calculate the Synthetic Accessibility of the smiles: C1CCNCC1,2.0559228559784692
+Calculate the Synthetic Accessibility of the smiles: CC(=O)OC,1.7363164941764762
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,3.0820010998846676
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,2.769642038505438
+Calculate the Synthetic Accessibility of the smiles: CCCCS,2.6293372580280074
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,2.675858574634889
+Calculate the Synthetic Accessibility of the smiles: C(CO)N(CCO)CCO,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.GetMorganFingerprint(NoneType, int)
+did not match C++ signature:
+    GetMorganFingerprint(RDKit::ROMol mol, unsigned int radius, boost::python::api::object invariants=[], boost::python::api::object fromAtoms=[], bool useChirality=False, bool useBondTypes=True, bool useFeatures=False, bool useCounts=True, boost::python::api::object bitInfo=None, bool includeRedundantEnvironments=False)"
+Calculate the Synthetic Accessibility of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,2.8124189583536996
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,3.4373369828621243
+Calculate the Synthetic Accessibility of the smiles: CN(C)C=O,2.6636311794911602
+Calculate the Synthetic Accessibility of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,2.8740172811412545
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,1.5851667829758593
+Calculate the Synthetic Accessibility of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,2.1336615798380674
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,2.8529398885862562
+Calculate the Synthetic Accessibility of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,3.7523244459817278
+Calculate the Synthetic Accessibility of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,2.123367400171162
+Calculate the Synthetic Accessibility of the smiles: CSCCC=O,3.004980548286161
+Calculate the Synthetic Accessibility of the smiles: CNC(=O)CSP(=O)(OC)OC,Agent stopped due to iteration limit or time limit.
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,8.21451094449572
+Calculate the Synthetic Accessibility of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.GetMorganFingerprint(NoneType, int)
+did not match C++ signature:
+    GetMorganFingerprint(RDKit::ROMol mol, unsigned int radius, boost::python::api::object invariants=[], boost::python::api::object fromAtoms=[], bool useChirality=False, bool useBondTypes=True, bool useFeatures=False, bool useCounts=True, boost::python::api::object bitInfo=None, bool includeRedundantEnvironments=False)"
+Calculate the Synthetic Accessibility of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,Error
+Calculate the Synthetic Accessibility of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,6.851256315978206
+Calculate the Synthetic Accessibility of the smiles: C(=C(Cl)Cl)Cl,3.64463117949116
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,1.8818837931663595
+Calculate the Synthetic Accessibility of the smiles: CCCCCCC=C,1.875104833811422
+Calculate the Synthetic Accessibility of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,2.524348968313056
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCCCCCCCC(=O)OC,1.7415335589091328
+Calculate the Synthetic Accessibility of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,2.9528355507679738
+Calculate the Synthetic Accessibility of the smiles: CCCCC,1.699621281696647
+Calculate the Synthetic Accessibility of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,6.541750829324147
+Calculate the Synthetic Accessibility of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,1.8627120810222273
+Calculate the Synthetic Accessibility of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,2.3443039181989196
+Calculate the Synthetic Accessibility of the smiles: CC(=O)N(C)C,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.GetMorganFingerprint(NoneType, int)
+did not match C++ signature:
+    GetMorganFingerprint(RDKit::ROMol mol, unsigned int radius, boost::python::api::object invariants=[], boost::python::api::object fromAtoms=[], bool useChirality=False, bool useBondTypes=True, bool useFeatures=False, bool useCounts=True, boost::python::api::object bitInfo=None, bool includeRedundantEnvironments=False)"
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,2.406635201507086
+Calculate the Synthetic Accessibility of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,3.40831057968842
+Calculate the Synthetic Accessibility of the smiles: CCCCCCCCCC(=O)O,1.533011491477767
+Calculate the Synthetic Accessibility of the smiles: C(I)(I)I,4.305796123391056
+Calculate the Synthetic Accessibility of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,5.678151510614736
+Calculate the Synthetic Accessibility of the smiles: CC=O,3.040964730942676
+Calculate the Synthetic Accessibility of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,4.389631109331721
+Calculate the Synthetic Accessibility of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,5.2108239484332035
+Calculate the Synthetic Accessibility of the smiles: CCC=C,2.7197692003141345
+Calculate the Synthetic Accessibility of the smiles: C(=S)=S,4.455003192481137
+Calculate the Synthetic Accessibility of the smiles: C(CS)O,3.023538431083365
+Calculate the Synthetic Accessibility of the smiles: CC(CCC=C(C)C)CCO,2.8993617626542534
+Calculate the Synthetic Accessibility of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,3.0977728920552625
+Calculate the Synthetic Accessibility of the smiles: C1=CC=C2C(=C1)C=CC=C2O,1.4268469709126155
+Calculate the Synthetic Accessibility of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,3.9948291203457407
+Calculate the Synthetic Accessibility of the smiles: C1CCC(CC1)N,1.925887432677925
+Calculate the Topological Polar Surface Area of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,85.25000000000001
+Calculate the Topological Polar Surface Area of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,99.6
+Calculate the Topological Polar Surface Area of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,554.0500000000002
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)CCC(=O)O,54.370000000000005
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,57.53
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,26.3
+Calculate the Topological Polar Surface Area of the smiles: CCC(C)(C)O,20.23
+Calculate the Topological Polar Surface Area of the smiles: CC1CCC(C(C1)O)C(C)C,20.23
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,30.21
+Calculate the Topological Polar Surface Area of the smiles: C(=O)(O)[O-].[Na+],60.36
+Calculate the Topological Polar Surface Area of the smiles: CCCC[Sn](CCCC)(Cl)Cl,0.0
+Calculate the Topological Polar Surface Area of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,132.13
+Calculate the Topological Polar Surface Area of the smiles: CCC(=O)[O-].[Na+],40.129999999999995
+Calculate the Topological Polar Surface Area of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,59.0
+Calculate the Topological Polar Surface Area of the smiles: CCCC=O,17.07
+Calculate the Topological Polar Surface Area of the smiles: CN(C)C(=S)SSC(=S)N(C)C,6.48
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,125.90000000000002
+Calculate the Topological Polar Surface Area of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,158.82000000000002
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1C(=O)O)N,63.31999999999999
+Calculate the Topological Polar Surface Area of the smiles: C(C(C(C(C=O)O)O)O)O,97.99000000000001
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,37.3
+Calculate the Topological Polar Surface Area of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,319.60999999999996
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,162.98000000000002
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCC(=O)OC,26.3
+Calculate the Topological Polar Surface Area of the smiles: C(C(=O)CO)O,57.53
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,43.370000000000005
+Calculate the Topological Polar Surface Area of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,117.78000000000002
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C(C=C1)N,26.02
+Calculate the Topological Polar Surface Area of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,37.3
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,43.14
+Calculate the Topological Polar Surface Area of the smiles: CN(C)NC(=O)CCC(=O)O,69.64
+Calculate the Topological Polar Surface Area of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,99.13000000000002
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,20.23
+Calculate the Topological Polar Surface Area of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,490.6599999999998
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,99.52000000000001
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCC=O,17.07
+Calculate the Topological Polar Surface Area of the smiles: C1CCNC(C1)C2=CN=CC=C2,24.92
+Calculate the Topological Polar Surface Area of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,59.32000000000001
+Calculate the Topological Polar Surface Area of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,40.46
+Calculate the Topological Polar Surface Area of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,72.72
+Calculate the Topological Polar Surface Area of the smiles: C1CC(NC1)C(=O)O,49.33
+Calculate the Topological Polar Surface Area of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,111.9
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)NC=N2,28.68
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,69.06
+Calculate the Topological Polar Surface Area of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,94.83000000000001
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,74.6
+Calculate the Topological Polar Surface Area of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,175.83
+Calculate the Topological Polar Surface Area of the smiles: C=CC(=O)O,37.3
+Calculate the Topological Polar Surface Area of the smiles: CC(C)C(C(=O)O)N,63.31999999999999
+Calculate the Topological Polar Surface Area of the smiles: COC1=CC=CC=C1O,29.46
+Calculate the Topological Polar Surface Area of the smiles: C1CNCCN1,24.06
+Calculate the Topological Polar Surface Area of the smiles: C1CCNCC1,12.03
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)OC,26.3
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,26.3
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,81.65
+Calculate the Topological Polar Surface Area of the smiles: CCCCS,0.0
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,86.71000000000001
+Calculate the Topological Polar Surface Area of the smiles: C(CO)N(CCO)CCO,63.93000000000001
+Calculate the Topological Polar Surface Area of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,20.23
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,69.06
+Calculate the Topological Polar Surface Area of the smiles: CN(C)C=O,20.310000000000002
+Calculate the Topological Polar Surface Area of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,46.53
+Calculate the Topological Polar Surface Area of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,60.64
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,27.69
+Calculate the Topological Polar Surface Area of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,92.68
+Calculate the Topological Polar Surface Area of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,77.82
+Calculate the Topological Polar Surface Area of the smiles: CSCCC=O,17.07
+Calculate the Topological Polar Surface Area of the smiles: CNC(=O)CSP(=O)(OC)OC,64.63000000000001
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,530.4899999999999
+Calculate the Topological Polar Surface Area of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,0.0
+Calculate the Topological Polar Surface Area of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,0.0
+Calculate the Topological Polar Surface Area of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,238.66999999999996
+Calculate the Topological Polar Surface Area of the smiles: C(=C(Cl)Cl)Cl,0.0
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,63.31999999999999
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCC=C,0.0
+Calculate the Topological Polar Surface Area of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,72.94
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCCCCCCCC(=O)OC,26.3
+Calculate the Topological Polar Surface Area of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,50.94
+Calculate the Topological Polar Surface Area of the smiles: CCCCC,0.0
+Calculate the Topological Polar Surface Area of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,777.9800000000005
+Calculate the Topological Polar Surface Area of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,55.56
+Calculate the Topological Polar Surface Area of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,38.77
+Calculate the Topological Polar Surface Area of the smiles: CC(=O)N(C)C,20.310000000000002
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,100.88000000000001
+Calculate the Topological Polar Surface Area of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,26.3
+Calculate the Topological Polar Surface Area of the smiles: CCCCCCCCCC(=O)O,37.3
+Calculate the Topological Polar Surface Area of the smiles: C(I)(I)I,0.0
+Calculate the Topological Polar Surface Area of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,336.42999999999995
+Calculate the Topological Polar Surface Area of the smiles: CC=O,17.07
+Calculate the Topological Polar Surface Area of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,91.67000000000002
+Calculate the Topological Polar Surface Area of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,52.60000000000001
+Calculate the Topological Polar Surface Area of the smiles: CCC=C,0.0
+Calculate the Topological Polar Surface Area of the smiles: C(=S)=S,0.0
+Calculate the Topological Polar Surface Area of the smiles: C(CS)O,20.23
+Calculate the Topological Polar Surface Area of the smiles: CC(CCC=C(C)C)CCO,20.23
+Calculate the Topological Polar Surface Area of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,Agent stopped due to iteration limit or time limit.
+Calculate the Topological Polar Surface Area of the smiles: C1=CC=C2C(=C1)C=CC=C2O,20.23
+Calculate the Topological Polar Surface Area of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,55.84
+Calculate the Topological Polar Surface Area of the smiles: C1CCC(CC1)N,26.02
+Calculate the LogP of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC,2.5724
+Calculate the LogP of the smiles: CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,1.9509199999999998
+Calculate the LogP of the smiles: C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O,-15.230600000000031
+Calculate the LogP of the smiles: CC(=O)CCC(=O)O,0.4402
+Calculate the LogP of the smiles: CCCCCCC(CC=CCCCCCCCC(=O)O)O,5.079300000000004
+Calculate the LogP of the smiles: CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl,3.3230612449986943
+Calculate the LogP of the smiles: CCC(C)(C)O,1.1673
+Calculate the LogP of the smiles: CC1CCC(C(C1)O)C(C)C,2.4395000000000007
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C=CC(=O)O2,1.7929999999999997
+Calculate the LogP of the smiles: C(=O)(O)[O-].[Na+],-4.1083
+Calculate the LogP of the smiles: CCCC[Sn](CCCC)(Cl)Cl,4.506400000000004
+Calculate the LogP of the smiles: C(C(=O)O)C(CC(=O)O)(C(=O)O)O,-1.2485
+Calculate the LogP of the smiles: CCC(=O)[O-].[Na+],-3.8497
+Calculate the LogP of the smiles: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,1.0482
+Calculate the LogP of the smiles: CCCC=O,0.9854
+Calculate the LogP of the smiles: CN(C)C(=S)SSC(=S)N(C)C,2.0608
+Calculate the LogP of the smiles: CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O,0.4753999999999993
+Calculate the LogP of the smiles: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,-2.2060999999999984
+Calculate the LogP of the smiles: C1=CC(=CC=C1C(=O)O)N,0.9670000000000001
+Calculate the LogP of the smiles: C(C(C(C(C=O)O)O)O)O,-2.7396999999999996
+Calculate the LogP of the smiles: CCCCCCCCC=CCCCCCCCC(=O)O,6.1085000000000065
+Calculate the LogP of the smiles: CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,0.9357000000000051
+Calculate the LogP of the smiles: CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O,0.75
+Calculate the LogP of the smiles: CCCCCCCC(=O)OC,2.5199000000000007
+Calculate the LogP of the smiles: C(C(=O)CO)O,-1.4599000000000002
+Calculate the LogP of the smiles: CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C,4.002000000000003
+Calculate the LogP of the smiles: COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,4.171100000000004
+Calculate the LogP of the smiles: C1=CC=C(C=C1)N,1.2687999999999997
+Calculate the LogP of the smiles: CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C1=CC(=CC=C1[N+](=O)[O-])Cl,2.2482000000000006
+Calculate the LogP of the smiles: CN(C)NC(=O)CCC(=O)O,-0.556
+Calculate the LogP of the smiles: CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O,0.1870000000000001
+Calculate the LogP of the smiles: CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,4.295620000000003
+Calculate the LogP of the smiles: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,-5.831499999999969
+Calculate the LogP of the smiles: CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO,-0.8377000000000003
+Calculate the LogP of the smiles: CCCCCCCCC=O,2.935900000000001
+Calculate the LogP of the smiles: C1CCNC(C1)C2=CN=CC=C2,1.8961999999999999
+Calculate the LogP of the smiles: CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C,6.490180000000004
+Calculate the LogP of the smiles: CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O,4.604600000000003
+Calculate the LogP of the smiles: CNCC(C1=CC(=C(C=C1)O)O)O,0.35059999999999986
+Calculate the LogP of the smiles: C1CC(NC1)C(=O)O,-0.17700000000000032
+Calculate the LogP of the smiles: C(C(=CC(=O)O)C(=O)O)C(=O)O,-0.4433000000000001
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)NC=N2,1.5628999999999995
+Calculate the LogP of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,4.2058
+Calculate the LogP of the smiles: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,1.8957
+Calculate the LogP of the smiles: C1=CC(=CC=C1C(=O)O)C(=O)O,1.083
+Calculate the LogP of the smiles: C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: C=CC(=O)O,0.25699999999999995
+Calculate the LogP of the smiles: CC(C)C(C(=O)O)N,0.05430000000000007
+Calculate the LogP of the smiles: COC1=CC=CC=C1O,1.4008
+Calculate the LogP of the smiles: C1CNCCN1,-0.8208
+Calculate the LogP of the smiles: C1CCNCC1,0.7599
+Calculate the LogP of the smiles: CC(=O)OC,0.17930000000000001
+Calculate the LogP of the smiles: CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(CCCC1(C)C)C,11.542499999999986
+Calculate the LogP of the smiles: C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,0.7357999999999993
+Calculate the LogP of the smiles: CCCCS,2.01046057
+Calculate the LogP of the smiles: C1=CC(=C(C=C1C(CN)O)O)O,0.08989999999999976
+Calculate the LogP of the smiles: C(CO)N(CCO)CCO,-1.7347
+Calculate the LogP of the smiles: CC(=CCCC(=CCCC(=CCO)C)C)C,4.3979000000000035
+Calculate the LogP of the smiles: CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,Agent stopped due to iteration limit or time limit.
+Calculate the LogP of the smiles: CN(C)C=O,-0.2956000000000001
+Calculate the LogP of the smiles: CC1=CC(=NN1C(=O)N(C)C)OC(=O)N(C)C,0.78162
+Calculate the LogP of the smiles: C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,2.4567999999999994
+Calculate the LogP of the smiles: C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,4.3319
+Calculate the LogP of the smiles: CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,3.6130200000000023
+Calculate the LogP of the smiles: COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O,"Error: Python argument types in
+    rdkit.Chem.rdMolDescriptors.CalcCrippenDescriptors(NoneType)
+did not match C++ signature:
+    CalcCrippenDescriptors(RDKit::ROMol mol, bool includeHs=True, bool force=False)"
+Calculate the LogP of the smiles: CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,2.5238000000000005
+Calculate the LogP of the smiles: CSCCC=O,0.9383999999999999
+Calculate the LogP of the smiles: CNC(=O)CSP(=O)(OC)OC,0.8664999999999998
+Calculate the LogP of the smiles: CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,0.10620000000000607
+Calculate the LogP of the smiles: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,12.605799999999977
+Calculate the LogP of the smiles: CC1=CCCC(=C)C2CC(C2CC1)(C)C,4.7252000000000045
+Calculate the LogP of the smiles: CCC1C(C=C(C=CC(=O)C(CC(C(C(C(CC(=O)O1)O)C)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)C)COC4C(C(C(C(O4)C)O)OC)OC,1.833500000000008
+Calculate the LogP of the smiles: C(=C(Cl)Cl)Cl,2.5017000000000005
+Calculate the LogP of the smiles: C1=CC=C(C=C1)CC(C(=O)O)N,0.641
+Calculate the LogP of the smiles: CCCCCCC=C,3.142800000000002
+Calculate the LogP of the smiles: CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,7.2644200000000065
+Calculate the LogP of the smiles: CCCCCCCCCCCCCCCC(=O)OC,5.640700000000005
+Calculate the LogP of the smiles: CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,3.341500000000002
+Calculate the LogP of the smiles: CCCCC,2.1965000000000003
+Calculate the LogP of the smiles: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,4.838100000000011
+Calculate the LogP of the smiles: CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,1.7673999999999999
+Calculate the LogP of the smiles: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3,2.997200000000001
+Calculate the LogP of the smiles: CC(=O)N(C)C,0.09450000000000003
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,2.9014000000000024
+Calculate the LogP of the smiles: CC(=CCCC(C)(C=C)OC(=O)C)C,3.2406000000000024
+Calculate the LogP of the smiles: CCCCCCCCCC(=O)O,3.2117000000000013
+Calculate the LogP of the smiles: C(I)(I)I,2.575
+Calculate the LogP of the smiles: CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,-8.161100000000014
+Calculate the LogP of the smiles: CC=O,0.2052
+Calculate the LogP of the smiles: CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C,1.7658
+Calculate the LogP of the smiles: CC12C3CCC(C1(C(=O)OC2=O)C)O3,0.6435999999999998
+Calculate the LogP of the smiles: CCC=C,1.5824
+Calculate the LogP of the smiles: C(=S)=S,1.0181
+Calculate the LogP of the smiles: C(CS)O,-0.09149999999999997
+Calculate the LogP of the smiles: CC(CCC=C(C)C)CCO,2.751300000000001
+Calculate the LogP of the smiles: C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,2.87488
+Calculate the LogP of the smiles: C1=CC=C2C(=C1)C=CC=C2O,2.5454
+Calculate the LogP of the smiles: CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,1.8676999999999997
+Calculate the LogP of the smiles: C1CCC(CC1)N,1.2778

@@ -41,6 +41,8 @@ pip install git+https://github.com/pnnl/cactus.git
 
 The default `PyTorch` version is compiled for `cuda` 12.1 (or cpu for non-cuda systems). If you want to install for an older version of `cuda`, you should install from source and edit the `pyproject.toml` file at the `[[tool.rye.sources]]` section before installing. But be aware `vllm` may not work properly for older versions of `PyTorch`.
 
+Note: `cactus` currently only supports Python versions `3.10`-`3.12`. Ensure you are using one of these versions before installation.
+
 Alternatively for development, you can install in an editable configuration using:
 
 ```bash

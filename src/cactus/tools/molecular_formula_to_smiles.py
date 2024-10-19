@@ -18,8 +18,8 @@ Only accept input that appears in this format.
 class MolecularFormulaToSMILES(BaseTool):
     """Convert Molecular Formula to SMILES."""
 
-    name = "MolecularFormulaToSMILES"
-    description = DESC
+    name: str = "MolecularFormulaToSMILES"
+    description: str = DESC
 
     def _run(self, input_formula: str) -> str:
         """Convert molecular formula into SMILES notation.

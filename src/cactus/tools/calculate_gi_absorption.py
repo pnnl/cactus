@@ -7,8 +7,8 @@ from langchain.tools import BaseTool
 class CalculateGIAbsorption(BaseTool):
     """Calculate the GI Absorption of a compound."""
 
-    name = "calculate_gi_absorption"
-    description = "returns whether the gastrointestinal absorption is high or low"
+    name: str = "calculate_gi_absorption"
+    description: str = "returns whether the gastrointestinal absorption is high or low"
 
     def _run(self, compound_smiles: str) -> str:
         """Calculate the gastrointestinal absorption of the molecule.

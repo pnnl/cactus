@@ -13,8 +13,8 @@ from langchain.tools import BaseTool
 class CalculateSA(BaseTool):
     """Calculate the SA of the compound."""
 
-    name = "CalculateSA"
-    description = "Used to compute the synthetic accessibility (SA) of the given molecule."
+    name: str = "CalculateSA"
+    description: str = "Used to compute the synthetic accessibility (SA) of the given molecule."
 
     def _run(self, compound: str) -> float:
         """Compute Synthetic Accessibility (SA) of the given SMILES string. Ertl & Schuffenhauer 2009.

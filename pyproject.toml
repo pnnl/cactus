@@ -66,10 +66,6 @@ dev-dependencies = [
   "pytest>=8.2.1",
 ]
 
-[[tool.rye.sources]]
-name = "pytorch"
-url = "https://download.pytorch.org/whl/cu121"
-  
 [tool.isort]
 profile = "black"
 multi_line_output = 3

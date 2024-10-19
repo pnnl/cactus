@@ -7,8 +7,8 @@ from rdkit.Chem import Descriptors, MolFromSmiles
 class CalculateQED(BaseTool):
     """Calculate the QED of the compound."""
 
-    name = "CalculateQED"
-    description = "Compute Quantitative Estimate of Druglikeness (QED) of the given molecule"
+    name: str = "CalculateQED"
+    description: str = "Compute Quantitative Estimate of Druglikeness (QED) of the given molecule"
 
     def _run(self, compound: str) -> float:
         """Compute Quantitative Estimate of Druglikeness (QED) of the given molecule.

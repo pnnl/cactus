@@ -11,8 +11,8 @@ Use this tool when you need to calculate the molecular weight of a SMILES string
 class CalculateMolWt(BaseTool):
     """Calculate the MolWt of the compound."""
 
-    name = "CalculateMolecularWeight"
-    description = DESC
+    name: str = "CalculateMolecularWeight"
+    description: str = DESC
 
     def _run(self, compound: str) -> float:
         """Compute the exact molecular weight of the given molecule.

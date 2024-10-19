@@ -7,8 +7,8 @@ from langchain.tools import BaseTool
 class CidToSMILES(BaseTool):
     """Convert Cid to SMILES."""
 
-    name = "CidToSMILES"
-    description = "Convert the input Pubchem id into its corresponding SMILES notation"
+    name: str = "CidToSMILES"
+    description: str = "Convert the input Pubchem id into its corresponding SMILES notation"
 
     def _run(self, input_id: str) -> str:
         """Convert PubChem id into SMILES notation.

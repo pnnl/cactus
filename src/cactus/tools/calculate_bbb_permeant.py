@@ -8,8 +8,8 @@ from rdkit import Chem
 class CalculateBBBPermeant(BaseTool):
     """Tool to calculate the BBB Permeability."""
 
-    name = "CalculateBBBPermeant"
-    description = "calculates the Blood Brain Barrier Permeability of the compound"
+    name: str = "CalculateBBBPermeant"
+    description: str = "calculates the Blood Brain Barrier Permeability of the compound"
 
     def _run(self, compound_smiles: str) -> str:
         """Calculate Blood Brain Barrier Permeability.

@@ -15,8 +15,8 @@ Most generic searches will be in this format.
 class NameToSMILES(BaseTool):
     """Convert chemical name into SMILES notation."""
 
-    name = "CommonNameToSMILES"
-    description = DESC
+    name: str = "CommonNameToSMILES"
+    description: str = DESC
 
     def _run(self, input_name: str) -> str:
         """Convert chemical name into SMILES notation.

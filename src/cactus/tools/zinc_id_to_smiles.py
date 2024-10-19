@@ -7,8 +7,8 @@ from langchain.tools import BaseTool
 class ZincIDToSMILES(BaseTool):
     """Convert ZincID to SMILES."""
 
-    name = "zinc_id_to_SMILES"
-    description = "Convert the input zinc id into its corresponding SMILES notation"
+    name: str = "zinc_id_to_SMILES"
+    description: str = "Convert the input zinc id into its corresponding SMILES notation"
 
     def _run(self, input_id: str) -> str:
         """Convert zinc id into SMILES notation.

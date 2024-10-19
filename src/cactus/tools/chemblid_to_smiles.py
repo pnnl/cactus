@@ -7,8 +7,8 @@ from langchain.tools import BaseTool
 class ChemblidToSMILES(BaseTool):
     """Convert Chemblid to SMILES."""
 
-    name = "ChemblidToSMILES"
-    description = "Convert the input chemblid into its corresponding SMILES notation"
+    name: str = "ChemblidToSMILES"
+    description: str = "Convert the input chemblid into its corresponding SMILES notation"
 
     def _run(self, input_id: str) -> str:
         """Convert ChEMBL id into SMILES notation.

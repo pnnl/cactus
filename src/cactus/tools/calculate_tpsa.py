@@ -7,8 +7,8 @@ from rdkit.Chem import MolFromSmiles, rdMolDescriptors
 class CalculateTPSA(BaseTool):
     """Calculate the TPSA of the compound."""
 
-    name = "CalculateTPSA"
-    description = "Compute the Topological polar surface area (TPSA) of the given molecule."
+    name: str = "CalculateTPSA"
+    description: str = "Compute the Topological polar surface area (TPSA) of the given molecule."
 
     def _run(self, compound: str) -> float:
         """Compute the topological surface area (TPSA) of the given molecule.

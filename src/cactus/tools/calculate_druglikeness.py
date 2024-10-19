@@ -7,8 +7,10 @@ from langchain.tools import BaseTool
 class CalculateDruglikeness(BaseTool):
     """Tool to calculate if a compound passes the Lipinski Rule of Five."""
 
-    name = "calculate_druglikeness"
-    description = "calculates the druglikeness of the compound with regards to Lipinski's rule of 5"
+    name: str = "calculate_druglikeness"
+    description: str = (
+        "calculates the druglikeness of the compound with regards to Lipinski's rule of 5"
+    )
 
     def _run(self, compound_smiles: str) -> str:
         """Calculate the lipinski druglikeness of the compound.

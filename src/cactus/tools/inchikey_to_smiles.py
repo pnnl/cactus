@@ -17,8 +17,8 @@ Examples of InchiKeys:
 class InchikeyToSMILES(BaseTool):
     """Convert Inchikey to SMILES."""
 
-    name = "InchikeyToSMILES"
-    description = DESC
+    name: str = "InchikeyToSMILES"
+    description: str = DESC
 
     def _run(self, input_inchikey: str) -> str:
         """Convert inchikey into SMILES notation.

@@ -7,8 +7,8 @@ from langchain.tools import BaseTool
 class CasToSMILES(BaseTool):
     """Convert Cas to SMILES."""
 
-    name = "CasToSMILES"
-    description = "Convert the input cas into its corresponding SMILES notation"
+    name: str = "CasToSMILES"
+    description: str = "Convert the input cas into its corresponding SMILES notation"
 
     def _run(self, input_query: str) -> str:
         """Convert cas number into SMILES notation.

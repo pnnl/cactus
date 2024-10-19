@@ -12,8 +12,8 @@ Use this tool when you need to calculate the log of the partition coefficient (L
 class CalculateLogP(BaseTool):
     """Calculates the LogP of the compound."""
 
-    name = "CalculateLogP"
-    description = DESC
+    name: str = "CalculateLogP"
+    description: str = DESC
 
     def _run(self, compound_smiles: str) -> float:
         """Run the LogP Calculator.

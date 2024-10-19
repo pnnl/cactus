@@ -1,8 +1,7 @@
 """Tool for calculating if a compound passes the Brenk Filter."""
 
-from adme_pred import ADME
+from adme_py import ADME
 from langchain.tools import BaseTool
-from rdkit import Chem
 
 DESC = """
 Used when you need to calculate whether a molecule triggers the Brenk Filter.
@@ -12,27 +11,36 @@ Used when you need to calculate whether a molecule triggers the Brenk Filter.
 class BrenkFilter(BaseTool):
     """Tool to check if the molecule passes the Brenk Filter."""
 
-    name = "BrenkFilter"
-    description = DESC
+    name: str = "BrenkFilter"
+    description: str = DESC
 
     def _run(self, compound_smiles: str) -> bool:
-        """Use the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master.
+        """Check if a molecule triggers the Brenk filter.
 
-            From the adme-pred-py documentation:
-        Brenk (2008) Lessons Learnt from Assembling Screening Libraries for
-            Drug Discovery for Neglected Diseases
-
-            Brenk's Structural Alert filter finds fragments "putatively toxic,
-            chemically reactive, metabolically unstable or to bear properties
-            responsible for poor pharmacokinetics."
+        Parameters
+        ----------
+        mol : rdkit.Chem.rdchem.Mol
+            The input RDKit molecule object.
 
         Returns
         -------
-                Boolean of whether the molecule triggers the Brenk filter.
+        bool
+            True if the molecule triggers the Brenk filter, False otherwise.
+
+        Notes
+        -----
+        The Brenk filter is described in:
+        R. Brenk, et al., ChemMedChem, 2008, 3: 435-444.
+        https://doi.org/10.1002/cmdc.200700139
         """
-        mol = Chem.MolFromSmiles(compound_smiles)
-        mol = ADME(mol)
-        return mol.brenk()
+        summary = ADME(compound_smiles).calculate()
+
+        result = summary["medicinal"]["brenk"]
+
+        if result:
+            return "Does not pass, triggers the Brenk Filter."
+        else:
+            return "Passes, does not trigger the Brenk Filter."
 
     async def _arun(self, compound_smiles: str) -> bool:
         """Use the brenk_filter tool asynchronously."""

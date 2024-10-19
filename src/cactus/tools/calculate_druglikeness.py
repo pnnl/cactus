@@ -1,8 +1,7 @@
 """Tool to calculate if a compound passes the Lipinski rule of five."""
 
-from adme_pred import ADME
+from adme_py import ADME
 from langchain.tools import BaseTool
-from rdkit import Chem
 
 
 class CalculateDruglikeness(BaseTool):
@@ -12,23 +11,27 @@ class CalculateDruglikeness(BaseTool):
     description = "calculates the druglikeness of the compound with regards to Lipinski's rule of 5"
 
     def _run(self, compound_smiles: str) -> str:
-        """Use the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master.
+        """Calculate the lipinski druglikeness of the compound.
 
-        From the adme-pred-py github:
-        Lipinski (2001) Experimental and computational approaches to estimate
-            solubility and permeability in drug discovery and development settings
+        Parameters
+        ----------
+        compound_smiles : str
+            The input smiles string.
 
-            https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five
+        Returns
+        -------
+        Union[str, dict[str, str]]
+            - "Pass" if the molecule adheres to all rules.
+            - A dictionary with the violated rules as keys and descriptive messages as values.
 
-            Lipinski's rule of 5 is one of the most important druglikenss filters,
-            against which all others are judged. The rules of the filter are no
-            more than 5 hydrogen bond donors, no more than 10 hydrogen bond
-            acceptors, a molecular mass of less than 500 daltons, and a logP
-            that does not exceed 5.
+        Notes
+        -----
+        The Lipinksi Rule of 5 is described in:
+        C.A Lipinksi, et al. Adv. Drug Delivery Rev. 2001, 46, 1-3, 3-26
+        https://doi.org/10.1016/S0169-409X(00)00129-0
         """
-        mol = Chem.MolFromSmiles(compound_smiles)
-        mol = ADME(mol)
-        return mol.druglikeness_lipinski(verbose=True)
+        summary = ADME(compound_smiles).calculate()
+        return summary["druglikeness"]["lipinski"]
 
     async def _arun(self, compound_smiles: str) -> str:
         """Use the calculate_druglikeness tool asynchronously."""

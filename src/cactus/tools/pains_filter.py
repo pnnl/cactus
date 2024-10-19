@@ -1,39 +1,47 @@
 """Tool for calculating if a molecule passes the PAINS Filter."""
 
-from adme_pred import ADME
+from adme_py import ADME
 from langchain.tools import BaseTool
-from rdkit import Chem
 
 DESC = """
-Used when you need to calculate whether a molecule triggers the Pains Filter.
+Used when you need to calculate whether a molecule triggers the PAINS Filter.
 """
 
 
 class PainsFilter(BaseTool):
     """Calculates the PAINS Filter."""
 
-    name = "PainsFilter"
-    description = DESC
+    name: str = "PainsFilter"
+    description: str = DESC
 
     def _run(self, compound_smiles: str) -> bool:
-        """Use the adme-pred-py implementation: https://github.com/ikmckenz/adme-pred-py/tree/master.
+        """Check if a molecule triggers the PAINS (Pan Assay Interference Compounds) filter.
 
-        From the adme-pred-py github:
-        Baell and Holloway (2010) New Substructure Filters for Removal of Pan
-        Assay Interference Compounds (PAINS) from Screening Libraries and for
-        Their Exclusion in Bioassays
-
-        This filter finds promiscuous compounds that are likely to show activity
-        regardless of the target.
+        Parameters
+        ----------
+        compound_smiles : str
+            The input smiles for the molecule.
 
         Returns
         -------
-            Boolean of whether the molecule triggers the PAINS filter.
+        bool
+            True if the molecule triggers the PAINS filter, False otherwise.
+
+        Notes
+        -----
+        The PAINS filter is described in:
+        J.B. Baell and G.A. Holloway, J. Med. Chem. 2010, 53, 7, 2719–2740
+        https://doi.org/10.1021/jm901137j
         """
-        mol = Chem.MolFromSmiles(compound_smiles)
-        mol = ADME(mol)
-        return mol.pains()
+        summary = ADME(compound_smiles).calculate()
+
+        result = summary["medicinal"]["pains"]
+
+        if result:
+            return "Does not pass, triggers the PAINS Filter."
+        else:
+            return "Passes, does not trigger the PAINS Filter."
 
     async def _arun(self, compound_smiles: str) -> bool:
-        """Use the brenk_filter tool asynchronously."""
+        """Use the pains_filter tool asynchronously."""
         raise NotImplementedError()

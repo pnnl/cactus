@@ -27,7 +27,7 @@ Getting started with Cactus is as simple as:
 ```python
 from cactus.agent import Cactus
 
-Model = Cactus(model_name="google/gemma7b", model_type="vllm")
+Model = Cactus(model_name="google/gemma-7b", model_type="vllm")
 Model.run("What is the molecular weight of the smiles: OCC1OC(O)C(C(C1O)O)O")
 ```
 
